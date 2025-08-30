@@ -239,12 +239,6 @@
     },
     "done": true
   },
-  "corail_dt:tutorial/root": {
-    "criteria": {
-      "auto": "2025-08-30 21:15:43 +0000"
-    },
-    "done": true
-  },
   "mcwfences:recipes/mud_brick": {
     "criteria": {
       "has_qq": "2025-08-30 21:15:42 +0000"
@@ -317,12 +311,6 @@
     },
     "done": true
   },
-  "minecraft:adventure/adventuring_time": {
-    "criteria": {
-      "minecraft:forest": "2025-08-30 21:15:43 +0000"
-    },
-    "done": false
-  },
   "mcwfencesbop:recipes/magic_hedge": {
     "criteria": {
       "has_birch": "2025-08-30 21:15:42 +0000"
@@ -340,6 +328,18 @@
       "has_birch": "2025-08-30 21:15:42 +0000"
     },
     "done": true
+  },
+  "corail_dt:tutorial/root": {
+    "criteria": {
+      "auto": "2025-08-30 21:15:43 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:forest": "2025-08-30 21:15:43 +0000"
+    },
+    "done": false
   },
   "DataVersion": 3465
 }
