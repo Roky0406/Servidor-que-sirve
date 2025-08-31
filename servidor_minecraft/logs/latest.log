@@ -1,177 +1,177 @@
-[31Aug2025 02:28:07.795] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.4.0, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, nogui]
-[31Aug2025 02:28:07.799] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.16 by Ubuntu; OS Linux arch amd64 version 6.8.0-1030-azure
-[31Aug2025 02:28:08.577] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
-[31Aug2025 02:28:08.628] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/Servidor-que-sirve/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
-[31Aug2025 02:28:08.955] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Locator {mods folder locator at /workspaces/Servidor-que-sirve/servidor_minecraft/mods} returned 1 files which are client-side-only mods, but we're on a dedicated server. They will be skipped!
-[31Aug2025 02:28:09.070] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Servidor-que-sirve/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.4.0/fmlcore-1.20.1-47.4.0.jar is missing mods.toml file
-[31Aug2025 02:28:09.072] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Servidor-que-sirve/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.4.0/javafmllanguage-1.20.1-47.4.0.jar is missing mods.toml file
-[31Aug2025 02:28:09.073] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Servidor-que-sirve/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.4.0/lowcodelanguage-1.20.1-47.4.0.jar is missing mods.toml file
-[31Aug2025 02:28:09.074] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Servidor-que-sirve/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.4.0/mclanguage-1.20.1-47.4.0.jar is missing mods.toml file
-[31Aug2025 02:28:09.337] [main/WARN] [net.minecraftforge.jarjar.selection.JarSelector/]: Attempted to select two dependency jars from JarJar which have the same identification: Mod File:  and Mod File: . Using Mod File: 
-[31Aug2025 02:28:09.339] [main/WARN] [net.minecraftforge.jarjar.selection.JarSelector/]: Attempted to select a dependency jar for JarJar which was passed in as source: apexcore. Using Mod File: /workspaces/Servidor-que-sirve/servidor_minecraft/mods/apexcore-1.20.1-10.0.0.jar
-[31Aug2025 02:28:09.339] [main/WARN] [net.minecraftforge.jarjar.selection.JarSelector/]: Attempted to select a dependency jar for JarJar which was passed in as source: curios. Using Mod File: /workspaces/Servidor-que-sirve/servidor_minecraft/mods/curios-forge-5.14.1+1.20.1.jar
-[31Aug2025 02:28:09.339] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 10 dependencies adding them to mods collection
-[31Aug2025 02:28:12.182] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
-[31Aug2025 02:28:12.343] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments [nogui]
-[31Aug2025 02:28:12.562] [main/WARN] [mixin/]: Reference map 'universalgrid.refmap.json' for universalgrid.mixins.json could not be read. If this is a development environment you can ignore this message
-[31Aug2025 02:28:12.573] [main/INFO] [Embeddium/]: Loaded configuration file for Embeddium: 136 options available, 0 override(s) found
-[31Aug2025 02:28:12.631] [main/WARN] [mixin/]: Reference map 'apexcore.refmap.json' for apexcore.mixins.json could not be read. If this is a development environment you can ignore this message
-[31Aug2025 02:28:12.635] [main/WARN] [mixin/]: Reference map 'nitrogen_internals.refmap.json' for nitrogen_internals.mixins.json could not be read. If this is a development environment you can ignore this message
-[31Aug2025 02:28:13.938] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.3.5).
-[31Aug2025 02:28:20.970] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:pufferfish_bucket is now minecraft:bucket.
-[31Aug2025 02:28:20.971] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:salmon_bucket is now minecraft:bucket.
-[31Aug2025 02:28:20.971] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:cod_bucket is now minecraft:bucket.
-[31Aug2025 02:28:20.972] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:tropical_fish_bucket is now minecraft:bucket.
-[31Aug2025 02:28:20.972] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:axolotl_bucket is now minecraft:bucket.
-[31Aug2025 02:28:20.972] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:powder_snow_bucket is now minecraft:bucket.
-[31Aug2025 02:28:20.973] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:tadpole_bucket is now minecraft:bucket.
-[31Aug2025 02:28:21.126] [modloading-worker-0/INFO] [universalgrid/]: Loading config: /workspaces/Servidor-que-sirve/servidor_minecraft/config/universalgrid-common.toml
-[31Aug2025 02:28:21.134] [modloading-worker-0/INFO] [universalgrid/]: Built config: /workspaces/Servidor-que-sirve/servidor_minecraft/config/universalgrid-common.toml
-[31Aug2025 02:28:21.134] [modloading-worker-0/INFO] [universalgrid/]: Loaded config: /workspaces/Servidor-que-sirve/servidor_minecraft/config/universalgrid-common.toml
-[31Aug2025 02:28:21.569] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.4.0, for MC 1.20.1 with MCP 20230612.114412
-[31Aug2025 02:28:21.575] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.4.0 Initialized
-[31Aug2025 02:28:21.934] [modloading-worker-0/INFO] [xyz.apex.forge.commonality.Mods.CommonalityMod/]: Running Minecraft '1.20.1', & Forge '47.4.0' on Java '17.0.16, Ubuntu'
-[31Aug2025 02:28:21.943] [modloading-worker-0/INFO] [TrustedSourceList/]: Loading BlackListed sources from remote... (https://api.stopmodreposts.org/minecraft/sites.txt)
-[31Aug2025 02:28:22.097] [modloading-worker-0/INFO] [com.refinedmods.refinedstorage.apiimpl.API/]: Found 2 RS API injection points
-[31Aug2025 02:28:22.098] [modloading-worker-0/INFO] [com.refinedmods.refinedstorage.apiimpl.API/]: Injected RS API in com.ultramega.universalgrid.UniversalGrid RSAPI
-[31Aug2025 02:28:22.100] [modloading-worker-0/INFO] [com.refinedmods.refinedstorage.apiimpl.API/]: Injected RS API in com.refinedmods.refinedstorageaddons.RSAddons RSAPI
-[31Aug2025 02:28:22.286] [modloading-worker-0/INFO] [ironfurnaces.IronFurnaces/]: Initializing Update Checker...
-[31Aug2025 02:28:22.288] [ Iron Furnaces Update Checker/INFO] [ironfurnaces.IronFurnaces/]: Starting Update Check...
-[31Aug2025 02:28:22.528] [ Iron Furnaces Update Checker/INFO] [ironfurnaces.IronFurnaces/]: Update Check done!
-[31Aug2025 02:28:22.534] [ Iron Furnaces Update Checker/INFO] [ironfurnaces.IronFurnaces/]: Iron Furnaces is up to date!
-[31Aug2025 02:28:22.573] [modloading-worker-0/INFO] [fr.samlegamer.mcwfencesbop.McwFencesBOP/]: Macaw's Fences - Biomes O' Plenty : Loading ...
-[31Aug2025 02:28:22.603] [modloading-worker-0/INFO] [fr.samlegamer.mcwfencesbop.McwFencesBOP/]: Macaw's Fences - Biomes O' Plenty : Is Charged
-[31Aug2025 02:28:22.607] [modloading-worker-0/INFO] [TrustedSourceList/]: Loaded 564 BlackListed sources from remote
-[31Aug2025 02:28:22.612] [modloading-worker-0/INFO] [TrustManager/]: Loading mod 'commonality' TrustWorthiness...
-[31Aug2025 02:28:22.612] [modloading-worker-0/FATAL] [TrustManager/]: Could not determine mod trust worthiness, Assuming Jar was downloaded from trusted source!
-[31Aug2025 02:28:22.618] [modloading-worker-0/INFO] [TrustManager/]: Loaded mod 'commonality' TrustWorthiness: UNKNOWN
-[31Aug2025 02:28:22.854] [modloading-worker-0/INFO] [Collective/]: Loading Collective version 8.3.
-[31Aug2025 02:28:23.285] [modloading-worker-0/INFO] [com.aetherteam.cumulus.Cumulus/]: Disabling Cumulus as it is on server.
-[31Aug2025 02:28:23.466] [modloading-worker-0/INFO] [fr.samlegamer.macawsroofsbop.MacawsRoofsBOP/]: Macaw's Roofs - Biome O' Plenty : Loading...
-[31Aug2025 02:28:23.521] [modloading-worker-0/INFO] [Chunk Pregenerator/]: Loading Plugin: [name=JourneyMap]
-[31Aug2025 02:28:23.523] [modloading-worker-0/INFO] [fr.samlegamer.macawsroofsbop.MacawsRoofsBOP/]: Macaw's Roofs - Biome O' Plenty : Is Charged
-[31Aug2025 02:28:23.945] [modloading-worker-0/INFO] [TrustManager/]: Loading mod 'apexcore' TrustWorthiness...
-[31Aug2025 02:28:23.946] [modloading-worker-0/FATAL] [TrustManager/]: Could not determine mod trust worthiness, Assuming Jar was downloaded from trusted source!
-[31Aug2025 02:28:23.947] [modloading-worker-0/INFO] [TrustManager/]: Loaded mod 'apexcore' TrustWorthiness: UNKNOWN
-[31Aug2025 02:28:24.045] [modloading-worker-0/INFO] [TrustManager/]: Loading mod 'infusedfoods' TrustWorthiness...
-[31Aug2025 02:28:24.050] [modloading-worker-0/FATAL] [TrustManager/]: Could not determine mod trust worthiness, Assuming Jar was downloaded from trusted source!
-[31Aug2025 02:28:24.051] [modloading-worker-0/INFO] [TrustManager/]: Loaded mod 'infusedfoods' TrustWorthiness: UNKNOWN
-[31Aug2025 02:28:31.150] [main/INFO] [evilcraft/]: 2205 possible Broom base combinations are ready for flying!
-[31Aug2025 02:28:31.748] [main/INFO] [ModdingLegacy/StructureGel/]: [structure_gel] Registering data for structure_gel:loot_table_alias
-[31Aug2025 02:28:31.758] [main/INFO] [ModdingLegacy/StructureGel/]: [structure_gel] Registering data for structure_gel:data_handler_type
-[31Aug2025 02:28:31.761] [main/INFO] [ModdingLegacy/StructureGel/]: [structure_gel] Registering data for structure_gel:dynamic_spawner
-[31Aug2025 02:28:31.765] [main/INFO] [ModdingLegacy/StructureGel/]: [structure_gel] Registering data for structure_gel:jigsaw_type
-[31Aug2025 02:28:32.358] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [cyclopscore] Starting version check at https://raw.githubusercontent.com/CyclopsMC/Versions/master/forge_update/cyclops-core.json
-[31Aug2025 02:28:32.420] [modloading-worker-0/INFO] [evilcraft/]: Registered packet handler.
-[31Aug2025 02:28:32.436] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [cyclopscore] Found status: UP_TO_DATE Current: 1.20.1 Target: null
-[31Aug2025 02:28:32.438] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [aether] Starting version check at https://github.com/The-Aether-Team/The-Aether/raw/1.20.1-develop/update.json
-[31Aug2025 02:28:32.468] [modloading-worker-0/INFO] [mekanism.common.Mekanism/]: Version 10.4.16 initializing...
-[31Aug2025 02:28:32.544] [modloading-worker-0/INFO] [mekanism.common.Mekanism/]: Loaded 'Mekanism: Generators' module.
-[31Aug2025 02:28:32.566] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [aether] Found status: UP_TO_DATE Current: 1.20.1-1.5.2-neoforge Target: null
-[31Aug2025 02:28:32.566] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mcwwindows] Starting version check at https://raw.githubusercontent.com/sketchmacaw/macawsmods/master/window.json
-[31Aug2025 02:28:32.584] [modloading-worker-0/INFO] [mekanism.common.Mekanism/]: Loaded 'Mekanism: Tools' module.
-[31Aug2025 02:28:32.585] [modloading-worker-0/INFO] [thetadev.constructionwand.ConstructionWand/]: ConstructionWand says hello - may the odds be ever in your favor.
-[31Aug2025 02:28:32.586] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mcwwindows] Found status: UP_TO_DATE Current: 2.4.0 Target: null
-[31Aug2025 02:28:32.589] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [journeymap] Starting version check at https://forge.curseupdate.com/32274/journeymap
-[31Aug2025 02:28:32.678] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [journeymap] Found status: UP_TO_DATE Current: 5.10.3 Target: null
-[31Aug2025 02:28:32.679] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [evilcraft] Starting version check at https://raw.githubusercontent.com/CyclopsMC/Versions/master/forge_update/evilcraft.json
-[31Aug2025 02:28:32.683] [modloading-worker-0/INFO] [mekanism.common.Mekanism/]: Fake player readout: UUID = 46e82cd0-d480-3d48-800a-77431ede078e, name = [Mekanism]
-[31Aug2025 02:28:32.683] [modloading-worker-0/INFO] [mekanism.common.Mekanism/]: Mod loaded.
-[31Aug2025 02:28:32.699] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [evilcraft] Found status: OUTDATED Current: 1.2.54 Target: 1.2.58
-[31Aug2025 02:28:32.699] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [spellbound_weapons_mr] Starting version check at https://api.modrinth.com/updates/egyqODDj/forge_updates.json
-[31Aug2025 02:28:32.786] [main/INFO] [journeymap/]: Initializing Packet Registries
-[31Aug2025 02:28:32.888] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [spellbound_weapons_mr] Found status: UP_TO_DATE Current: 4.0.5m Target: null
-[31Aug2025 02:28:32.888] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [bookshelf] Starting version check at https://updates.blamejared.com/get?n=bookshelf&gv=1.20.1
-[31Aug2025 02:28:32.903] [main/INFO] [terrablender/]: Registered region minecraft:overworld to index 0 for type OVERWORLD
-[31Aug2025 02:28:32.904] [main/INFO] [terrablender/]: Registered region minecraft:nether to index 0 for type NETHER
-[31Aug2025 02:28:32.904] [main/INFO] [terrablender/]: Registered region biomesoplenty:overworld_primary to index 1 for type OVERWORLD
-[31Aug2025 02:28:32.905] [main/INFO] [terrablender/]: Registered region biomesoplenty:overworld_secondary to index 2 for type OVERWORLD
-[31Aug2025 02:28:32.905] [main/INFO] [terrablender/]: Registered region biomesoplenty:overworld_rare to index 3 for type OVERWORLD
-[31Aug2025 02:28:32.906] [main/INFO] [terrablender/]: Registered region biomesoplenty:nether_common to index 1 for type NETHER
-[31Aug2025 02:28:32.906] [main/INFO] [terrablender/]: Registered region biomesoplenty:nether_rare to index 2 for type NETHER
-[31Aug2025 02:28:33.135] [main/INFO] [de.teamlapen.vampirism.core.ModEffects/]: Fixing vanilla night vision potion types
-[31Aug2025 02:28:33.137] [main/INFO] [terrablender/]: Registered region vampirism:overworld to index 4 for type OVERWORLD
-[31Aug2025 02:28:33.138] [main/INFO] [de.teamlapen.vampirism.modcompat.terrablender.TerraBlenderCompat/]: TerraBlender is installed. Using it to add vampire Forest to overworld.
-[31Aug2025 02:28:33.173] [modloading-worker-0/INFO] [DistantHorizons-AbstractModInitializer/]: Initializing Distant Horizons server, firing DhApiBeforeDhInitEvent event...
-[31Aug2025 02:28:33.223] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [bookshelf] Found status: BETA Current: 20.2.13 Target: 20.2.13
-[31Aug2025 02:28:33.224] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [lost_aether_content] Starting version check at http://changelogs.moddinglegacy.com/lost-content.json
-[31Aug2025 02:28:33.367] [modloading-worker-0/INFO] [DistantHorizons-AbstractModInitializer/]: Distant Horizons, Version: 2.3.4-b
-[31Aug2025 02:28:33.393] [modloading-worker-0/INFO] [DistantHorizons-AbstractModInitializer/]: Distant Horizons server Initialized, adding event subscribers...
-[31Aug2025 02:28:33.441] [modloading-worker-0/INFO] [net.xalcon.torchmaster.Torchmaster/]: Applying mega torch entity block list overrides...
-[31Aug2025 02:28:33.442] [modloading-worker-0/INFO] [net.xalcon.torchmaster.Torchmaster/]: Applying dread lamp entity block list overrides...
-[31Aug2025 02:28:33.482] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [lost_aether_content] Found status: UP_TO_DATE Current: 1.2.3 Target: null
-[31Aug2025 02:28:33.485] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [guideapi_vp] Starting version check at https://maxanier.de/projects/guideapi/versions.json
-[31Aug2025 02:28:33.528] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at com.aetherteam.aether.integration.jade.AetherJadePlugin
-[31Aug2025 02:28:33.543] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at net.blay09.mods.waystones.compat.JadeIntegration
-[31Aug2025 02:28:33.548] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at net.blay09.mods.balm.forge.compat.hudinfo.ForgeJadeModCompat
-[31Aug2025 02:28:33.548] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at de.maxhenkel.corpse.integration.waila.PluginCorpse
-[31Aug2025 02:28:33.550] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.vanilla.VanillaPlugin
-[31Aug2025 02:28:33.563] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.universal.UniversalPlugin
-[31Aug2025 02:28:33.570] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.core.CorePlugin
-[31Aug2025 02:28:33.572] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at de.maxhenkel.easyvillagers.integration.waila.PluginEasyVillagers
-[31Aug2025 02:28:33.573] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at mekanism.common.integration.lookingat.jade.MekanismJadePlugin
-[31Aug2025 02:28:33.578] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at de.maxhenkel.pipez.integration.waila.PluginPipes
-[31Aug2025 02:28:33.601] [main/INFO] [citadel/]: adding citadel surface rules via terrablender...
-[31Aug2025 02:28:33.605] [main/INFO] [citadel/]: Added 0 vanilla biome surface rule types via terrablender
-[31Aug2025 02:28:33.607] [main/INFO] [citadel/]: Added 0 modded biome surface rule types via terrablender
-[31Aug2025 02:28:33.607] [main/INFO] [de.teamlapen.vampirism.core.ModEffects/]: Fixing vanilla night vision potion types
-[31Aug2025 02:28:33.613] [main/INFO] [de.teamlapen.vampirism.world.biome.OverworldModifications/]: Vampirism Biomes are added via TerraBlender. Not adding them to overworld preset.
-[31Aug2025 02:28:34.020] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [guideapi_vp] Found status: BETA Current: 2.2.6 Target: null
-[31Aug2025 02:28:34.020] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mcwdoors] Starting version check at https://raw.githubusercontent.com/sketchmacaw/macawsmods/master/doors.json
-[31Aug2025 02:28:34.032] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mcwdoors] Found status: UP_TO_DATE Current: 1.1.2 Target: null
-[31Aug2025 02:28:34.032] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
-[31Aug2025 02:28:34.130] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: UP_TO_DATE Current: 47.4.0 Target: null
-[31Aug2025 02:28:34.130] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mcwpaths] Starting version check at https://raw.githubusercontent.com/sketchmacaw/macawsmods/master/paths.json
-[31Aug2025 02:28:34.142] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mcwpaths] Found status: UP_TO_DATE Current: 1.1.0 Target: null
-[31Aug2025 02:28:34.142] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [structure_gel] Starting version check at http://changelogs.moddinglegacy.com/structure-gel.json
-[31Aug2025 02:28:34.232] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [structure_gel] Found status: BETA Current: 2.16.2 Target: null
-[31Aug2025 02:28:34.232] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [corpse] Starting version check at https://update.maxhenkel.de/forge/corpse
-[31Aug2025 02:28:34.653] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [corpse] Found status: AHEAD Current: 1.20.1-1.0.21 Target: null
-[31Aug2025 02:28:34.654] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mcwbridges] Starting version check at https://raw.githubusercontent.com/sketchmacaw/macawsmods/master/bridges.json
-[31Aug2025 02:28:34.668] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mcwbridges] Found status: UP_TO_DATE Current: 3.1.0 Target: null
-[31Aug2025 02:28:34.669] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [enchdesc] Starting version check at https://updates.blamejared.com/get?n=enchdesc&gv=1.20.1
-[31Aug2025 02:28:34.771] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [enchdesc] Found status: BETA Current: 17.1.19 Target: 17.1.19
-[31Aug2025 02:28:34.771] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [commonality] Starting version check at https://api.modrinth.com/updates/apexcore/forge_updates.json
-[31Aug2025 02:28:34.838] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [commonality] Found status: OUTDATED Current: 7.0.0 Target: 10.0.0
-[31Aug2025 02:28:34.839] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [morebows] Starting version check at https://nerdthened.github.io/More-bows/update-modern.json
-[31Aug2025 02:28:34.876] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [morebows] Found status: UP_TO_DATE Current: 1.0.13 Target: null
-[31Aug2025 02:28:34.877] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [silentlib] Starting version check at https://raw.githubusercontent.com/SilentChaos512/SilentLib/1.20.x/update.json
-[31Aug2025 02:28:34.900] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [silentlib] Found status: BETA Current: 8.0.0 Target: null
-[31Aug2025 02:28:34.901] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mcwfences] Starting version check at https://raw.githubusercontent.com/sketchmacaw/macawsmods/master/fences.json
-[31Aug2025 02:28:34.916] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mcwfences] Found status: UP_TO_DATE Current: 1.2.0 Target: null
-[31Aug2025 02:28:34.916] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [silentgear] Starting version check at https://raw.githubusercontent.com/SilentChaos512/Silent-Gear/1.19.x/update.json
-[31Aug2025 02:28:34.929] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [silentgear] Found status: BETA Current: 3.6.6 Target: null
-[31Aug2025 02:28:34.929] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [easy_villagers] Starting version check at https://update.maxhenkel.de/forge/easy_villagers
-[31Aug2025 02:28:35.034] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [easy_villagers] Found status: OUTDATED Current: 1.20.1-1.1.23 Target: 1.20.1-1.1.35
-[31Aug2025 02:28:35.034] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [pipez] Starting version check at https://maxhenkel.de/update/pipez.json
-[31Aug2025 02:28:35.538] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [pipez] Found status: UP_TO_DATE Current: 1.20.1-1.2.5 Target: null
-[31Aug2025 02:28:35.538] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [giacomos_fishing_net] Starting version check at https://raw.githubusercontent.com/Zacomat/giacomos_mod-update-JSON/main/giacomos_fishing_nets-updateJSON
-[31Aug2025 02:28:35.549] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [giacomos_fishing_net] Found status: UP_TO_DATE Current: 1.7.10 Target: null
-[31Aug2025 02:28:35.552] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [cumulus_menus] Starting version check at https://github.com/The-Aether-Team/Cumulus/raw/1.20.1-develop/update.json
-[31Aug2025 02:28:35.570] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [cumulus_menus] Found status: UP_TO_DATE Current: 1.20.1-1.0.1-neoforge Target: null
-[31Aug2025 02:28:35.571] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mcwroofs] Starting version check at https://raw.githubusercontent.com/sketchmacaw/macawsmods/master/roofs.json
-[31Aug2025 02:28:35.582] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mcwroofs] Found status: UP_TO_DATE Current: 2.3.2 Target: null
-[31Aug2025 02:28:35.582] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [vampirism] Starting version check at https://api.modrinth.com/updates/vampirism/forge_updates.json
-[31Aug2025 02:28:35.685] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [vampirism] Found status: UP_TO_DATE Current: 1.10.13 Target: null
-[31Aug2025 02:28:35.685] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mcwfurnitures] Starting version check at https://raw.githubusercontent.com/sketchmacaw/macawsmods/master/furniture.json
-[31Aug2025 02:28:35.695] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mcwfurnitures] Found status: UP_TO_DATE Current: 3.3.0 Target: null
-[31Aug2025 02:28:35.696] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [apexcore] Starting version check at https://api.modrinth.com/updates/apexcore/forge_updates.json
-[31Aug2025 02:28:35.821] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [apexcore] Found status: UP_TO_DATE Current: 10.0.0 Target: null
-[31Aug2025 02:28:35.821] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [infusedfoods] Starting version check at https://api.modrinth.com/updates/infused-foods/forge_updates.json
-[31Aug2025 02:28:35.896] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [infusedfoods] Found status: UP_TO_DATE Current: 10.0.0 Target: null
-[31Aug2025 02:28:35.896] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mcwlights] Starting version check at https://raw.githubusercontent.com/sketchmacaw/macawsmods/master/lights.json
-[31Aug2025 02:28:35.906] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mcwlights] Found status: UP_TO_DATE Current: 1.1.2 Target: null
-[31Aug2025 02:28:38.367] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[31Aug2025 02:28:41.168] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/Servidor-que-sirve/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23267!/assets/.mcassetsroot' uses unexpected schema
-[31Aug2025 02:28:41.168] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/Servidor-que-sirve/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23267!/data/.mcassetsroot' uses unexpected schema
-[31Aug2025 02:28:42.870] [Worker-Main-4/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag corail_dt:dts as it is missing following references: corail_dt:dt_w_c_b (from Corail-DT-1.20.1-480.jar)
-[31Aug2025 02:28:43.636] [Worker-Main-4/INFO] [Silent Gear/]: Injecting loot table 'silentgear:inject/minecraft/chests/ruined_portal' into 'minecraft:chests/ruined_portal'
-[31Aug2025 02:28:43.724] [Worker-Main-4/INFO] [Silent Gear/]: Injecting loot table 'silentgear:inject/minecraft/chests/bastion_bridge' into 'minecraft:chests/bastion_bridge'
-[31Aug2025 02:28:43.986] [Worker-Main-4/INFO] [Silent Gear/]: Injecting loot table 'silentgear:inject/minecraft/chests/bastion_treasure' into 'minecraft:chests/bastion_treasure'
-[31Aug2025 02:28:44.019] [Worker-Main-4/INFO] [Silent Gear/]: Registered material modifier silentgear:grade
-[31Aug2025 02:28:44.020] [Worker-Main-4/INFO] [Silent Gear/]: Registered material modifier silentgear:starcharged
-[31Aug2025 02:28:44.052] [Worker-Main-4/INFO] [Silent Gear/]: Injecting loot table 'silentgear:inject/minecraft/chests/nether_bridge' into 'minecraft:chests/nether_bridge'
-[31Aug2025 02:28:44.059] [Worker-Main-4/ERROR] [net.minecraftforge.common.ForgeHooks/]: Couldn't parse element loot_tables:corail_dt:blocks/dt_w_c_b
+[31Aug2025 22:41:44.371] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.4.0, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, nogui]
+[31Aug2025 22:41:44.374] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.16 by Ubuntu; OS Linux arch amd64 version 6.8.0-1030-azure
+[31Aug2025 22:41:46.080] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
+[31Aug2025 22:41:46.131] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/Servidor-que-sirve/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
+[31Aug2025 22:41:46.426] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Locator {mods folder locator at /workspaces/Servidor-que-sirve/servidor_minecraft/mods} returned 1 files which are client-side-only mods, but we're on a dedicated server. They will be skipped!
+[31Aug2025 22:41:46.537] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Servidor-que-sirve/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.4.0/fmlcore-1.20.1-47.4.0.jar is missing mods.toml file
+[31Aug2025 22:41:46.538] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Servidor-que-sirve/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.4.0/javafmllanguage-1.20.1-47.4.0.jar is missing mods.toml file
+[31Aug2025 22:41:46.540] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Servidor-que-sirve/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.4.0/lowcodelanguage-1.20.1-47.4.0.jar is missing mods.toml file
+[31Aug2025 22:41:46.540] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Servidor-que-sirve/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.4.0/mclanguage-1.20.1-47.4.0.jar is missing mods.toml file
+[31Aug2025 22:41:46.839] [main/WARN] [net.minecraftforge.jarjar.selection.JarSelector/]: Attempted to select two dependency jars from JarJar which have the same identification: Mod File:  and Mod File: . Using Mod File: 
+[31Aug2025 22:41:46.841] [main/WARN] [net.minecraftforge.jarjar.selection.JarSelector/]: Attempted to select a dependency jar for JarJar which was passed in as source: apexcore. Using Mod File: /workspaces/Servidor-que-sirve/servidor_minecraft/mods/apexcore-1.20.1-10.0.0.jar
+[31Aug2025 22:41:46.841] [main/WARN] [net.minecraftforge.jarjar.selection.JarSelector/]: Attempted to select a dependency jar for JarJar which was passed in as source: curios. Using Mod File: /workspaces/Servidor-que-sirve/servidor_minecraft/mods/curios-forge-5.14.1+1.20.1.jar
+[31Aug2025 22:41:46.842] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 10 dependencies adding them to mods collection
+[31Aug2025 22:41:49.795] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[31Aug2025 22:41:49.928] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments [nogui]
+[31Aug2025 22:41:50.154] [main/WARN] [mixin/]: Reference map 'universalgrid.refmap.json' for universalgrid.mixins.json could not be read. If this is a development environment you can ignore this message
+[31Aug2025 22:41:50.171] [main/INFO] [Embeddium/]: Loaded configuration file for Embeddium: 136 options available, 0 override(s) found
+[31Aug2025 22:41:50.242] [main/WARN] [mixin/]: Reference map 'apexcore.refmap.json' for apexcore.mixins.json could not be read. If this is a development environment you can ignore this message
+[31Aug2025 22:41:50.247] [main/WARN] [mixin/]: Reference map 'nitrogen_internals.refmap.json' for nitrogen_internals.mixins.json could not be read. If this is a development environment you can ignore this message
+[31Aug2025 22:41:51.756] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.3.5).
+[31Aug2025 22:41:58.885] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:pufferfish_bucket is now minecraft:bucket.
+[31Aug2025 22:41:58.889] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:salmon_bucket is now minecraft:bucket.
+[31Aug2025 22:41:58.889] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:cod_bucket is now minecraft:bucket.
+[31Aug2025 22:41:58.890] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:tropical_fish_bucket is now minecraft:bucket.
+[31Aug2025 22:41:58.890] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:axolotl_bucket is now minecraft:bucket.
+[31Aug2025 22:41:58.891] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:powder_snow_bucket is now minecraft:bucket.
+[31Aug2025 22:41:58.891] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:tadpole_bucket is now minecraft:bucket.
+[31Aug2025 22:41:59.041] [modloading-worker-0/INFO] [universalgrid/]: Loading config: /workspaces/Servidor-que-sirve/servidor_minecraft/config/universalgrid-common.toml
+[31Aug2025 22:41:59.042] [modloading-worker-0/INFO] [universalgrid/]: Built config: /workspaces/Servidor-que-sirve/servidor_minecraft/config/universalgrid-common.toml
+[31Aug2025 22:41:59.049] [modloading-worker-0/INFO] [universalgrid/]: Loaded config: /workspaces/Servidor-que-sirve/servidor_minecraft/config/universalgrid-common.toml
+[31Aug2025 22:41:59.451] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.4.0, for MC 1.20.1 with MCP 20230612.114412
+[31Aug2025 22:41:59.452] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.4.0 Initialized
+[31Aug2025 22:41:59.878] [modloading-worker-0/INFO] [xyz.apex.forge.commonality.Mods.CommonalityMod/]: Running Minecraft '1.20.1', & Forge '47.4.0' on Java '17.0.16, Ubuntu'
+[31Aug2025 22:41:59.885] [modloading-worker-0/INFO] [TrustedSourceList/]: Loading BlackListed sources from remote... (https://api.stopmodreposts.org/minecraft/sites.txt)
+[31Aug2025 22:41:59.960] [modloading-worker-0/INFO] [com.refinedmods.refinedstorage.apiimpl.API/]: Found 2 RS API injection points
+[31Aug2025 22:41:59.961] [modloading-worker-0/INFO] [com.refinedmods.refinedstorage.apiimpl.API/]: Injected RS API in com.ultramega.universalgrid.UniversalGrid RSAPI
+[31Aug2025 22:41:59.962] [modloading-worker-0/INFO] [com.refinedmods.refinedstorage.apiimpl.API/]: Injected RS API in com.refinedmods.refinedstorageaddons.RSAddons RSAPI
+[31Aug2025 22:42:00.235] [modloading-worker-0/INFO] [ironfurnaces.IronFurnaces/]: Initializing Update Checker...
+[31Aug2025 22:42:00.245] [ Iron Furnaces Update Checker/INFO] [ironfurnaces.IronFurnaces/]: Starting Update Check...
+[31Aug2025 22:42:00.373] [modloading-worker-0/INFO] [fr.samlegamer.mcwfencesbop.McwFencesBOP/]: Macaw's Fences - Biomes O' Plenty : Loading ...
+[31Aug2025 22:42:00.427] [modloading-worker-0/INFO] [fr.samlegamer.mcwfencesbop.McwFencesBOP/]: Macaw's Fences - Biomes O' Plenty : Is Charged
+[31Aug2025 22:42:00.619] [ Iron Furnaces Update Checker/INFO] [ironfurnaces.IronFurnaces/]: Update Check done!
+[31Aug2025 22:42:00.620] [ Iron Furnaces Update Checker/INFO] [ironfurnaces.IronFurnaces/]: Iron Furnaces is up to date!
+[31Aug2025 22:42:00.726] [modloading-worker-0/INFO] [TrustedSourceList/]: Loaded 564 BlackListed sources from remote
+[31Aug2025 22:42:00.730] [modloading-worker-0/INFO] [TrustManager/]: Loading mod 'commonality' TrustWorthiness...
+[31Aug2025 22:42:00.731] [modloading-worker-0/FATAL] [TrustManager/]: Could not determine mod trust worthiness, Assuming Jar was downloaded from trusted source!
+[31Aug2025 22:42:00.731] [modloading-worker-0/INFO] [TrustManager/]: Loaded mod 'commonality' TrustWorthiness: UNKNOWN
+[31Aug2025 22:42:00.841] [modloading-worker-0/INFO] [Collective/]: Loading Collective version 8.3.
+[31Aug2025 22:42:01.166] [modloading-worker-0/INFO] [com.aetherteam.cumulus.Cumulus/]: Disabling Cumulus as it is on server.
+[31Aug2025 22:42:01.312] [modloading-worker-0/INFO] [fr.samlegamer.macawsroofsbop.MacawsRoofsBOP/]: Macaw's Roofs - Biome O' Plenty : Loading...
+[31Aug2025 22:42:01.368] [modloading-worker-0/INFO] [fr.samlegamer.macawsroofsbop.MacawsRoofsBOP/]: Macaw's Roofs - Biome O' Plenty : Is Charged
+[31Aug2025 22:42:01.400] [modloading-worker-0/INFO] [Chunk Pregenerator/]: Loading Plugin: [name=JourneyMap]
+[31Aug2025 22:42:01.709] [modloading-worker-0/INFO] [TrustManager/]: Loading mod 'apexcore' TrustWorthiness...
+[31Aug2025 22:42:01.712] [modloading-worker-0/FATAL] [TrustManager/]: Could not determine mod trust worthiness, Assuming Jar was downloaded from trusted source!
+[31Aug2025 22:42:01.712] [modloading-worker-0/INFO] [TrustManager/]: Loaded mod 'apexcore' TrustWorthiness: UNKNOWN
+[31Aug2025 22:42:01.800] [modloading-worker-0/INFO] [TrustManager/]: Loading mod 'infusedfoods' TrustWorthiness...
+[31Aug2025 22:42:01.804] [modloading-worker-0/FATAL] [TrustManager/]: Could not determine mod trust worthiness, Assuming Jar was downloaded from trusted source!
+[31Aug2025 22:42:01.804] [modloading-worker-0/INFO] [TrustManager/]: Loaded mod 'infusedfoods' TrustWorthiness: UNKNOWN
+[31Aug2025 22:42:08.635] [main/INFO] [evilcraft/]: 2205 possible Broom base combinations are ready for flying!
+[31Aug2025 22:42:08.981] [main/INFO] [ModdingLegacy/StructureGel/]: [structure_gel] Registering data for structure_gel:loot_table_alias
+[31Aug2025 22:42:08.992] [main/INFO] [ModdingLegacy/StructureGel/]: [structure_gel] Registering data for structure_gel:data_handler_type
+[31Aug2025 22:42:08.995] [main/INFO] [ModdingLegacy/StructureGel/]: [structure_gel] Registering data for structure_gel:dynamic_spawner
+[31Aug2025 22:42:08.997] [main/INFO] [ModdingLegacy/StructureGel/]: [structure_gel] Registering data for structure_gel:jigsaw_type
+[31Aug2025 22:42:09.447] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [cyclopscore] Starting version check at https://raw.githubusercontent.com/CyclopsMC/Versions/master/forge_update/cyclops-core.json
+[31Aug2025 22:42:09.503] [modloading-worker-0/INFO] [evilcraft/]: Registered packet handler.
+[31Aug2025 22:42:09.511] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [cyclopscore] Found status: UP_TO_DATE Current: 1.20.1 Target: null
+[31Aug2025 22:42:09.518] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [aether] Starting version check at https://github.com/The-Aether-Team/The-Aether/raw/1.20.1-develop/update.json
+[31Aug2025 22:42:09.582] [modloading-worker-0/INFO] [mekanism.common.Mekanism/]: Version 10.4.16 initializing...
+[31Aug2025 22:42:09.594] [modloading-worker-0/INFO] [mekanism.common.Mekanism/]: Loaded 'Mekanism: Generators' module.
+[31Aug2025 22:42:09.631] [modloading-worker-0/INFO] [mekanism.common.Mekanism/]: Loaded 'Mekanism: Tools' module.
+[31Aug2025 22:42:09.634] [modloading-worker-0/INFO] [thetadev.constructionwand.ConstructionWand/]: ConstructionWand says hello - may the odds be ever in your favor.
+[31Aug2025 22:42:09.636] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [aether] Found status: UP_TO_DATE Current: 1.20.1-1.5.2-neoforge Target: null
+[31Aug2025 22:42:09.637] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mcwwindows] Starting version check at https://raw.githubusercontent.com/sketchmacaw/macawsmods/master/window.json
+[31Aug2025 22:42:09.653] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mcwwindows] Found status: UP_TO_DATE Current: 2.4.0 Target: null
+[31Aug2025 22:42:09.653] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [journeymap] Starting version check at https://forge.curseupdate.com/32274/journeymap
+[31Aug2025 22:42:09.705] [modloading-worker-0/INFO] [mekanism.common.Mekanism/]: Fake player readout: UUID = 46e82cd0-d480-3d48-800a-77431ede078e, name = [Mekanism]
+[31Aug2025 22:42:09.706] [modloading-worker-0/INFO] [mekanism.common.Mekanism/]: Mod loaded.
+[31Aug2025 22:42:09.750] [main/INFO] [journeymap/]: Initializing Packet Registries
+[31Aug2025 22:42:09.803] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [journeymap] Found status: UP_TO_DATE Current: 5.10.3 Target: null
+[31Aug2025 22:42:09.803] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [evilcraft] Starting version check at https://raw.githubusercontent.com/CyclopsMC/Versions/master/forge_update/evilcraft.json
+[31Aug2025 22:42:09.814] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [evilcraft] Found status: OUTDATED Current: 1.2.54 Target: 1.2.58
+[31Aug2025 22:42:09.814] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [spellbound_weapons_mr] Starting version check at https://api.modrinth.com/updates/egyqODDj/forge_updates.json
+[31Aug2025 22:42:09.821] [main/INFO] [terrablender/]: Registered region minecraft:overworld to index 0 for type OVERWORLD
+[31Aug2025 22:42:09.821] [main/INFO] [terrablender/]: Registered region minecraft:nether to index 0 for type NETHER
+[31Aug2025 22:42:09.821] [main/INFO] [terrablender/]: Registered region biomesoplenty:overworld_primary to index 1 for type OVERWORLD
+[31Aug2025 22:42:09.821] [main/INFO] [terrablender/]: Registered region biomesoplenty:overworld_secondary to index 2 for type OVERWORLD
+[31Aug2025 22:42:09.822] [main/INFO] [terrablender/]: Registered region biomesoplenty:overworld_rare to index 3 for type OVERWORLD
+[31Aug2025 22:42:09.822] [main/INFO] [terrablender/]: Registered region biomesoplenty:nether_common to index 1 for type NETHER
+[31Aug2025 22:42:09.822] [main/INFO] [terrablender/]: Registered region biomesoplenty:nether_rare to index 2 for type NETHER
+[31Aug2025 22:42:10.005] [main/INFO] [de.teamlapen.vampirism.core.ModEffects/]: Fixing vanilla night vision potion types
+[31Aug2025 22:42:10.006] [main/INFO] [terrablender/]: Registered region vampirism:overworld to index 4 for type OVERWORLD
+[31Aug2025 22:42:10.007] [main/INFO] [de.teamlapen.vampirism.modcompat.terrablender.TerraBlenderCompat/]: TerraBlender is installed. Using it to add vampire Forest to overworld.
+[31Aug2025 22:42:10.035] [modloading-worker-0/INFO] [DistantHorizons-AbstractModInitializer/]: Initializing Distant Horizons server, firing DhApiBeforeDhInitEvent event...
+[31Aug2025 22:42:10.067] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [spellbound_weapons_mr] Found status: UP_TO_DATE Current: 4.0.5m Target: null
+[31Aug2025 22:42:10.067] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [bookshelf] Starting version check at https://updates.blamejared.com/get?n=bookshelf&gv=1.20.1
+[31Aug2025 22:42:10.181] [modloading-worker-0/INFO] [DistantHorizons-AbstractModInitializer/]: Distant Horizons, Version: 2.3.4-b
+[31Aug2025 22:42:10.198] [modloading-worker-0/INFO] [DistantHorizons-AbstractModInitializer/]: Distant Horizons server Initialized, adding event subscribers...
+[31Aug2025 22:42:10.230] [modloading-worker-0/INFO] [net.xalcon.torchmaster.Torchmaster/]: Applying mega torch entity block list overrides...
+[31Aug2025 22:42:10.231] [modloading-worker-0/INFO] [net.xalcon.torchmaster.Torchmaster/]: Applying dread lamp entity block list overrides...
+[31Aug2025 22:42:10.277] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at com.aetherteam.aether.integration.jade.AetherJadePlugin
+[31Aug2025 22:42:10.284] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at net.blay09.mods.waystones.compat.JadeIntegration
+[31Aug2025 22:42:10.287] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at net.blay09.mods.balm.forge.compat.hudinfo.ForgeJadeModCompat
+[31Aug2025 22:42:10.288] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at de.maxhenkel.corpse.integration.waila.PluginCorpse
+[31Aug2025 22:42:10.290] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.vanilla.VanillaPlugin
+[31Aug2025 22:42:10.304] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.universal.UniversalPlugin
+[31Aug2025 22:42:10.309] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.core.CorePlugin
+[31Aug2025 22:42:10.316] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at de.maxhenkel.easyvillagers.integration.waila.PluginEasyVillagers
+[31Aug2025 22:42:10.316] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at mekanism.common.integration.lookingat.jade.MekanismJadePlugin
+[31Aug2025 22:42:10.320] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at de.maxhenkel.pipez.integration.waila.PluginPipes
+[31Aug2025 22:42:10.342] [main/INFO] [citadel/]: adding citadel surface rules via terrablender...
+[31Aug2025 22:42:10.344] [main/INFO] [citadel/]: Added 0 vanilla biome surface rule types via terrablender
+[31Aug2025 22:42:10.344] [main/INFO] [citadel/]: Added 0 modded biome surface rule types via terrablender
+[31Aug2025 22:42:10.344] [main/INFO] [de.teamlapen.vampirism.core.ModEffects/]: Fixing vanilla night vision potion types
+[31Aug2025 22:42:10.345] [main/INFO] [de.teamlapen.vampirism.world.biome.OverworldModifications/]: Vampirism Biomes are added via TerraBlender. Not adding them to overworld preset.
+[31Aug2025 22:42:10.425] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [bookshelf] Found status: BETA Current: 20.2.13 Target: 20.2.13
+[31Aug2025 22:42:10.425] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [lost_aether_content] Starting version check at http://changelogs.moddinglegacy.com/lost-content.json
+[31Aug2025 22:42:10.664] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [lost_aether_content] Found status: UP_TO_DATE Current: 1.2.3 Target: null
+[31Aug2025 22:42:10.667] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [guideapi_vp] Starting version check at https://maxanier.de/projects/guideapi/versions.json
+[31Aug2025 22:42:11.266] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [guideapi_vp] Found status: BETA Current: 2.2.6 Target: null
+[31Aug2025 22:42:11.267] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mcwdoors] Starting version check at https://raw.githubusercontent.com/sketchmacaw/macawsmods/master/doors.json
+[31Aug2025 22:42:11.277] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mcwdoors] Found status: UP_TO_DATE Current: 1.1.2 Target: null
+[31Aug2025 22:42:11.277] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[31Aug2025 22:42:11.415] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: UP_TO_DATE Current: 47.4.0 Target: null
+[31Aug2025 22:42:11.415] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mcwpaths] Starting version check at https://raw.githubusercontent.com/sketchmacaw/macawsmods/master/paths.json
+[31Aug2025 22:42:11.424] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mcwpaths] Found status: UP_TO_DATE Current: 1.1.0 Target: null
+[31Aug2025 22:42:11.425] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [structure_gel] Starting version check at http://changelogs.moddinglegacy.com/structure-gel.json
+[31Aug2025 22:42:11.508] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [structure_gel] Found status: BETA Current: 2.16.2 Target: null
+[31Aug2025 22:42:11.508] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [corpse] Starting version check at https://update.maxhenkel.de/forge/corpse
+[31Aug2025 22:42:12.173] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [corpse] Found status: AHEAD Current: 1.20.1-1.0.21 Target: null
+[31Aug2025 22:42:12.174] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mcwbridges] Starting version check at https://raw.githubusercontent.com/sketchmacaw/macawsmods/master/bridges.json
+[31Aug2025 22:42:12.185] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mcwbridges] Found status: UP_TO_DATE Current: 3.1.0 Target: null
+[31Aug2025 22:42:12.185] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [enchdesc] Starting version check at https://updates.blamejared.com/get?n=enchdesc&gv=1.20.1
+[31Aug2025 22:42:12.321] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [enchdesc] Found status: BETA Current: 17.1.19 Target: 17.1.19
+[31Aug2025 22:42:12.321] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [commonality] Starting version check at https://api.modrinth.com/updates/apexcore/forge_updates.json
+[31Aug2025 22:42:12.476] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [commonality] Found status: OUTDATED Current: 7.0.0 Target: 10.0.0
+[31Aug2025 22:42:12.476] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [morebows] Starting version check at https://nerdthened.github.io/More-bows/update-modern.json
+[31Aug2025 22:42:12.533] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [morebows] Found status: UP_TO_DATE Current: 1.0.13 Target: null
+[31Aug2025 22:42:12.534] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [silentlib] Starting version check at https://raw.githubusercontent.com/SilentChaos512/SilentLib/1.20.x/update.json
+[31Aug2025 22:42:12.545] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [silentlib] Found status: BETA Current: 8.0.0 Target: null
+[31Aug2025 22:42:12.545] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mcwfences] Starting version check at https://raw.githubusercontent.com/sketchmacaw/macawsmods/master/fences.json
+[31Aug2025 22:42:12.555] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mcwfences] Found status: UP_TO_DATE Current: 1.2.0 Target: null
+[31Aug2025 22:42:12.555] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [silentgear] Starting version check at https://raw.githubusercontent.com/SilentChaos512/Silent-Gear/1.19.x/update.json
+[31Aug2025 22:42:12.567] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [silentgear] Found status: BETA Current: 3.6.6 Target: null
+[31Aug2025 22:42:12.567] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [easy_villagers] Starting version check at https://update.maxhenkel.de/forge/easy_villagers
+[31Aug2025 22:42:12.668] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [easy_villagers] Found status: OUTDATED Current: 1.20.1-1.1.23 Target: 1.20.1-1.1.35
+[31Aug2025 22:42:12.669] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [pipez] Starting version check at https://maxhenkel.de/update/pipez.json
+[31Aug2025 22:42:13.178] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [pipez] Found status: UP_TO_DATE Current: 1.20.1-1.2.5 Target: null
+[31Aug2025 22:42:13.178] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [giacomos_fishing_net] Starting version check at https://raw.githubusercontent.com/Zacomat/giacomos_mod-update-JSON/main/giacomos_fishing_nets-updateJSON
+[31Aug2025 22:42:13.215] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [giacomos_fishing_net] Found status: UP_TO_DATE Current: 1.7.10 Target: null
+[31Aug2025 22:42:13.215] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [cumulus_menus] Starting version check at https://github.com/The-Aether-Team/Cumulus/raw/1.20.1-develop/update.json
+[31Aug2025 22:42:13.233] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [cumulus_menus] Found status: UP_TO_DATE Current: 1.20.1-1.0.1-neoforge Target: null
+[31Aug2025 22:42:13.233] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mcwroofs] Starting version check at https://raw.githubusercontent.com/sketchmacaw/macawsmods/master/roofs.json
+[31Aug2025 22:42:13.241] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mcwroofs] Found status: UP_TO_DATE Current: 2.3.2 Target: null
+[31Aug2025 22:42:13.242] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [vampirism] Starting version check at https://api.modrinth.com/updates/vampirism/forge_updates.json
+[31Aug2025 22:42:13.313] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [vampirism] Found status: UP_TO_DATE Current: 1.10.13 Target: null
+[31Aug2025 22:42:13.313] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mcwfurnitures] Starting version check at https://raw.githubusercontent.com/sketchmacaw/macawsmods/master/furniture.json
+[31Aug2025 22:42:13.323] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mcwfurnitures] Found status: UP_TO_DATE Current: 3.3.0 Target: null
+[31Aug2025 22:42:13.323] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [apexcore] Starting version check at https://api.modrinth.com/updates/apexcore/forge_updates.json
+[31Aug2025 22:42:13.401] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [apexcore] Found status: UP_TO_DATE Current: 10.0.0 Target: null
+[31Aug2025 22:42:13.401] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [infusedfoods] Starting version check at https://api.modrinth.com/updates/infused-foods/forge_updates.json
+[31Aug2025 22:42:13.475] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [infusedfoods] Found status: UP_TO_DATE Current: 10.0.0 Target: null
+[31Aug2025 22:42:13.477] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mcwlights] Starting version check at https://raw.githubusercontent.com/sketchmacaw/macawsmods/master/lights.json
+[31Aug2025 22:42:13.487] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mcwlights] Found status: UP_TO_DATE Current: 1.1.2 Target: null
+[31Aug2025 22:42:14.955] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[31Aug2025 22:42:17.638] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/Servidor-que-sirve/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23267!/assets/.mcassetsroot' uses unexpected schema
+[31Aug2025 22:42:17.638] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/Servidor-que-sirve/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23267!/data/.mcassetsroot' uses unexpected schema
+[31Aug2025 22:42:19.231] [Worker-Main-3/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag corail_dt:dts as it is missing following references: corail_dt:dt_w_c_b (from Corail-DT-1.20.1-480.jar)
+[31Aug2025 22:42:20.048] [Worker-Main-4/INFO] [Silent Gear/]: Injecting loot table 'silentgear:inject/minecraft/chests/ruined_portal' into 'minecraft:chests/ruined_portal'
+[31Aug2025 22:42:20.209] [Worker-Main-4/INFO] [Silent Gear/]: Injecting loot table 'silentgear:inject/minecraft/chests/bastion_bridge' into 'minecraft:chests/bastion_bridge'
+[31Aug2025 22:42:20.277] [Worker-Main-4/INFO] [Silent Gear/]: Injecting loot table 'silentgear:inject/minecraft/chests/bastion_treasure' into 'minecraft:chests/bastion_treasure'
+[31Aug2025 22:42:20.297] [Worker-Main-4/INFO] [Silent Gear/]: Registered material modifier silentgear:grade
+[31Aug2025 22:42:20.297] [Worker-Main-4/INFO] [Silent Gear/]: Registered material modifier silentgear:starcharged
+[31Aug2025 22:42:20.319] [Worker-Main-4/INFO] [Silent Gear/]: Injecting loot table 'silentgear:inject/minecraft/chests/nether_bridge' into 'minecraft:chests/nether_bridge'
+[31Aug2025 22:42:20.324] [Worker-Main-4/ERROR] [net.minecraftforge.common.ForgeHooks/]: Couldn't parse element loot_tables:corail_dt:blocks/dt_w_c_b
 com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown string 'corail_dt:dt_w_c_b'
 	at net.minecraft.util.GsonHelper.m_13866_(GsonHelper.java:145) ~[server-1.20.1-20230612.114412-srg.jar%23267!/:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -223,14 +223,14 @@ com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown st
 	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
 	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
 	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
-[31Aug2025 02:28:44.125] [Worker-Main-4/INFO] [Silent Gear/]: Injecting loot table 'silentgear:inject/minecraft/entities/spider' into 'minecraft:entities/spider'
-[31Aug2025 02:28:44.149] [Worker-Main-4/INFO] [Silent Gear/]: Injecting loot table 'silentgear:inject/minecraft/entities/zombie_villager' into 'minecraft:entities/zombie_villager'
-[31Aug2025 02:28:44.321] [Worker-Main-4/INFO] [Silent Gear/]: Injecting loot table 'silentgear:inject/minecraft/entities/cave_spider' into 'minecraft:entities/cave_spider'
-[31Aug2025 02:28:44.431] [Worker-Main-4/INFO] [Silent Gear/]: Injecting loot table 'silentgear:inject/minecraft/chests/bastion_other' into 'minecraft:chests/bastion_other'
-[31Aug2025 02:28:44.515] [main/INFO] [Cucumber Library/]: Registered 0 recipes in 0 ms
-[31Aug2025 02:28:44.645] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe vampirism:general/umbrella as it's serializer returned null
-[31Aug2025 02:28:44.730] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe vampirism:vampire/blood_bottle as it's serializer returned null
-[31Aug2025 02:28:44.796] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe corail_dt:dt_w_c_b
+[31Aug2025 22:42:20.478] [Worker-Main-4/INFO] [Silent Gear/]: Injecting loot table 'silentgear:inject/minecraft/entities/spider' into 'minecraft:entities/spider'
+[31Aug2025 22:42:20.484] [Worker-Main-4/INFO] [Silent Gear/]: Injecting loot table 'silentgear:inject/minecraft/entities/zombie_villager' into 'minecraft:entities/zombie_villager'
+[31Aug2025 22:42:20.584] [Worker-Main-4/INFO] [Silent Gear/]: Injecting loot table 'silentgear:inject/minecraft/entities/cave_spider' into 'minecraft:entities/cave_spider'
+[31Aug2025 22:42:20.640] [Worker-Main-4/INFO] [Silent Gear/]: Injecting loot table 'silentgear:inject/minecraft/chests/bastion_other' into 'minecraft:chests/bastion_other'
+[31Aug2025 22:42:20.699] [main/INFO] [Cucumber Library/]: Registered 0 recipes in 0 ms
+[31Aug2025 22:42:20.798] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe vampirism:general/umbrella as it's serializer returned null
+[31Aug2025 22:42:20.860] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe vampirism:vampire/blood_bottle as it's serializer returned null
+[31Aug2025 22:42:20.925] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe corail_dt:dt_w_c_b
 com.google.gson.JsonSyntaxException: Unknown item 'corail_dt:dt_w_c_b'
 	at net.minecraftforge.common.crafting.CraftingHelper.getItem(CraftingHelper.java:160) ~[forge-1.20.1-47.4.0-universal.jar%23272!/:?]
 	at net.minecraftforge.common.crafting.CraftingHelper.getItemStack(CraftingHelper.java:186) ~[forge-1.20.1-47.4.0-universal.jar%23272!/:?]
@@ -263,488 +263,443 @@ com.google.gson.JsonSyntaxException: Unknown item 'corail_dt:dt_w_c_b'
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
-[31Aug2025 02:28:44.974] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 58 recipes
-[31Aug2025 02:28:45.215] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 3697 advancements
-[31Aug2025 02:28:45.238] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 18 curio slots
-[31Aug2025 02:28:45.244] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 9 curio entities
-[31Aug2025 02:28:45.246] [main/INFO] [Silent Gear/TraitManager]: Reloading trait files
-[31Aug2025 02:28:45.247] [main/INFO] [Silent Gear/]: Deserializing trait silentgear:accelerate in pack silent-gear-1.20.1-3.6.6.jar
-[31Aug2025 02:28:45.249] [main/INFO] [Silent Gear/TraitManager]: Registered condition serializer 'silentgear:not'
-[31Aug2025 02:28:45.250] [main/INFO] [Silent Gear/TraitManager]: Registered condition serializer 'silentgear:and'
-[31Aug2025 02:28:45.251] [main/INFO] [Silent Gear/TraitManager]: Registered condition serializer 'silentgear:or'
-[31Aug2025 02:28:45.252] [main/INFO] [Silent Gear/TraitManager]: Registered condition serializer 'silentgear:gear_type'
-[31Aug2025 02:28:45.254] [main/INFO] [Silent Gear/TraitManager]: Registered condition serializer 'silentgear:material_count'
-[31Aug2025 02:28:45.255] [main/INFO] [Silent Gear/TraitManager]: Registered condition serializer 'silentgear:material_ratio'
-[31Aug2025 02:28:45.255] [main/INFO] [Silent Gear/TraitManager]: Registered serializer 'silentgear:simple_trait'
-[31Aug2025 02:28:45.256] [main/INFO] [Silent Gear/TraitManager]: Registered serializer 'silentgear:damage_type'
-[31Aug2025 02:28:45.257] [main/INFO] [Silent Gear/TraitManager]: Registered serializer 'silentgear:durability'
-[31Aug2025 02:28:45.259] [main/INFO] [Silent Gear/TraitManager]: Registered serializer 'silentgear:enchantment'
-[31Aug2025 02:28:45.260] [main/INFO] [Silent Gear/TraitManager]: Registered serializer 'silentgear:nbt'
-[31Aug2025 02:28:45.261] [main/INFO] [Silent Gear/TraitManager]: Registered serializer 'silentgear:wielder_effect'
-[31Aug2025 02:28:45.262] [main/INFO] [Silent Gear/TraitManager]: Registered serializer 'silentgear:stat_modifier'
-[31Aug2025 02:28:45.264] [main/INFO] [Silent Gear/TraitManager]: Registered serializer 'silentgear:attribute'
-[31Aug2025 02:28:45.265] [main/INFO] [Silent Gear/TraitManager]: Registered serializer 'silentgear:block_placer'
-[31Aug2025 02:28:45.267] [main/INFO] [Silent Gear/TraitManager]: Registered serializer 'silentgear:block_filler'
-[31Aug2025 02:28:45.268] [main/INFO] [Silent Gear/TraitManager]: Registered serializer 'silentgear:synergy'
-[31Aug2025 02:28:45.269] [main/INFO] [Silent Gear/TraitManager]: Registered serializer 'silentgear:target_effect'
-[31Aug2025 02:28:45.270] [main/INFO] [Silent Gear/TraitManager]: Registered serializer 'silentgear:bonus_drops'
-[31Aug2025 02:28:45.271] [main/INFO] [Silent Gear/TraitManager]: Registered serializer 'silentgear:cancel_effects'
-[31Aug2025 02:28:45.272] [main/INFO] [Silent Gear/TraitManager]: Registered serializer 'silentgear:self_repair'
-[31Aug2025 02:28:45.273] [main/INFO] [Silent Gear/TraitManager]: Registered serializer 'silentgear:stellar'
-[31Aug2025 02:28:45.273] [main/INFO] [Silent Gear/TraitManager]: Registered serializer 'silentgear:block_mining_speed'
-[31Aug2025 02:28:45.275] [main/INFO] [Silent Gear/]: Deserializing trait silentgear:adamant in pack silent-gear-1.20.1-3.6.6.jar
-[31Aug2025 02:28:45.276] [main/INFO] [Silent Gear/]: Deserializing trait silentgear:ancient in pack silent-gear-1.20.1-3.6.6.jar
-[31Aug2025 02:28:45.276] [main/INFO] [Silent Gear/]: Deserializing trait silentgear:aquatic in pack silent-gear-1.20.1-3.6.6.jar
-[31Aug2025 02:28:45.277] [main/INFO] [Silent Gear/]: Deserializing trait silentgear:bastion in pack silent-gear-1.20.1-3.6.6.jar
-[31Aug2025 02:28:45.277] [main/INFO] [Silent Gear/]: Deserializing trait silentgear:bending in pack silent-gear-1.20.1-3.6.6.jar
-[31Aug2025 02:28:45.278] [main/INFO] [Silent Gear/]: Deserializing trait silentgear:bounce in pack silent-gear-1.20.1-3.6.6.jar
-[31Aug2025 02:28:45.278] [main/INFO] [Silent Gear/]: Deserializing trait silentgear:brilliant in pack silent-gear-1.20.1-3.6.6.jar
-[31Aug2025 02:28:45.278] [main/INFO] [Silent Gear/]: Deserializing trait silentgear:brittle in pack silent-gear-1.20.1-3.6.6.jar
-[31Aug2025 02:28:45.278] [main/INFO] [Silent Gear/]: Deserializing trait silentgear:bulky in pack silent-gear-1.20.1-3.6.6.jar
-[31Aug2025 02:28:45.278] [main/INFO] [Silent Gear/]: Deserializing trait silentgear:chilled in pack silent-gear-1.20.1-3.6.6.jar
-[31Aug2025 02:28:45.278] [main/INFO] [Silent Gear/]: Deserializing trait silentgear:chipping in pack silent-gear-1.20.1-3.6.6.jar
-[31Aug2025 02:28:45.279] [main/INFO] [Silent Gear/]: Deserializing trait silentgear:confetti in pack silent-gear-1.20.1-3.6.6.jar
-[31Aug2025 02:28:45.279] [main/INFO] [Silent Gear/]: Deserializing trait silentgear:crackler in pack silent-gear-1.20.1-3.6.6.jar
-[31Aug2025 02:28:45.279] [main/INFO] [Silent Gear/]: Deserializing trait silentgear:crude in pack silent-gear-1.20.1-3.6.6.jar
-[31Aug2025 02:28:45.279] [main/INFO] [Silent Gear/]: Deserializing trait silentgear:crushing in pack silent-gear-1.20.1-3.6.6.jar
-[31Aug2025 02:28:45.280] [main/INFO] [Silent Gear/]: Deserializing trait silentgear:cure_poison in pack silent-gear-1.20.1-3.6.6.jar
-[31Aug2025 02:28:45.280] [main/INFO] [Silent Gear/]: Deserializing trait silentgear:cure_wither in pack silent-gear-1.20.1-3.6.6.jar
-[31Aug2025 02:28:45.280] [main/INFO] [Silent Gear/]: Deserializing trait silentgear:cursed in pack silent-gear-1.20.1-3.6.6.jar
-[31Aug2025 02:28:45.280] [main/INFO] [Silent Gear/]: Deserializing trait silentgear:eroded in pack silent-gear-1.20.1-3.6.6.jar
-[31Aug2025 02:28:45.280] [main/INFO] [Silent Gear/]: Deserializing trait silentgear:fiery in pack silent-gear-1.20.1-3.6.6.jar
-[31Aug2025 02:28:45.282] [main/INFO] [Silent Gear/]: Deserializing trait silentgear:fireproof in pack silent-gear-1.20.1-3.6.6.jar
-[31Aug2025 02:28:45.282] [main/INFO] [Silent Gear/]: Deserializing trait silentgear:flame_ward in pack silent-gear-1.20.1-3.6.6.jar
-[31Aug2025 02:28:45.282] [main/INFO] [Silent Gear/]: Deserializing trait silentgear:flammable in pack silent-gear-1.20.1-3.6.6.jar
-[31Aug2025 02:28:45.282] [main/INFO] [Silent Gear/]: Deserializing trait silentgear:flexible in pack silent-gear-1.20.1-3.6.6.jar
-[31Aug2025 02:28:45.282] [main/INFO] [Silent Gear/]: Deserializing trait silentgear:floatstoner in pack silent-gear-1.20.1-3.6.6.jar
-[31Aug2025 02:28:45.282] [main/INFO] [Silent Gear/]: Deserializing trait silentgear:gold_digger in pack silent-gear-1.20.1-3.6.6.jar
-[31Aug2025 02:28:45.283] [main/INFO] [Silent Gear/]: Deserializing trait silentgear:greedy in pack silent-gear-1.20.1-3.6.6.jar
-[31Aug2025 02:28:45.283] [main/INFO] [Silent Gear/]: Deserializing trait silentgear:hard in pack silent-gear-1.20.1-3.6.6.jar
-[31Aug2025 02:28:45.283] [main/INFO] [Silent Gear/]: Deserializing trait silentgear:heavy in pack silent-gear-1.20.1-3.6.6.jar
-[31Aug2025 02:28:45.284] [main/INFO] [Silent Gear/]: Deserializing trait silentgear:holy in pack silent-gear-1.20.1-3.6.6.jar
-[31Aug2025 02:28:45.284] [main/INFO] [Silent Gear/]: Deserializing trait silentgear:ignite in pack silent-gear-1.20.1-3.6.6.jar
-[31Aug2025 02:28:45.284] [main/INFO] [Silent Gear/]: Deserializing trait silentgear:imperial in pack silent-gear-1.20.1-3.6.6.jar
-[31Aug2025 02:28:45.284] [main/INFO] [Silent Gear/]: Deserializing trait silentgear:indestructible in pack silent-gear-1.20.1-3.6.6.jar
-[31Aug2025 02:28:45.284] [main/INFO] [Silent Gear/]: Deserializing trait silentgear:jabberwocky in pack silent-gear-1.20.1-3.6.6.jar
-[31Aug2025 02:28:45.285] [main/INFO] [Silent Gear/]: Deserializing trait silentgear:jagged in pack silent-gear-1.20.1-3.6.6.jar
-[31Aug2025 02:28:45.285] [main/INFO] [Silent Gear/]: Deserializing trait silentgear:kitty_vision in pack silent-gear-1.20.1-3.6.6.jar
-[31Aug2025 02:28:45.285] [main/INFO] [Silent Gear/]: Deserializing trait silentgear:light in pack silent-gear-1.20.1-3.6.6.jar
-[31Aug2025 02:28:45.285] [main/INFO] [Silent Gear/]: Deserializing trait silentgear:lucky in pack silent-gear-1.20.1-3.6.6.jar
-[31Aug2025 02:28:45.285] [main/INFO] [Silent Gear/]: Deserializing trait silentgear:lustrous in pack silent-gear-1.20.1-3.6.6.jar
-[31Aug2025 02:28:45.285] [main/INFO] [Silent Gear/]: Deserializing trait silentgear:magmatic in pack silent-gear-1.20.1-3.6.6.jar
-[31Aug2025 02:28:45.286] [main/INFO] [Silent Gear/]: Deserializing trait silentgear:magnetic in pack silent-gear-1.20.1-3.6.6.jar
-[31Aug2025 02:28:45.286] [main/INFO] [Silent Gear/]: Deserializing trait silentgear:malleable in pack silent-gear-1.20.1-3.6.6.jar
-[31Aug2025 02:28:45.286] [main/INFO] [Silent Gear/]: Deserializing trait silentgear:mighty in pack silent-gear-1.20.1-3.6.6.jar
-[31Aug2025 02:28:45.286] [main/INFO] [Silent Gear/]: Deserializing trait silentgear:moonwalker in pack silent-gear-1.20.1-3.6.6.jar
-[31Aug2025 02:28:45.286] [main/INFO] [Silent Gear/]: Deserializing trait silentgear:multi_break in pack silent-gear-1.20.1-3.6.6.jar
-[31Aug2025 02:28:45.286] [main/INFO] [Silent Gear/]: Deserializing trait silentgear:nc_radiation_protection in pack silent-gear-1.20.1-3.6.6.jar
-[31Aug2025 02:28:45.288] [main/INFO] [Silent Gear/]: Deserializing trait silentgear:organic in pack silent-gear-1.20.1-3.6.6.jar
-[31Aug2025 02:28:45.288] [main/INFO] [Silent Gear/]: Deserializing trait silentgear:racker in pack silent-gear-1.20.1-3.6.6.jar
-[31Aug2025 02:28:45.288] [main/INFO] [Silent Gear/]: Deserializing trait silentgear:reach in pack silent-gear-1.20.1-3.6.6.jar
-[31Aug2025 02:28:45.289] [main/INFO] [Silent Gear/]: Deserializing trait silentgear:red_card in pack silent-gear-1.20.1-3.6.6.jar
-[31Aug2025 02:28:45.289] [main/INFO] [Silent Gear/]: Deserializing trait silentgear:refractive in pack silent-gear-1.20.1-3.6.6.jar
-[31Aug2025 02:28:45.289] [main/INFO] [Silent Gear/]: Deserializing trait silentgear:renew in pack silent-gear-1.20.1-3.6.6.jar
-[31Aug2025 02:28:45.289] [main/INFO] [Silent Gear/]: Deserializing trait silentgear:road_maker in pack silent-gear-1.20.1-3.6.6.jar
-[31Aug2025 02:28:45.290] [main/INFO] [Silent Gear/]: Deserializing trait silentgear:rustic in pack silent-gear-1.20.1-3.6.6.jar
-[31Aug2025 02:28:45.290] [main/INFO] [Silent Gear/]: Deserializing trait silentgear:sharp in pack silent-gear-1.20.1-3.6.6.jar
-[31Aug2025 02:28:45.290] [main/INFO] [Silent Gear/]: Deserializing trait silentgear:silky in pack silent-gear-1.20.1-3.6.6.jar
-[31Aug2025 02:28:45.290] [main/INFO] [Silent Gear/]: Deserializing trait silentgear:snow_walker in pack silent-gear-1.20.1-3.6.6.jar
-[31Aug2025 02:28:45.291] [main/INFO] [Silent Gear/]: Deserializing trait silentgear:soft in pack silent-gear-1.20.1-3.6.6.jar
-[31Aug2025 02:28:45.291] [main/INFO] [Silent Gear/]: Deserializing trait silentgear:spoon in pack silent-gear-1.20.1-3.6.6.jar
-[31Aug2025 02:28:45.291] [main/INFO] [Silent Gear/]: Deserializing trait silentgear:stellar in pack silent-gear-1.20.1-3.6.6.jar
-[31Aug2025 02:28:45.291] [main/INFO] [Silent Gear/]: Deserializing trait silentgear:sturdy in pack silent-gear-1.20.1-3.6.6.jar
-[31Aug2025 02:28:45.291] [main/INFO] [Silent Gear/]: Deserializing trait silentgear:swift_swim in pack silent-gear-1.20.1-3.6.6.jar
-[31Aug2025 02:28:45.291] [main/INFO] [Silent Gear/]: Deserializing trait silentgear:synergistic in pack silent-gear-1.20.1-3.6.6.jar
-[31Aug2025 02:28:45.292] [main/INFO] [Silent Gear/]: Deserializing trait silentgear:terminus in pack silent-gear-1.20.1-3.6.6.jar
-[31Aug2025 02:28:45.292] [main/INFO] [Silent Gear/]: Deserializing trait silentgear:turtle in pack silent-gear-1.20.1-3.6.6.jar
-[31Aug2025 02:28:45.292] [main/INFO] [Silent Gear/]: Deserializing trait silentgear:venom in pack silent-gear-1.20.1-3.6.6.jar
-[31Aug2025 02:28:45.293] [main/INFO] [Silent Gear/]: Deserializing trait silentgear:void_ward in pack silent-gear-1.20.1-3.6.6.jar
-[31Aug2025 02:28:45.294] [main/INFO] [Silent Gear/]: Deserializing trait silentgear:vulcan in pack silent-gear-1.20.1-3.6.6.jar
-[31Aug2025 02:28:45.294] [main/INFO] [Silent Gear/]: Deserializing trait silentgear:widen in pack silent-gear-1.20.1-3.6.6.jar
-[31Aug2025 02:28:45.294] [main/INFO] [Silent Gear/TraitManager]: Registered 70 traits
-[31Aug2025 02:28:45.296] [main/INFO] [Silent Gear/PartManager]: Reloading part files
-[31Aug2025 02:28:45.296] [main/INFO] [Silent Gear/]: Deserializing part silentgear:adornment in pack silent-gear-1.20.1-3.6.6.jar
-[31Aug2025 02:28:45.302] [main/INFO] [Silent Gear/PartManager]: Registered part serializer 'silentgear:compound_part'
-[31Aug2025 02:28:45.302] [main/INFO] [Silent Gear/PartManager]: Registered part serializer 'silentgear:misc_upgrade'
-[31Aug2025 02:28:45.306] [main/INFO] [Silent Gear/]: Deserializing part silentgear:arrow_heads in pack silent-gear-1.20.1-3.6.6.jar
-[31Aug2025 02:28:45.311] [main/INFO] [Silent Gear/]: Deserializing part silentgear:axe_head in pack silent-gear-1.20.1-3.6.6.jar
-[31Aug2025 02:28:45.311] [main/INFO] [Silent Gear/]: Deserializing part silentgear:binding in pack silent-gear-1.20.1-3.6.6.jar
-[31Aug2025 02:28:45.312] [main/INFO] [Silent Gear/]: Deserializing part silentgear:boot_plates in pack silent-gear-1.20.1-3.6.6.jar
-[31Aug2025 02:28:45.312] [main/INFO] [Silent Gear/]: Deserializing part silentgear:bow_limbs in pack silent-gear-1.20.1-3.6.6.jar
-[31Aug2025 02:28:45.312] [main/INFO] [Silent Gear/]: Deserializing part silentgear:bowstring in pack silent-gear-1.20.1-3.6.6.jar
-[31Aug2025 02:28:45.312] [main/INFO] [Silent Gear/]: Deserializing part silentgear:bracelet_band in pack silent-gear-1.20.1-3.6.6.jar
-[31Aug2025 02:28:45.312] [main/INFO] [Silent Gear/]: Deserializing part silentgear:chestplate_plates in pack silent-gear-1.20.1-3.6.6.jar
-[31Aug2025 02:28:45.313] [main/INFO] [Silent Gear/]: Deserializing part silentgear:coating in pack silent-gear-1.20.1-3.6.6.jar
-[31Aug2025 02:28:45.313] [main/INFO] [Silent Gear/]: Deserializing part silentgear:crossbow_limbs in pack silent-gear-1.20.1-3.6.6.jar
-[31Aug2025 02:28:45.313] [main/INFO] [Silent Gear/]: Deserializing part silentgear:dagger_blade in pack silent-gear-1.20.1-3.6.6.jar
-[31Aug2025 02:28:45.314] [main/INFO] [Silent Gear/]: Deserializing part silentgear:elytra_wings in pack silent-gear-1.20.1-3.6.6.jar
-[31Aug2025 02:28:45.314] [main/INFO] [Silent Gear/]: Deserializing part silentgear:excavator_head in pack silent-gear-1.20.1-3.6.6.jar
-[31Aug2025 02:28:45.314] [main/INFO] [Silent Gear/]: Deserializing part silentgear:fishing_reel_and_hook in pack silent-gear-1.20.1-3.6.6.jar
-[31Aug2025 02:28:45.314] [main/INFO] [Silent Gear/]: Deserializing part silentgear:fletching in pack silent-gear-1.20.1-3.6.6.jar
-[31Aug2025 02:28:45.314] [main/INFO] [Silent Gear/]: Deserializing part silentgear:grip in pack silent-gear-1.20.1-3.6.6.jar
-[31Aug2025 02:28:45.315] [main/INFO] [Silent Gear/]: Deserializing part silentgear:hammer_head in pack silent-gear-1.20.1-3.6.6.jar
-[31Aug2025 02:28:45.315] [main/INFO] [Silent Gear/]: Deserializing part silentgear:helmet_plates in pack silent-gear-1.20.1-3.6.6.jar
-[31Aug2025 02:28:45.315] [main/INFO] [Silent Gear/]: Deserializing part silentgear:hoe_head in pack silent-gear-1.20.1-3.6.6.jar
-[31Aug2025 02:28:45.315] [main/INFO] [Silent Gear/]: Deserializing part silentgear:katana_blade in pack silent-gear-1.20.1-3.6.6.jar
-[31Aug2025 02:28:45.316] [main/INFO] [Silent Gear/]: Deserializing part silentgear:knife_blade in pack silent-gear-1.20.1-3.6.6.jar
-[31Aug2025 02:28:45.316] [main/INFO] [Silent Gear/]: Deserializing part silentgear:legging_plates in pack silent-gear-1.20.1-3.6.6.jar
-[31Aug2025 02:28:45.316] [main/INFO] [Silent Gear/]: Deserializing part silentgear:lining in pack silent-gear-1.20.1-3.6.6.jar
-[31Aug2025 02:28:45.316] [main/INFO] [Silent Gear/]: Deserializing part silentgear:machete_blade in pack silent-gear-1.20.1-3.6.6.jar
-[31Aug2025 02:28:45.317] [main/INFO] [Silent Gear/]: Deserializing part silentgear:mattock_head in pack silent-gear-1.20.1-3.6.6.jar
-[31Aug2025 02:28:45.317] [main/INFO] [Silent Gear/]: Deserializing part silentgear:misc/red_card in pack silent-gear-1.20.1-3.6.6.jar
-[31Aug2025 02:28:45.320] [main/INFO] [Silent Gear/]: Deserializing part silentgear:misc/road_maker in pack silent-gear-1.20.1-3.6.6.jar
-[31Aug2025 02:28:45.320] [main/INFO] [Silent Gear/]: Deserializing part silentgear:misc/spoon in pack silent-gear-1.20.1-3.6.6.jar
-[31Aug2025 02:28:45.320] [main/INFO] [Silent Gear/]: Deserializing part silentgear:misc/wide_plate in pack silent-gear-1.20.1-3.6.6.jar
-[31Aug2025 02:28:45.320] [main/INFO] [Silent Gear/]: Deserializing part silentgear:paxel_head in pack silent-gear-1.20.1-3.6.6.jar
-[31Aug2025 02:28:45.321] [main/INFO] [Silent Gear/]: Deserializing part silentgear:pickaxe_head in pack silent-gear-1.20.1-3.6.6.jar
-[31Aug2025 02:28:45.321] [main/INFO] [Silent Gear/]: Deserializing part silentgear:prospector_hammer_head in pack silent-gear-1.20.1-3.6.6.jar
-[31Aug2025 02:28:45.321] [main/INFO] [Silent Gear/]: Deserializing part silentgear:ring_shank in pack silent-gear-1.20.1-3.6.6.jar
-[31Aug2025 02:28:45.321] [main/INFO] [Silent Gear/]: Deserializing part silentgear:rod in pack silent-gear-1.20.1-3.6.6.jar
-[31Aug2025 02:28:45.322] [main/INFO] [Silent Gear/]: Deserializing part silentgear:saw_blade in pack silent-gear-1.20.1-3.6.6.jar
-[31Aug2025 02:28:45.322] [main/INFO] [Silent Gear/]: Deserializing part silentgear:shears_blades in pack silent-gear-1.20.1-3.6.6.jar
-[31Aug2025 02:28:45.322] [main/INFO] [Silent Gear/]: Deserializing part silentgear:shield_plate in pack silent-gear-1.20.1-3.6.6.jar
-[31Aug2025 02:28:45.322] [main/INFO] [Silent Gear/]: Deserializing part silentgear:shovel_head in pack silent-gear-1.20.1-3.6.6.jar
-[31Aug2025 02:28:45.323] [main/INFO] [Silent Gear/]: Deserializing part silentgear:sickle_blade in pack silent-gear-1.20.1-3.6.6.jar
-[31Aug2025 02:28:45.323] [main/INFO] [Silent Gear/]: Deserializing part silentgear:slingshot_limbs in pack silent-gear-1.20.1-3.6.6.jar
-[31Aug2025 02:28:45.323] [main/INFO] [Silent Gear/]: Deserializing part silentgear:spear_tip in pack silent-gear-1.20.1-3.6.6.jar
-[31Aug2025 02:28:45.323] [main/INFO] [Silent Gear/]: Deserializing part silentgear:sword_blade in pack silent-gear-1.20.1-3.6.6.jar
-[31Aug2025 02:28:45.324] [main/INFO] [Silent Gear/]: Deserializing part silentgear:tip in pack silent-gear-1.20.1-3.6.6.jar
-[31Aug2025 02:28:45.324] [main/INFO] [Silent Gear/]: Deserializing part silentgear:trident_prongs in pack silent-gear-1.20.1-3.6.6.jar
-[31Aug2025 02:28:45.324] [main/INFO] [Silent Gear/PartManager]: Registered 45 parts
-[31Aug2025 02:28:45.326] [main/INFO] [Silent Gear/MaterialManager]: Reloading material files
-[31Aug2025 02:28:45.326] [main/INFO] [Silent Gear/]: Deserializing material silentgear:aluminum in pack silent-gear-1.20.1-3.6.6.jar
-[31Aug2025 02:28:45.331] [main/INFO] [Silent Gear/MaterialManager]: Registered material serializer 'silentgear:standard'
-[31Aug2025 02:28:45.332] [main/INFO] [Silent Gear/MaterialManager]: Registered material serializer 'silentgear:compound'
-[31Aug2025 02:28:45.333] [main/INFO] [Silent Gear/MaterialManager]: Registered material serializer 'silentgear:custom_compound'
-[31Aug2025 02:28:45.334] [main/INFO] [Silent Gear/MaterialManager]: Registered material serializer 'silentgear:crafted'
-[31Aug2025 02:28:45.339] [main/INFO] [Silent Gear/]: Deserializing material silentgear:aluminum_steel in pack silent-gear-1.20.1-3.6.6.jar
-[31Aug2025 02:28:45.340] [main/INFO] [Silent Gear/]: Deserializing material silentgear:amethyst in pack silent-gear-1.20.1-3.6.6.jar
-[31Aug2025 02:28:45.341] [main/INFO] [Silent Gear/]: Deserializing material silentgear:azure_electrum in pack silent-gear-1.20.1-3.6.6.jar
-[31Aug2025 02:28:45.341] [main/INFO] [Silent Gear/]: Deserializing material silentgear:azure_silver in pack silent-gear-1.20.1-3.6.6.jar
-[31Aug2025 02:28:45.342] [main/INFO] [Silent Gear/]: Deserializing material silentgear:bamboo in pack silent-gear-1.20.1-3.6.6.jar
-[31Aug2025 02:28:45.342] [main/INFO] [Silent Gear/]: Deserializing material silentgear:barrier in pack silent-gear-1.20.1-3.6.6.jar
-[31Aug2025 02:28:45.343] [main/INFO] [Silent Gear/]: Deserializing material silentgear:basalt in pack silent-gear-1.20.1-3.6.6.jar
-[31Aug2025 02:28:45.343] [main/INFO] [Silent Gear/]: Deserializing material silentgear:bismuth in pack silent-gear-1.20.1-3.6.6.jar
-[31Aug2025 02:28:45.344] [main/INFO] [Silent Gear/]: Deserializing material silentgear:bismuth_brass in pack silent-gear-1.20.1-3.6.6.jar
-[31Aug2025 02:28:45.344] [main/INFO] [Silent Gear/]: Deserializing material silentgear:bismuth_steel in pack silent-gear-1.20.1-3.6.6.jar
-[31Aug2025 02:28:45.345] [main/INFO] [Silent Gear/]: Deserializing material silentgear:blackstone in pack silent-gear-1.20.1-3.6.6.jar
-[31Aug2025 02:28:45.345] [main/INFO] [Silent Gear/]: Deserializing material silentgear:blaze_gold in pack silent-gear-1.20.1-3.6.6.jar
-[31Aug2025 02:28:45.346] [main/INFO] [Silent Gear/]: Deserializing material silentgear:blaze_rod in pack silent-gear-1.20.1-3.6.6.jar
-[31Aug2025 02:28:45.346] [main/INFO] [Silent Gear/]: Deserializing material silentgear:bone in pack silent-gear-1.20.1-3.6.6.jar
-[31Aug2025 02:28:45.347] [main/INFO] [Silent Gear/]: Deserializing material silentgear:brass in pack silent-gear-1.20.1-3.6.6.jar
-[31Aug2025 02:28:45.347] [main/INFO] [Silent Gear/]: Deserializing material silentgear:bronze in pack silent-gear-1.20.1-3.6.6.jar
-[31Aug2025 02:28:45.348] [main/INFO] [Silent Gear/]: Deserializing material silentgear:compressed_iron in pack silent-gear-1.20.1-3.6.6.jar
-[31Aug2025 02:28:45.348] [main/INFO] [Silent Gear/]: Deserializing material silentgear:copper in pack silent-gear-1.20.1-3.6.6.jar
-[31Aug2025 02:28:45.348] [main/INFO] [Silent Gear/]: Deserializing material silentgear:crimson_iron in pack silent-gear-1.20.1-3.6.6.jar
-[31Aug2025 02:28:45.349] [main/INFO] [Silent Gear/]: Deserializing material silentgear:crimson_steel in pack silent-gear-1.20.1-3.6.6.jar
-[31Aug2025 02:28:45.350] [main/INFO] [Silent Gear/]: Deserializing material silentgear:diamond in pack silent-gear-1.20.1-3.6.6.jar
-[31Aug2025 02:28:45.350] [main/INFO] [Silent Gear/]: Deserializing material silentgear:dimerald in pack silent-gear-1.20.1-3.6.6.jar
-[31Aug2025 02:28:45.351] [main/INFO] [Silent Gear/]: Deserializing material silentgear:electrum in pack silent-gear-1.20.1-3.6.6.jar
-[31Aug2025 02:28:45.352] [main/INFO] [Silent Gear/]: Deserializing material silentgear:emerald in pack silent-gear-1.20.1-3.6.6.jar
-[31Aug2025 02:28:45.352] [main/INFO] [Silent Gear/]: Deserializing material silentgear:end_rod in pack silent-gear-1.20.1-3.6.6.jar
-[31Aug2025 02:28:45.353] [main/INFO] [Silent Gear/]: Deserializing material silentgear:end_stone in pack silent-gear-1.20.1-3.6.6.jar
-[31Aug2025 02:28:45.353] [main/INFO] [Silent Gear/]: Deserializing material silentgear:enderium in pack silent-gear-1.20.1-3.6.6.jar
-[31Aug2025 02:28:45.354] [main/INFO] [Silent Gear/]: Deserializing material silentgear:example in pack silent-gear-1.20.1-3.6.6.jar
-[31Aug2025 02:28:45.354] [main/INFO] [Silent Gear/]: Deserializing material silentgear:feather in pack silent-gear-1.20.1-3.6.6.jar
-[31Aug2025 02:28:45.355] [main/INFO] [Silent Gear/]: Deserializing material silentgear:fine_silk in pack silent-gear-1.20.1-3.6.6.jar
-[31Aug2025 02:28:45.355] [main/INFO] [Silent Gear/]: Deserializing material silentgear:fine_silk_cloth in pack silent-gear-1.20.1-3.6.6.jar
-[31Aug2025 02:28:45.355] [main/INFO] [Silent Gear/]: Deserializing material silentgear:flax in pack silent-gear-1.20.1-3.6.6.jar
-[31Aug2025 02:28:45.356] [main/INFO] [Silent Gear/]: Deserializing material silentgear:flint in pack silent-gear-1.20.1-3.6.6.jar
-[31Aug2025 02:28:45.356] [main/INFO] [Silent Gear/]: Deserializing material silentgear:fluffy_string in pack silent-gear-1.20.1-3.6.6.jar
-[31Aug2025 02:28:45.356] [main/INFO] [Silent Gear/]: Deserializing material silentgear:glowstone in pack silent-gear-1.20.1-3.6.6.jar
-[31Aug2025 02:28:45.357] [main/INFO] [Silent Gear/]: Deserializing material silentgear:gold in pack silent-gear-1.20.1-3.6.6.jar
-[31Aug2025 02:28:45.357] [main/INFO] [Silent Gear/]: Deserializing material silentgear:high_carbon_steel in pack silent-gear-1.20.1-3.6.6.jar
-[31Aug2025 02:28:45.357] [main/INFO] [Silent Gear/]: Deserializing material silentgear:hybrid_gem in pack silent-gear-1.20.1-3.6.6.jar
-[31Aug2025 02:28:45.360] [main/INFO] [Silent Gear/]: Deserializing material silentgear:invar in pack silent-gear-1.20.1-3.6.6.jar
-[31Aug2025 02:28:45.361] [main/INFO] [Silent Gear/]: Deserializing material silentgear:iron in pack silent-gear-1.20.1-3.6.6.jar
-[31Aug2025 02:28:45.361] [main/INFO] [Silent Gear/]: Deserializing material silentgear:lapis_lazuli in pack silent-gear-1.20.1-3.6.6.jar
-[31Aug2025 02:28:45.361] [main/INFO] [Silent Gear/]: Deserializing material silentgear:lead in pack silent-gear-1.20.1-3.6.6.jar
-[31Aug2025 02:28:45.362] [main/INFO] [Silent Gear/]: Deserializing material silentgear:leather in pack silent-gear-1.20.1-3.6.6.jar
-[31Aug2025 02:28:45.362] [main/INFO] [Silent Gear/]: Deserializing material silentgear:leaves in pack silent-gear-1.20.1-3.6.6.jar
-[31Aug2025 02:28:45.363] [main/INFO] [Silent Gear/]: Deserializing material silentgear:lumium in pack silent-gear-1.20.1-3.6.6.jar
-[31Aug2025 02:28:45.363] [main/INFO] [Silent Gear/]: Deserializing material silentgear:metal_alloy in pack silent-gear-1.20.1-3.6.6.jar
-[31Aug2025 02:28:45.363] [main/INFO] [Silent Gear/]: Deserializing material silentgear:mixed_fabric in pack silent-gear-1.20.1-3.6.6.jar
-[31Aug2025 02:28:45.364] [main/INFO] [Silent Gear/]: Deserializing material silentgear:netherite in pack silent-gear-1.20.1-3.6.6.jar
-[31Aug2025 02:28:45.364] [main/INFO] [Silent Gear/]: Deserializing material silentgear:netherrack in pack silent-gear-1.20.1-3.6.6.jar
-[31Aug2025 02:28:45.364] [main/INFO] [Silent Gear/]: Deserializing material silentgear:netherwood in pack silent-gear-1.20.1-3.6.6.jar
-[31Aug2025 02:28:45.365] [main/INFO] [Silent Gear/]: Deserializing material silentgear:nickel in pack silent-gear-1.20.1-3.6.6.jar
-[31Aug2025 02:28:45.365] [main/INFO] [Silent Gear/]: Deserializing material silentgear:obsidian in pack silent-gear-1.20.1-3.6.6.jar
-[31Aug2025 02:28:45.365] [main/INFO] [Silent Gear/]: Deserializing material silentgear:osmium in pack silent-gear-1.20.1-3.6.6.jar
-[31Aug2025 02:28:45.366] [main/INFO] [Silent Gear/]: Deserializing material silentgear:paper in pack silent-gear-1.20.1-3.6.6.jar
-[31Aug2025 02:28:45.366] [main/INFO] [Silent Gear/]: Deserializing material silentgear:phantom_membrane in pack silent-gear-1.20.1-3.6.6.jar
-[31Aug2025 02:28:45.366] [main/INFO] [Silent Gear/]: Deserializing material silentgear:platinum in pack silent-gear-1.20.1-3.6.6.jar
-[31Aug2025 02:28:45.367] [main/INFO] [Silent Gear/]: Deserializing material silentgear:prismarine in pack silent-gear-1.20.1-3.6.6.jar
-[31Aug2025 02:28:45.367] [main/INFO] [Silent Gear/]: Deserializing material silentgear:quartz in pack silent-gear-1.20.1-3.6.6.jar
-[31Aug2025 02:28:45.367] [main/INFO] [Silent Gear/]: Deserializing material silentgear:redstone in pack silent-gear-1.20.1-3.6.6.jar
-[31Aug2025 02:28:45.368] [main/INFO] [Silent Gear/]: Deserializing material silentgear:redstone_alloy in pack silent-gear-1.20.1-3.6.6.jar
-[31Aug2025 02:28:45.368] [main/INFO] [Silent Gear/]: Deserializing material silentgear:refined_glowstone in pack silent-gear-1.20.1-3.6.6.jar
-[31Aug2025 02:28:45.368] [main/INFO] [Silent Gear/]: Deserializing material silentgear:refined_iron in pack silent-gear-1.20.1-3.6.6.jar
-[31Aug2025 02:28:45.369] [main/INFO] [Silent Gear/]: Deserializing material silentgear:refined_obsidian in pack silent-gear-1.20.1-3.6.6.jar
-[31Aug2025 02:28:45.369] [main/INFO] [Silent Gear/]: Deserializing material silentgear:sandstone in pack silent-gear-1.20.1-3.6.6.jar
-[31Aug2025 02:28:45.370] [main/INFO] [Silent Gear/]: Deserializing material silentgear:sandstone/red in pack silent-gear-1.20.1-3.6.6.jar
-[31Aug2025 02:28:45.370] [main/INFO] [Silent Gear/]: Deserializing material silentgear:sheet_metal in pack silent-gear-1.20.1-3.6.6.jar
-[31Aug2025 02:28:45.371] [main/INFO] [Silent Gear/]: Deserializing material silentgear:signalum in pack silent-gear-1.20.1-3.6.6.jar
-[31Aug2025 02:28:45.371] [main/INFO] [Silent Gear/]: Deserializing material silentgear:silver in pack silent-gear-1.20.1-3.6.6.jar
-[31Aug2025 02:28:45.372] [main/INFO] [Silent Gear/]: Deserializing material silentgear:sinew in pack silent-gear-1.20.1-3.6.6.jar
-[31Aug2025 02:28:45.372] [main/INFO] [Silent Gear/]: Deserializing material silentgear:slime in pack silent-gear-1.20.1-3.6.6.jar
-[31Aug2025 02:28:45.372] [main/INFO] [Silent Gear/]: Deserializing material silentgear:steel in pack silent-gear-1.20.1-3.6.6.jar
-[31Aug2025 02:28:45.373] [main/INFO] [Silent Gear/]: Deserializing material silentgear:stone in pack silent-gear-1.20.1-3.6.6.jar
-[31Aug2025 02:28:45.373] [main/INFO] [Silent Gear/]: Deserializing material silentgear:stone/andesite in pack silent-gear-1.20.1-3.6.6.jar
-[31Aug2025 02:28:45.373] [main/INFO] [Silent Gear/]: Deserializing material silentgear:stone/diorite in pack silent-gear-1.20.1-3.6.6.jar
-[31Aug2025 02:28:45.374] [main/INFO] [Silent Gear/]: Deserializing material silentgear:stone/granite in pack silent-gear-1.20.1-3.6.6.jar
-[31Aug2025 02:28:45.374] [main/INFO] [Silent Gear/]: Deserializing material silentgear:string in pack silent-gear-1.20.1-3.6.6.jar
-[31Aug2025 02:28:45.374] [main/INFO] [Silent Gear/]: Deserializing material silentgear:terracotta in pack silent-gear-1.20.1-3.6.6.jar
-[31Aug2025 02:28:45.375] [main/INFO] [Silent Gear/]: Deserializing material silentgear:terracotta/black in pack silent-gear-1.20.1-3.6.6.jar
-[31Aug2025 02:28:45.375] [main/INFO] [Silent Gear/]: Deserializing material silentgear:terracotta/blue in pack silent-gear-1.20.1-3.6.6.jar
-[31Aug2025 02:28:45.375] [main/INFO] [Silent Gear/]: Deserializing material silentgear:terracotta/brown in pack silent-gear-1.20.1-3.6.6.jar
-[31Aug2025 02:28:45.376] [main/INFO] [Silent Gear/]: Deserializing material silentgear:terracotta/cyan in pack silent-gear-1.20.1-3.6.6.jar
-[31Aug2025 02:28:45.376] [main/INFO] [Silent Gear/]: Deserializing material silentgear:terracotta/gray in pack silent-gear-1.20.1-3.6.6.jar
-[31Aug2025 02:28:45.376] [main/INFO] [Silent Gear/]: Deserializing material silentgear:terracotta/green in pack silent-gear-1.20.1-3.6.6.jar
-[31Aug2025 02:28:45.376] [main/INFO] [Silent Gear/]: Deserializing material silentgear:terracotta/light_blue in pack silent-gear-1.20.1-3.6.6.jar
-[31Aug2025 02:28:45.377] [main/INFO] [Silent Gear/]: Deserializing material silentgear:terracotta/light_gray in pack silent-gear-1.20.1-3.6.6.jar
-[31Aug2025 02:28:45.377] [main/INFO] [Silent Gear/]: Deserializing material silentgear:terracotta/lime in pack silent-gear-1.20.1-3.6.6.jar
-[31Aug2025 02:28:45.377] [main/INFO] [Silent Gear/]: Deserializing material silentgear:terracotta/magenta in pack silent-gear-1.20.1-3.6.6.jar
-[31Aug2025 02:28:45.377] [main/INFO] [Silent Gear/]: Deserializing material silentgear:terracotta/orange in pack silent-gear-1.20.1-3.6.6.jar
-[31Aug2025 02:28:45.378] [main/INFO] [Silent Gear/]: Deserializing material silentgear:terracotta/pink in pack silent-gear-1.20.1-3.6.6.jar
-[31Aug2025 02:28:45.378] [main/INFO] [Silent Gear/]: Deserializing material silentgear:terracotta/purple in pack silent-gear-1.20.1-3.6.6.jar
-[31Aug2025 02:28:45.378] [main/INFO] [Silent Gear/]: Deserializing material silentgear:terracotta/red in pack silent-gear-1.20.1-3.6.6.jar
-[31Aug2025 02:28:45.378] [main/INFO] [Silent Gear/]: Deserializing material silentgear:terracotta/white in pack silent-gear-1.20.1-3.6.6.jar
-[31Aug2025 02:28:45.379] [main/INFO] [Silent Gear/]: Deserializing material silentgear:terracotta/yellow in pack silent-gear-1.20.1-3.6.6.jar
-[31Aug2025 02:28:45.379] [main/INFO] [Silent Gear/]: Deserializing material silentgear:tin in pack silent-gear-1.20.1-3.6.6.jar
-[31Aug2025 02:28:45.379] [main/INFO] [Silent Gear/]: Deserializing material silentgear:titanium in pack silent-gear-1.20.1-3.6.6.jar
-[31Aug2025 02:28:45.380] [main/INFO] [Silent Gear/]: Deserializing material silentgear:turtle in pack silent-gear-1.20.1-3.6.6.jar
-[31Aug2025 02:28:45.380] [main/INFO] [Silent Gear/]: Deserializing material silentgear:tyrian_steel in pack silent-gear-1.20.1-3.6.6.jar
-[31Aug2025 02:28:45.381] [main/INFO] [Silent Gear/]: Deserializing material silentgear:uranium in pack silent-gear-1.20.1-3.6.6.jar
-[31Aug2025 02:28:45.381] [main/INFO] [Silent Gear/]: Deserializing material silentgear:vine in pack silent-gear-1.20.1-3.6.6.jar
-[31Aug2025 02:28:45.381] [main/INFO] [Silent Gear/]: Deserializing material silentgear:wood in pack silent-gear-1.20.1-3.6.6.jar
-[31Aug2025 02:28:45.382] [main/INFO] [Silent Gear/]: Deserializing material silentgear:wood/acacia in pack silent-gear-1.20.1-3.6.6.jar
-[31Aug2025 02:28:45.382] [main/INFO] [Silent Gear/]: Deserializing material silentgear:wood/birch in pack silent-gear-1.20.1-3.6.6.jar
-[31Aug2025 02:28:45.382] [main/INFO] [Silent Gear/]: Deserializing material silentgear:wood/crimson in pack silent-gear-1.20.1-3.6.6.jar
-[31Aug2025 02:28:45.383] [main/INFO] [Silent Gear/]: Deserializing material silentgear:wood/dark_oak in pack silent-gear-1.20.1-3.6.6.jar
-[31Aug2025 02:28:45.383] [main/INFO] [Silent Gear/]: Deserializing material silentgear:wood/jungle in pack silent-gear-1.20.1-3.6.6.jar
-[31Aug2025 02:28:45.383] [main/INFO] [Silent Gear/]: Deserializing material silentgear:wood/oak in pack silent-gear-1.20.1-3.6.6.jar
-[31Aug2025 02:28:45.383] [main/INFO] [Silent Gear/]: Deserializing material silentgear:wood/rough in pack silent-gear-1.20.1-3.6.6.jar
-[31Aug2025 02:28:45.384] [main/INFO] [Silent Gear/]: Deserializing material silentgear:wood/spruce in pack silent-gear-1.20.1-3.6.6.jar
-[31Aug2025 02:28:45.384] [main/INFO] [Silent Gear/]: Deserializing material silentgear:wood/warped in pack silent-gear-1.20.1-3.6.6.jar
-[31Aug2025 02:28:45.384] [main/INFO] [Silent Gear/]: Deserializing material silentgear:wool in pack silent-gear-1.20.1-3.6.6.jar
-[31Aug2025 02:28:45.385] [main/INFO] [Silent Gear/]: Deserializing material silentgear:wool/black in pack silent-gear-1.20.1-3.6.6.jar
-[31Aug2025 02:28:45.385] [main/INFO] [Silent Gear/]: Deserializing material silentgear:wool/blue in pack silent-gear-1.20.1-3.6.6.jar
-[31Aug2025 02:28:45.385] [main/INFO] [Silent Gear/]: Deserializing material silentgear:wool/brown in pack silent-gear-1.20.1-3.6.6.jar
-[31Aug2025 02:28:45.386] [main/INFO] [Silent Gear/]: Deserializing material silentgear:wool/cyan in pack silent-gear-1.20.1-3.6.6.jar
-[31Aug2025 02:28:45.386] [main/INFO] [Silent Gear/]: Deserializing material silentgear:wool/gray in pack silent-gear-1.20.1-3.6.6.jar
-[31Aug2025 02:28:45.386] [main/INFO] [Silent Gear/]: Deserializing material silentgear:wool/green in pack silent-gear-1.20.1-3.6.6.jar
-[31Aug2025 02:28:45.387] [main/INFO] [Silent Gear/]: Deserializing material silentgear:wool/light_blue in pack silent-gear-1.20.1-3.6.6.jar
-[31Aug2025 02:28:45.387] [main/INFO] [Silent Gear/]: Deserializing material silentgear:wool/light_gray in pack silent-gear-1.20.1-3.6.6.jar
-[31Aug2025 02:28:45.387] [main/INFO] [Silent Gear/]: Deserializing material silentgear:wool/lime in pack silent-gear-1.20.1-3.6.6.jar
-[31Aug2025 02:28:45.388] [main/INFO] [Silent Gear/]: Deserializing material silentgear:wool/magenta in pack silent-gear-1.20.1-3.6.6.jar
-[31Aug2025 02:28:45.388] [main/INFO] [Silent Gear/]: Deserializing material silentgear:wool/orange in pack silent-gear-1.20.1-3.6.6.jar
-[31Aug2025 02:28:45.388] [main/INFO] [Silent Gear/]: Deserializing material silentgear:wool/pink in pack silent-gear-1.20.1-3.6.6.jar
-[31Aug2025 02:28:45.388] [main/INFO] [Silent Gear/]: Deserializing material silentgear:wool/purple in pack silent-gear-1.20.1-3.6.6.jar
-[31Aug2025 02:28:45.389] [main/INFO] [Silent Gear/]: Deserializing material silentgear:wool/red in pack silent-gear-1.20.1-3.6.6.jar
-[31Aug2025 02:28:45.389] [main/INFO] [Silent Gear/]: Deserializing material silentgear:wool/white in pack silent-gear-1.20.1-3.6.6.jar
-[31Aug2025 02:28:45.389] [main/INFO] [Silent Gear/]: Deserializing material silentgear:wool/yellow in pack silent-gear-1.20.1-3.6.6.jar
-[31Aug2025 02:28:45.390] [main/INFO] [Silent Gear/]: Deserializing material silentgear:zinc in pack silent-gear-1.20.1-3.6.6.jar
-[31Aug2025 02:28:45.392] [main/INFO] [de.teamlapen.vampirism.entity.player.skills.SkillTree/]: Loaded 53 skill nodes
-[31Aug2025 02:28:45.400] [main/INFO] [de.teamlapen.vampirism.entity.converted.VampirismEntityRegistry/]: Registered 14 convertibles
-[31Aug2025 02:28:48.052] [main/INFO] [evilcraft/]: 19 Broom modifiers can be applied!
-[31Aug2025 02:28:48.056] [main/INFO] [Cucumber Library/]: Loaded cucumber-tags.json in 1 ms
-[31Aug2025 02:28:48.196] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
-[31Aug2025 02:28:48.197] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
-[31Aug2025 02:28:48.197] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
-[31Aug2025 02:28:48.198] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
-[31Aug2025 02:28:48.303] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
-[31Aug2025 02:28:48.330] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
-[31Aug2025 02:28:48.412] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[31Aug2025 02:28:48.413] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
-[31Aug2025 02:28:48.413] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[31Aug2025 02:28:48.414] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
-[31Aug2025 02:28:48.426] [Server thread/INFO] [journeymap/]: Loading JourneyMap Forge Configs
-[31Aug2025 02:28:48.426] [Thread-4/INFO] [journeymap/]: Loading JourneyMap Forge Configs
-[31Aug2025 02:28:48.427] [Thread-4/INFO] [journeymap/]: Loading JourneyMap Forge Configs
-[31Aug2025 02:28:48.519] [Server thread/INFO] [ConfigBase, distanthorizons/]: Initialising config for DistantHorizons
-[31Aug2025 02:28:48.604] [Server thread/INFO] [ConfigBase, distanthorizons/]: Config for DistantHorizons initialised
-[31Aug2025 02:28:48.618] [Server thread/INFO] [DistantHorizons-AbstractModInitializer/]: Running Delayed setup...
-[31Aug2025 02:28:48.618] [Server thread/INFO] [DistantHorizons-AbstractModInitializer/]: Delayed setup complete, firing DhApiAfterDhInitEvent event...
-[31Aug2025 02:28:48.633] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.jar.updater.SelfUpdater/]: Checking for Distant Horizons update
-[31Aug2025 02:28:48.869] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.jar.updater.SelfUpdater/]: Distant Horizons already up to date.
-[31Aug2025 02:28:48.870] [Server thread/INFO] [DistantHorizons-AbstractModInitializer/]: Distant Horizons server Initialized at .
-[31Aug2025 02:28:48.895] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.world.AbstractDhWorld/]: Started [DhServerWorld] of type [SERVER_ONLY].
-[31Aug2025 02:28:49.535] [Server thread/INFO] [terrablender/]: Initialized TerraBlender biomes for level stem minecraft:overworld
-[31Aug2025 02:28:49.536] [Server thread/INFO] [terrablender/]: Initialized TerraBlender biomes for level stem minecraft:the_nether
-[31Aug2025 02:28:49.536] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
-[31Aug2025 02:28:49.863] [Server thread/INFO] [de.teamlapen.vampirism.GeneralEventHandler/]: Replacing DistanceManager.chunksToUpdateFutures for level ResourceKey[minecraft:dimension / minecraft:overworld] with concurrent set.
-[31Aug2025 02:28:50.048] [DH-Full Data Migration Thread[0]/INFO] [DistantHorizons-com.seibel.distanthorizons.core.file.fullDatafile.FullDataSourceProviderV2/]: Attempting to migrate data sources for: [minecraft:overworld]-[./world/data]...
-[31Aug2025 02:28:50.053] [DH-Full Data Migration Thread[0]/INFO] [DistantHorizons-com.seibel.distanthorizons.core.file.fullDatafile.FullDataSourceProviderV2/]: Found [0] data sources that need migration.
-[31Aug2025 02:28:50.071] [DH-Full Data Migration Thread[0]/INFO] [DistantHorizons-com.seibel.distanthorizons.core.file.fullDatafile.FullDataSourceProviderV2/]: No migration necessary.
-[31Aug2025 02:28:50.088] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.level.AbstractDhServerLevel/]: Started DhServerLevel for [Wrapped{ServerLevel[world]@minecraft:overworld}] at [[LocalSaveStructure@(./world/data)]].
-[31Aug2025 02:28:51.606] [DH-ApplyConfigPresetTimer/INFO] [com.seibel.distanthorizons.core.config.eventHandlers.presets.AbstractPresetConfigEventHandler/]: changing preset to: BALANCED
-[31Aug2025 02:28:51.608] [DH-ApplyConfigPresetTimer/INFO] [com.seibel.distanthorizons.core.config.eventHandlers.presets.AbstractPresetConfigEventHandler/]: changing preset to: MEDIUM
-[31Aug2025 02:28:51.619] [DH-ApplyConfigPresetTimer/INFO] [com.seibel.distanthorizons.core.config.eventHandlers.presets.AbstractPresetConfigEventHandler/]: preset active: BALANCED
-[31Aug2025 02:28:51.645] [DH-ApplyConfigPresetTimer/INFO] [com.seibel.distanthorizons.core.config.eventHandlers.presets.AbstractPresetConfigEventHandler/]: preset active: MEDIUM
-[31Aug2025 02:28:54.706] [Server thread/INFO] [de.teamlapen.vampirism.GeneralEventHandler/]: Replacing DistanceManager.chunksToUpdateFutures for level ResourceKey[minecraft:dimension / aether:the_aether] with concurrent set.
-[31Aug2025 02:28:54.737] [DH-Full Data Migration Thread[0]/INFO] [DistantHorizons-com.seibel.distanthorizons.core.file.fullDatafile.FullDataSourceProviderV2/]: Attempting to migrate data sources for: [aether:the_aether]-[./world/dimensions/aether/the_aether/data]...
-[31Aug2025 02:28:54.738] [DH-Full Data Migration Thread[0]/INFO] [DistantHorizons-com.seibel.distanthorizons.core.file.fullDatafile.FullDataSourceProviderV2/]: Found [0] data sources that need migration.
-[31Aug2025 02:28:54.739] [DH-Full Data Migration Thread[0]/INFO] [DistantHorizons-com.seibel.distanthorizons.core.file.fullDatafile.FullDataSourceProviderV2/]: No migration necessary.
-[31Aug2025 02:28:54.757] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.level.AbstractDhServerLevel/]: Started DhServerLevel for [Wrapped{ServerLevel[world]@aether:the_aether}] at [[LocalSaveStructure@(./world/data;./world/dimensions/aether/the_aether/data)]].
-[31Aug2025 02:28:54.773] [Server thread/INFO] [de.teamlapen.vampirism.GeneralEventHandler/]: Replacing DistanceManager.chunksToUpdateFutures for level ResourceKey[minecraft:dimension / minecraft:the_end] with concurrent set.
-[31Aug2025 02:28:54.793] [DH-Full Data Migration Thread[0]/INFO] [DistantHorizons-com.seibel.distanthorizons.core.file.fullDatafile.FullDataSourceProviderV2/]: Attempting to migrate data sources for: [minecraft:the_end]-[./world/DIM1/data]...
-[31Aug2025 02:28:54.794] [DH-Full Data Migration Thread[0]/INFO] [DistantHorizons-com.seibel.distanthorizons.core.file.fullDatafile.FullDataSourceProviderV2/]: Found [0] data sources that need migration.
-[31Aug2025 02:28:54.794] [DH-Full Data Migration Thread[0]/INFO] [DistantHorizons-com.seibel.distanthorizons.core.file.fullDatafile.FullDataSourceProviderV2/]: No migration necessary.
-[31Aug2025 02:28:54.811] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.level.AbstractDhServerLevel/]: Started DhServerLevel for [Wrapped{ServerLevel[world]@minecraft:the_end}] at [[LocalSaveStructure@(./world/data;./world/DIM1/data;./world/dimensions/aether/the_aether/data)]].
-[31Aug2025 02:28:54.821] [Server thread/INFO] [de.teamlapen.vampirism.GeneralEventHandler/]: Replacing DistanceManager.chunksToUpdateFutures for level ResourceKey[minecraft:dimension / minecraft:the_nether] with concurrent set.
-[31Aug2025 02:28:54.840] [DH-Full Data Migration Thread[0]/INFO] [DistantHorizons-com.seibel.distanthorizons.core.file.fullDatafile.FullDataSourceProviderV2/]: Attempting to migrate data sources for: [minecraft:the_nether]-[./world/DIM-1/data]...
-[31Aug2025 02:28:54.840] [DH-Full Data Migration Thread[0]/INFO] [DistantHorizons-com.seibel.distanthorizons.core.file.fullDatafile.FullDataSourceProviderV2/]: Found [0] data sources that need migration.
-[31Aug2025 02:28:54.841] [DH-Full Data Migration Thread[0]/INFO] [DistantHorizons-com.seibel.distanthorizons.core.file.fullDatafile.FullDataSourceProviderV2/]: No migration necessary.
-[31Aug2025 02:28:54.855] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.level.AbstractDhServerLevel/]: Started DhServerLevel for [Wrapped{ServerLevel[world]@minecraft:the_nether}] at [[LocalSaveStructure@(./world/data;./world/DIM-1/data;./world/DIM1/data;./world/dimensions/aether/the_aether/data)]].
-[31Aug2025 02:28:54.858] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
-[31Aug2025 02:28:57.802] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[31Aug2025 02:28:57.834] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[31Aug2025 02:28:57.872] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[31Aug2025 02:28:57.892] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[31Aug2025 02:28:57.906] [Worker-Main-4/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[31Aug2025 02:28:57.916] [Worker-Main-4/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[31Aug2025 02:28:57.935] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[31Aug2025 02:28:58.360] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 3%
-[31Aug2025 02:28:58.860] [Worker-Main-4/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 61%
-[31Aug2025 02:28:59.335] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 4476 ms
-[31Aug2025 02:28:59.336] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (10.913s)! For help, type "help"
-[31Aug2025 02:28:59.408] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
-[31Aug2025 02:28:59.488] [Server thread/INFO] [cyclopscore/]: Loading infobook /data/cyclopscore/info/test.xml
-[31Aug2025 02:28:59.572] [Server thread/INFO] [evilcraft/]: Loading infobook /data/evilcraft/info/book.xml
-[31Aug2025 02:28:59.618] [Server thread/WARN] [evilcraft/]: Invalid appendix info_book.evilcraft.second_age.tools.broom from mod evilcraft in an infobook: The broom modifier evilcraft:witherer has no valid items
-[31Aug2025 02:28:59.619] [Server thread/WARN] [evilcraft/]: Invalid appendix info_book.evilcraft.second_age.tools.broom from mod evilcraft in an infobook: The broom modifier evilcraft:hungerer has no valid items
-[31Aug2025 02:28:59.619] [Server thread/WARN] [evilcraft/]: Invalid appendix info_book.evilcraft.second_age.tools.broom from mod evilcraft in an infobook: The broom modifier evilcraft:kamikaze has no valid items
-[31Aug2025 02:28:59.619] [Server thread/WARN] [evilcraft/]: Invalid appendix info_book.evilcraft.second_age.tools.broom from mod evilcraft in an infobook: The broom modifier evilcraft:withershield has no valid items
-[31Aug2025 02:28:59.714] [Server thread/INFO] [net.bettercombat.logic.WeaponRegistry/]: Encoded Weapon Attribute registry size (with package overhead): 66555 bytes (in 7 string chunks with the size of 10000)
-[31Aug2025 02:29:00.433] [Server thread/INFO] [corail_dt/]: Loaded 6397 deconstruction schemas, 712ms
-[31Aug2025 02:29:00.454] [Server thread/INFO] [Silent Gear/TraitManager]: Traits loaded: 70
-[31Aug2025 02:29:00.454] [Server thread/INFO] [Silent Gear/PartManager]: Parts loaded: 45
-[31Aug2025 02:29:00.455] [Server thread/INFO] [Silent Gear/PartManager]: - Compound: 41
-[31Aug2025 02:29:00.455] [Server thread/INFO] [Silent Gear/PartManager]: - Simple: 4
-[31Aug2025 02:29:00.455] [Server thread/INFO] [Silent Gear/MaterialManager]: Materials loaded: 128
-[31Aug2025 02:29:00.456] [Server thread/INFO] [Silent Gear/MaterialManager]: - Standard: 122
-[31Aug2025 02:29:00.463] [Server thread/INFO] [patchouli/]: Sending reload packet to clients
-[31Aug2025 02:29:00.601] [Server thread/INFO] [LodWorldGen/]: DH TerraFirmaCraft detection: false
-[31Aug2025 02:29:00.604] [Server thread/INFO] [LodWorldGen/]: ================WORLD_GEN_STEP_INITING=============
-[31Aug2025 02:29:00.605] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.generation.BatchGenerator/]: Batch Chunk Generator initialized
-[31Aug2025 02:29:00.609] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.generation.WorldGenerationQueue/]: Creating world gen queue
-[31Aug2025 02:29:00.610] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.generation.WorldGenerationQueue/]: Created world gen queue
-[31Aug2025 02:29:00.610] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.file.fullDatafile.GeneratedFullDataSourceProvider/]: Set world gen queue for level [minecraft:overworld].
-[31Aug2025 02:29:00.611] [Server thread/INFO] [LodWorldGen/]: ================WORLD_GEN_STEP_INITING=============
-[31Aug2025 02:29:00.612] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.generation.BatchGenerator/]: Batch Chunk Generator initialized
-[31Aug2025 02:29:00.613] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.generation.WorldGenerationQueue/]: Creating world gen queue
-[31Aug2025 02:29:00.613] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.generation.WorldGenerationQueue/]: Created world gen queue
-[31Aug2025 02:29:00.613] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.file.fullDatafile.GeneratedFullDataSourceProvider/]: Set world gen queue for level [minecraft:the_nether].
-[31Aug2025 02:29:00.614] [Server thread/INFO] [LodWorldGen/]: ================WORLD_GEN_STEP_INITING=============
-[31Aug2025 02:29:00.614] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.generation.BatchGenerator/]: Batch Chunk Generator initialized
-[31Aug2025 02:29:00.614] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.generation.WorldGenerationQueue/]: Creating world gen queue
-[31Aug2025 02:29:00.614] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.generation.WorldGenerationQueue/]: Created world gen queue
-[31Aug2025 02:29:00.614] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.file.fullDatafile.GeneratedFullDataSourceProvider/]: Set world gen queue for level [minecraft:the_end].
-[31Aug2025 02:29:00.615] [Server thread/INFO] [LodWorldGen/]: ================WORLD_GEN_STEP_INITING=============
-[31Aug2025 02:29:00.615] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.generation.BatchGenerator/]: Batch Chunk Generator initialized
-[31Aug2025 02:29:00.615] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.generation.WorldGenerationQueue/]: Creating world gen queue
-[31Aug2025 02:29:00.615] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.generation.WorldGenerationQueue/]: Created world gen queue
-[31Aug2025 02:29:00.616] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.file.fullDatafile.GeneratedFullDataSourceProvider/]: Set world gen queue for level [aether:the_aether].
-[31Aug2025 02:29:43.071] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: CJRicky[/127.184.229.103:53595] logged in with entity id 272 at (-3.5, 65.0, 7.5)
-[31Aug2025 02:29:43.126] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: CJRicky joined the game
-[31Aug2025 02:29:43.419] [Server thread/INFO] [Jade/]: Syncing config to CJRicky (b593830c-04d1-3b98-b65d-2762b864dae6)
-[31Aug2025 02:29:43.471] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.api.internal.ServerApi/]: Player [CJRicky] joined.
-[31Aug2025 02:29:44.354] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: CJRicky has made the advancement [Deconstruction]
-[31Aug2025 02:30:07.395] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <CJRicky> PENE ME GUSTAN MUCHO LOS PENES
-[31Aug2025 02:30:13.136] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: CJRicky lost connection: Timed out
-[31Aug2025 02:30:13.138] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: CJRicky left the game
-[31Aug2025 02:30:13.139] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.api.internal.ServerApi/]: Player [CJRicky] disconnected.
-[31Aug2025 02:31:31.367] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping the server
-[31Aug2025 02:31:31.414] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.world.AbstractDhWorld/]: Unloading level [minecraft:overworld].
-[31Aug2025 02:31:31.415] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.generation.WorldGenerationQueue/]: Closing world gen queue
-[31Aug2025 02:31:31.416] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.generation.WorldGenerationQueue/]: Closing WorldGenerationQueue...
-[31Aug2025 02:31:31.416] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.generation.WorldGenerationQueue/]: Awaiting world generator thread pool termination...
-[31Aug2025 02:31:31.416] [Server thread/WARN] [DistantHorizons-com.seibel.distanthorizons.core.generation.WorldGenerationQueue/]: World generator thread pool shutdown didn't complete after [3] seconds. Some world generator requests may still be running.
-[31Aug2025 02:31:31.417] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.generation.BatchGenerator/]: BatchGenerator shutting down...
-[31Aug2025 02:31:31.417] [Server thread/INFO] [LodWorldGen/]: BatchGenerationEnvironment shutting down...
-[31Aug2025 02:31:31.417] [Server thread/INFO] [LodWorldGen/]: Canceling in progress generation event futures...
-[31Aug2025 02:31:31.417] [Server thread/INFO] [LodWorldGen/]: BatchGenerationEnvironment shutdown complete.
-[31Aug2025 02:31:31.417] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.generation.WorldGenerationQueue/]: Finished closing WorldGenerationQueue
-[31Aug2025 02:31:31.618] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.file.AbstractDataSourceHandler/]: Closing [GeneratedFullDataSourceProvider] for level: [DhServerLevel{rcllp78hlac4q@minecraft:overworld}].
-[31Aug2025 02:31:31.619] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.file.fullDatafile.FullDataSourceProviderV1/]: Closing [FullDataSourceProviderV1] for level: [DhServerLevel{rcllp78hlac4q@minecraft:overworld}].
-[31Aug2025 02:31:31.619] [DH-Parent Update Queue [minecraft:overworld] Thread[0]/INFO] [DistantHorizons-com.seibel.distanthorizons.core.file.fullDatafile.FullDataSourceProviderV2/]: Update thread [DH-Parent Update Queue [minecraft:overworld] Thread[0]] terminated.
-[31Aug2025 02:31:31.619] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.sql.repo.AbstractDhRepo/]: Closing database connection: [jdbc:dh_sqlite:./world/data/DistantHorizons.sqlite]...
-[31Aug2025 02:31:31.642] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.sql.repo.AbstractDhRepo/]: Finished closing database connection: [jdbc:dh_sqlite:./world/data/DistantHorizons.sqlite]
-[31Aug2025 02:31:31.642] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.level.AbstractDhServerLevel/]: Closed DHLevel for [Wrapped{ServerLevel[world]@minecraft:overworld}].
-[31Aug2025 02:31:31.843] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.file.AbstractDataSourceHandler/]: Closing [GeneratedFullDataSourceProvider] for level: [DhServerLevel{rcllp78hlac4q@minecraft:overworld}].
-[31Aug2025 02:31:31.843] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.file.fullDatafile.FullDataSourceProviderV1/]: Closing [FullDataSourceProviderV1] for level: [DhServerLevel{rcllp78hlac4q@minecraft:overworld}].
-[31Aug2025 02:31:31.844] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.level.AbstractDhServerLevel/]: Closed DHLevel for [Wrapped{ServerLevel[world]@minecraft:overworld}].
-[31Aug2025 02:31:31.844] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.world.AbstractDhWorld/]: Unloading level [minecraft:the_nether].
-[31Aug2025 02:31:31.844] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.generation.WorldGenerationQueue/]: Closing world gen queue
-[31Aug2025 02:31:31.844] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.generation.WorldGenerationQueue/]: Closing WorldGenerationQueue...
-[31Aug2025 02:31:31.844] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.generation.WorldGenerationQueue/]: Awaiting world generator thread pool termination...
-[31Aug2025 02:31:31.845] [Server thread/WARN] [DistantHorizons-com.seibel.distanthorizons.core.generation.WorldGenerationQueue/]: World generator thread pool shutdown didn't complete after [3] seconds. Some world generator requests may still be running.
-[31Aug2025 02:31:31.845] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.generation.BatchGenerator/]: BatchGenerator shutting down...
-[31Aug2025 02:31:31.845] [Server thread/INFO] [LodWorldGen/]: BatchGenerationEnvironment shutting down...
-[31Aug2025 02:31:31.845] [Server thread/INFO] [LodWorldGen/]: Canceling in progress generation event futures...
-[31Aug2025 02:31:31.846] [Server thread/INFO] [LodWorldGen/]: BatchGenerationEnvironment shutdown complete.
-[31Aug2025 02:31:31.846] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.generation.WorldGenerationQueue/]: Finished closing WorldGenerationQueue
-[31Aug2025 02:31:32.046] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.file.AbstractDataSourceHandler/]: Closing [GeneratedFullDataSourceProvider] for level: [DhServerLevel{rcllp78hlac4q@minecraft:the_nether}].
-[31Aug2025 02:31:32.046] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.file.fullDatafile.FullDataSourceProviderV1/]: Closing [FullDataSourceProviderV1] for level: [DhServerLevel{rcllp78hlac4q@minecraft:the_nether}].
-[31Aug2025 02:31:32.046] [DH-Parent Update Queue [minecraft:the_nether] Thread[0]/INFO] [DistantHorizons-com.seibel.distanthorizons.core.file.fullDatafile.FullDataSourceProviderV2/]: Update thread [DH-Parent Update Queue [minecraft:the_nether] Thread[0]] terminated.
-[31Aug2025 02:31:32.047] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.sql.repo.AbstractDhRepo/]: Closing database connection: [jdbc:dh_sqlite:./world/DIM-1/data/DistantHorizons.sqlite]...
-[31Aug2025 02:31:32.047] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.sql.repo.AbstractDhRepo/]: Finished closing database connection: [jdbc:dh_sqlite:./world/DIM-1/data/DistantHorizons.sqlite]
-[31Aug2025 02:31:32.047] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.level.AbstractDhServerLevel/]: Closed DHLevel for [Wrapped{ServerLevel[world]@minecraft:the_nether}].
-[31Aug2025 02:31:32.247] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.file.AbstractDataSourceHandler/]: Closing [GeneratedFullDataSourceProvider] for level: [DhServerLevel{rcllp78hlac4q@minecraft:the_nether}].
-[31Aug2025 02:31:32.248] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.file.fullDatafile.FullDataSourceProviderV1/]: Closing [FullDataSourceProviderV1] for level: [DhServerLevel{rcllp78hlac4q@minecraft:the_nether}].
-[31Aug2025 02:31:32.248] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.level.AbstractDhServerLevel/]: Closed DHLevel for [Wrapped{ServerLevel[world]@minecraft:the_nether}].
-[31Aug2025 02:31:32.248] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.world.AbstractDhWorld/]: Unloading level [minecraft:the_end].
-[31Aug2025 02:31:32.249] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.generation.WorldGenerationQueue/]: Closing world gen queue
-[31Aug2025 02:31:32.249] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.generation.WorldGenerationQueue/]: Closing WorldGenerationQueue...
-[31Aug2025 02:31:32.249] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.generation.WorldGenerationQueue/]: Awaiting world generator thread pool termination...
-[31Aug2025 02:31:32.249] [Server thread/WARN] [DistantHorizons-com.seibel.distanthorizons.core.generation.WorldGenerationQueue/]: World generator thread pool shutdown didn't complete after [3] seconds. Some world generator requests may still be running.
-[31Aug2025 02:31:32.249] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.generation.BatchGenerator/]: BatchGenerator shutting down...
-[31Aug2025 02:31:32.249] [Server thread/INFO] [LodWorldGen/]: BatchGenerationEnvironment shutting down...
-[31Aug2025 02:31:32.250] [Server thread/INFO] [LodWorldGen/]: Canceling in progress generation event futures...
-[31Aug2025 02:31:32.250] [Server thread/INFO] [LodWorldGen/]: BatchGenerationEnvironment shutdown complete.
-[31Aug2025 02:31:32.250] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.generation.WorldGenerationQueue/]: Finished closing WorldGenerationQueue
-[31Aug2025 02:31:32.450] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.file.AbstractDataSourceHandler/]: Closing [GeneratedFullDataSourceProvider] for level: [DhServerLevel{rcllp78hlac4q@minecraft:the_end}].
-[31Aug2025 02:31:32.451] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.file.fullDatafile.FullDataSourceProviderV1/]: Closing [FullDataSourceProviderV1] for level: [DhServerLevel{rcllp78hlac4q@minecraft:the_end}].
-[31Aug2025 02:31:32.451] [DH-Parent Update Queue [minecraft:the_end] Thread[0]/INFO] [DistantHorizons-com.seibel.distanthorizons.core.file.fullDatafile.FullDataSourceProviderV2/]: Update thread [DH-Parent Update Queue [minecraft:the_end] Thread[0]] terminated.
-[31Aug2025 02:31:32.451] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.sql.repo.AbstractDhRepo/]: Closing database connection: [jdbc:dh_sqlite:./world/DIM1/data/DistantHorizons.sqlite]...
-[31Aug2025 02:31:32.451] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.sql.repo.AbstractDhRepo/]: Finished closing database connection: [jdbc:dh_sqlite:./world/DIM1/data/DistantHorizons.sqlite]
-[31Aug2025 02:31:32.451] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.level.AbstractDhServerLevel/]: Closed DHLevel for [Wrapped{ServerLevel[world]@minecraft:the_end}].
-[31Aug2025 02:31:32.652] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.file.AbstractDataSourceHandler/]: Closing [GeneratedFullDataSourceProvider] for level: [DhServerLevel{rcllp78hlac4q@minecraft:the_end}].
-[31Aug2025 02:31:32.652] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.file.fullDatafile.FullDataSourceProviderV1/]: Closing [FullDataSourceProviderV1] for level: [DhServerLevel{rcllp78hlac4q@minecraft:the_end}].
-[31Aug2025 02:31:32.652] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.level.AbstractDhServerLevel/]: Closed DHLevel for [Wrapped{ServerLevel[world]@minecraft:the_end}].
-[31Aug2025 02:31:32.652] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.world.AbstractDhWorld/]: Unloading level [aether:the_aether].
-[31Aug2025 02:31:32.652] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.generation.WorldGenerationQueue/]: Closing world gen queue
-[31Aug2025 02:31:32.653] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.generation.WorldGenerationQueue/]: Closing WorldGenerationQueue...
-[31Aug2025 02:31:32.653] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.generation.WorldGenerationQueue/]: Awaiting world generator thread pool termination...
-[31Aug2025 02:31:32.653] [Server thread/WARN] [DistantHorizons-com.seibel.distanthorizons.core.generation.WorldGenerationQueue/]: World generator thread pool shutdown didn't complete after [3] seconds. Some world generator requests may still be running.
-[31Aug2025 02:31:32.653] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.generation.BatchGenerator/]: BatchGenerator shutting down...
-[31Aug2025 02:31:32.653] [Server thread/INFO] [LodWorldGen/]: BatchGenerationEnvironment shutting down...
-[31Aug2025 02:31:32.653] [Server thread/INFO] [LodWorldGen/]: Canceling in progress generation event futures...
-[31Aug2025 02:31:32.654] [Server thread/INFO] [LodWorldGen/]: BatchGenerationEnvironment shutdown complete.
-[31Aug2025 02:31:32.654] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.generation.WorldGenerationQueue/]: Finished closing WorldGenerationQueue
-[31Aug2025 02:31:32.854] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.file.AbstractDataSourceHandler/]: Closing [GeneratedFullDataSourceProvider] for level: [DhServerLevel{rcllp78hlac4q@aether:the_aether}].
-[31Aug2025 02:31:32.854] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.file.fullDatafile.FullDataSourceProviderV1/]: Closing [FullDataSourceProviderV1] for level: [DhServerLevel{rcllp78hlac4q@aether:the_aether}].
-[31Aug2025 02:31:32.854] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.sql.repo.AbstractDhRepo/]: Closing database connection: [jdbc:dh_sqlite:./world/dimensions/aether/the_aether/data/DistantHorizons.sqlite]...
-[31Aug2025 02:31:32.855] [DH-Parent Update Queue [aether:the_aether] Thread[0]/INFO] [DistantHorizons-com.seibel.distanthorizons.core.file.fullDatafile.FullDataSourceProviderV2/]: Update thread [DH-Parent Update Queue [aether:the_aether] Thread[0]] terminated.
-[31Aug2025 02:31:32.855] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.sql.repo.AbstractDhRepo/]: Finished closing database connection: [jdbc:dh_sqlite:./world/dimensions/aether/the_aether/data/DistantHorizons.sqlite]
-[31Aug2025 02:31:32.855] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.level.AbstractDhServerLevel/]: Closed DHLevel for [Wrapped{ServerLevel[world]@aether:the_aether}].
-[31Aug2025 02:31:33.056] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.file.AbstractDataSourceHandler/]: Closing [GeneratedFullDataSourceProvider] for level: [DhServerLevel{rcllp78hlac4q@aether:the_aether}].
-[31Aug2025 02:31:33.056] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.file.fullDatafile.FullDataSourceProviderV1/]: Closing [FullDataSourceProviderV1] for level: [DhServerLevel{rcllp78hlac4q@aether:the_aether}].
-[31Aug2025 02:31:33.056] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.level.AbstractDhServerLevel/]: Closed DHLevel for [Wrapped{ServerLevel[world]@aether:the_aether}].
-[31Aug2025 02:31:33.056] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.world.AbstractDhWorld/]: Closed DhWorld of type [SERVER_ONLY].
-[31Aug2025 02:31:33.056] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.world.AbstractDhWorld/]: Closed DhWorld of type [SERVER_ONLY].
-[31Aug2025 02:31:33.057] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.util.threading.PriorityTaskPicker/]: Shutting down PriorityTaskPicker thread pool...
-[31Aug2025 02:31:33.057] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.sql.repo.AbstractDhRepo/]: Closing all [0] database connections...
-[31Aug2025 02:31:33.684] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
-[31Aug2025 02:31:33.684] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
-[31Aug2025 02:31:33.684] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
-[31Aug2025 02:31:34.440] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[31Aug2025 02:31:35.936] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/aether:the_aether
-[31Aug2025 02:31:35.937] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[31Aug2025 02:31:35.938] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[31Aug2025 02:31:35.998] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[31Aug2025 02:31:35.999] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (the_aether): All chunks are saved
-[31Aug2025 02:31:35.999] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[31Aug2025 02:31:35.999] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[31Aug2025 02:31:35.999] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
-[31Aug2025 02:31:36.030] [Server thread/INFO] [journeymap/]: Loading JourneyMap Forge Configs
+[31Aug2025 22:42:21.083] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 58 recipes
+[31Aug2025 22:42:21.284] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 3697 advancements
+[31Aug2025 22:42:21.316] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 18 curio slots
+[31Aug2025 22:42:21.326] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 9 curio entities
+[31Aug2025 22:42:21.328] [main/INFO] [Silent Gear/TraitManager]: Reloading trait files
+[31Aug2025 22:42:21.328] [main/INFO] [Silent Gear/]: Deserializing trait silentgear:accelerate in pack silent-gear-1.20.1-3.6.6.jar
+[31Aug2025 22:42:21.330] [main/INFO] [Silent Gear/TraitManager]: Registered condition serializer 'silentgear:not'
+[31Aug2025 22:42:21.331] [main/INFO] [Silent Gear/TraitManager]: Registered condition serializer 'silentgear:and'
+[31Aug2025 22:42:21.332] [main/INFO] [Silent Gear/TraitManager]: Registered condition serializer 'silentgear:or'
+[31Aug2025 22:42:21.333] [main/INFO] [Silent Gear/TraitManager]: Registered condition serializer 'silentgear:gear_type'
+[31Aug2025 22:42:21.335] [main/INFO] [Silent Gear/TraitManager]: Registered condition serializer 'silentgear:material_count'
+[31Aug2025 22:42:21.336] [main/INFO] [Silent Gear/TraitManager]: Registered condition serializer 'silentgear:material_ratio'
+[31Aug2025 22:42:21.337] [main/INFO] [Silent Gear/TraitManager]: Registered serializer 'silentgear:simple_trait'
+[31Aug2025 22:42:21.341] [main/INFO] [Silent Gear/TraitManager]: Registered serializer 'silentgear:damage_type'
+[31Aug2025 22:42:21.343] [main/INFO] [Silent Gear/TraitManager]: Registered serializer 'silentgear:durability'
+[31Aug2025 22:42:21.345] [main/INFO] [Silent Gear/TraitManager]: Registered serializer 'silentgear:enchantment'
+[31Aug2025 22:42:21.346] [main/INFO] [Silent Gear/TraitManager]: Registered serializer 'silentgear:nbt'
+[31Aug2025 22:42:21.348] [main/INFO] [Silent Gear/TraitManager]: Registered serializer 'silentgear:wielder_effect'
+[31Aug2025 22:42:21.349] [main/INFO] [Silent Gear/TraitManager]: Registered serializer 'silentgear:stat_modifier'
+[31Aug2025 22:42:21.351] [main/INFO] [Silent Gear/TraitManager]: Registered serializer 'silentgear:attribute'
+[31Aug2025 22:42:21.353] [main/INFO] [Silent Gear/TraitManager]: Registered serializer 'silentgear:block_placer'
+[31Aug2025 22:42:21.355] [main/INFO] [Silent Gear/TraitManager]: Registered serializer 'silentgear:block_filler'
+[31Aug2025 22:42:21.356] [main/INFO] [Silent Gear/TraitManager]: Registered serializer 'silentgear:synergy'
+[31Aug2025 22:42:21.357] [main/INFO] [Silent Gear/TraitManager]: Registered serializer 'silentgear:target_effect'
+[31Aug2025 22:42:21.358] [main/INFO] [Silent Gear/TraitManager]: Registered serializer 'silentgear:bonus_drops'
+[31Aug2025 22:42:21.359] [main/INFO] [Silent Gear/TraitManager]: Registered serializer 'silentgear:cancel_effects'
+[31Aug2025 22:42:21.360] [main/INFO] [Silent Gear/TraitManager]: Registered serializer 'silentgear:self_repair'
+[31Aug2025 22:42:21.361] [main/INFO] [Silent Gear/TraitManager]: Registered serializer 'silentgear:stellar'
+[31Aug2025 22:42:21.361] [main/INFO] [Silent Gear/TraitManager]: Registered serializer 'silentgear:block_mining_speed'
+[31Aug2025 22:42:21.362] [main/INFO] [Silent Gear/]: Deserializing trait silentgear:adamant in pack silent-gear-1.20.1-3.6.6.jar
+[31Aug2025 22:42:21.363] [main/INFO] [Silent Gear/]: Deserializing trait silentgear:ancient in pack silent-gear-1.20.1-3.6.6.jar
+[31Aug2025 22:42:21.363] [main/INFO] [Silent Gear/]: Deserializing trait silentgear:aquatic in pack silent-gear-1.20.1-3.6.6.jar
+[31Aug2025 22:42:21.363] [main/INFO] [Silent Gear/]: Deserializing trait silentgear:bastion in pack silent-gear-1.20.1-3.6.6.jar
+[31Aug2025 22:42:21.364] [main/INFO] [Silent Gear/]: Deserializing trait silentgear:bending in pack silent-gear-1.20.1-3.6.6.jar
+[31Aug2025 22:42:21.364] [main/INFO] [Silent Gear/]: Deserializing trait silentgear:bounce in pack silent-gear-1.20.1-3.6.6.jar
+[31Aug2025 22:42:21.365] [main/INFO] [Silent Gear/]: Deserializing trait silentgear:brilliant in pack silent-gear-1.20.1-3.6.6.jar
+[31Aug2025 22:42:21.365] [main/INFO] [Silent Gear/]: Deserializing trait silentgear:brittle in pack silent-gear-1.20.1-3.6.6.jar
+[31Aug2025 22:42:21.365] [main/INFO] [Silent Gear/]: Deserializing trait silentgear:bulky in pack silent-gear-1.20.1-3.6.6.jar
+[31Aug2025 22:42:21.365] [main/INFO] [Silent Gear/]: Deserializing trait silentgear:chilled in pack silent-gear-1.20.1-3.6.6.jar
+[31Aug2025 22:42:21.365] [main/INFO] [Silent Gear/]: Deserializing trait silentgear:chipping in pack silent-gear-1.20.1-3.6.6.jar
+[31Aug2025 22:42:21.365] [main/INFO] [Silent Gear/]: Deserializing trait silentgear:confetti in pack silent-gear-1.20.1-3.6.6.jar
+[31Aug2025 22:42:21.366] [main/INFO] [Silent Gear/]: Deserializing trait silentgear:crackler in pack silent-gear-1.20.1-3.6.6.jar
+[31Aug2025 22:42:21.366] [main/INFO] [Silent Gear/]: Deserializing trait silentgear:crude in pack silent-gear-1.20.1-3.6.6.jar
+[31Aug2025 22:42:21.366] [main/INFO] [Silent Gear/]: Deserializing trait silentgear:crushing in pack silent-gear-1.20.1-3.6.6.jar
+[31Aug2025 22:42:21.366] [main/INFO] [Silent Gear/]: Deserializing trait silentgear:cure_poison in pack silent-gear-1.20.1-3.6.6.jar
+[31Aug2025 22:42:21.367] [main/INFO] [Silent Gear/]: Deserializing trait silentgear:cure_wither in pack silent-gear-1.20.1-3.6.6.jar
+[31Aug2025 22:42:21.367] [main/INFO] [Silent Gear/]: Deserializing trait silentgear:cursed in pack silent-gear-1.20.1-3.6.6.jar
+[31Aug2025 22:42:21.367] [main/INFO] [Silent Gear/]: Deserializing trait silentgear:eroded in pack silent-gear-1.20.1-3.6.6.jar
+[31Aug2025 22:42:21.367] [main/INFO] [Silent Gear/]: Deserializing trait silentgear:fiery in pack silent-gear-1.20.1-3.6.6.jar
+[31Aug2025 22:42:21.368] [main/INFO] [Silent Gear/]: Deserializing trait silentgear:fireproof in pack silent-gear-1.20.1-3.6.6.jar
+[31Aug2025 22:42:21.368] [main/INFO] [Silent Gear/]: Deserializing trait silentgear:flame_ward in pack silent-gear-1.20.1-3.6.6.jar
+[31Aug2025 22:42:21.369] [main/INFO] [Silent Gear/]: Deserializing trait silentgear:flammable in pack silent-gear-1.20.1-3.6.6.jar
+[31Aug2025 22:42:21.369] [main/INFO] [Silent Gear/]: Deserializing trait silentgear:flexible in pack silent-gear-1.20.1-3.6.6.jar
+[31Aug2025 22:42:21.369] [main/INFO] [Silent Gear/]: Deserializing trait silentgear:floatstoner in pack silent-gear-1.20.1-3.6.6.jar
+[31Aug2025 22:42:21.369] [main/INFO] [Silent Gear/]: Deserializing trait silentgear:gold_digger in pack silent-gear-1.20.1-3.6.6.jar
+[31Aug2025 22:42:21.370] [main/INFO] [Silent Gear/]: Deserializing trait silentgear:greedy in pack silent-gear-1.20.1-3.6.6.jar
+[31Aug2025 22:42:21.370] [main/INFO] [Silent Gear/]: Deserializing trait silentgear:hard in pack silent-gear-1.20.1-3.6.6.jar
+[31Aug2025 22:42:21.370] [main/INFO] [Silent Gear/]: Deserializing trait silentgear:heavy in pack silent-gear-1.20.1-3.6.6.jar
+[31Aug2025 22:42:21.370] [main/INFO] [Silent Gear/]: Deserializing trait silentgear:holy in pack silent-gear-1.20.1-3.6.6.jar
+[31Aug2025 22:42:21.370] [main/INFO] [Silent Gear/]: Deserializing trait silentgear:ignite in pack silent-gear-1.20.1-3.6.6.jar
+[31Aug2025 22:42:21.371] [main/INFO] [Silent Gear/]: Deserializing trait silentgear:imperial in pack silent-gear-1.20.1-3.6.6.jar
+[31Aug2025 22:42:21.371] [main/INFO] [Silent Gear/]: Deserializing trait silentgear:indestructible in pack silent-gear-1.20.1-3.6.6.jar
+[31Aug2025 22:42:21.371] [main/INFO] [Silent Gear/]: Deserializing trait silentgear:jabberwocky in pack silent-gear-1.20.1-3.6.6.jar
+[31Aug2025 22:42:21.371] [main/INFO] [Silent Gear/]: Deserializing trait silentgear:jagged in pack silent-gear-1.20.1-3.6.6.jar
+[31Aug2025 22:42:21.371] [main/INFO] [Silent Gear/]: Deserializing trait silentgear:kitty_vision in pack silent-gear-1.20.1-3.6.6.jar
+[31Aug2025 22:42:21.372] [main/INFO] [Silent Gear/]: Deserializing trait silentgear:light in pack silent-gear-1.20.1-3.6.6.jar
+[31Aug2025 22:42:21.372] [main/INFO] [Silent Gear/]: Deserializing trait silentgear:lucky in pack silent-gear-1.20.1-3.6.6.jar
+[31Aug2025 22:42:21.372] [main/INFO] [Silent Gear/]: Deserializing trait silentgear:lustrous in pack silent-gear-1.20.1-3.6.6.jar
+[31Aug2025 22:42:21.372] [main/INFO] [Silent Gear/]: Deserializing trait silentgear:magmatic in pack silent-gear-1.20.1-3.6.6.jar
+[31Aug2025 22:42:21.372] [main/INFO] [Silent Gear/]: Deserializing trait silentgear:magnetic in pack silent-gear-1.20.1-3.6.6.jar
+[31Aug2025 22:42:21.373] [main/INFO] [Silent Gear/]: Deserializing trait silentgear:malleable in pack silent-gear-1.20.1-3.6.6.jar
+[31Aug2025 22:42:21.373] [main/INFO] [Silent Gear/]: Deserializing trait silentgear:mighty in pack silent-gear-1.20.1-3.6.6.jar
+[31Aug2025 22:42:21.373] [main/INFO] [Silent Gear/]: Deserializing trait silentgear:moonwalker in pack silent-gear-1.20.1-3.6.6.jar
+[31Aug2025 22:42:21.373] [main/INFO] [Silent Gear/]: Deserializing trait silentgear:multi_break in pack silent-gear-1.20.1-3.6.6.jar
+[31Aug2025 22:42:21.374] [main/INFO] [Silent Gear/]: Deserializing trait silentgear:nc_radiation_protection in pack silent-gear-1.20.1-3.6.6.jar
+[31Aug2025 22:42:21.374] [main/INFO] [Silent Gear/]: Deserializing trait silentgear:organic in pack silent-gear-1.20.1-3.6.6.jar
+[31Aug2025 22:42:21.375] [main/INFO] [Silent Gear/]: Deserializing trait silentgear:racker in pack silent-gear-1.20.1-3.6.6.jar
+[31Aug2025 22:42:21.375] [main/INFO] [Silent Gear/]: Deserializing trait silentgear:reach in pack silent-gear-1.20.1-3.6.6.jar
+[31Aug2025 22:42:21.375] [main/INFO] [Silent Gear/]: Deserializing trait silentgear:red_card in pack silent-gear-1.20.1-3.6.6.jar
+[31Aug2025 22:42:21.375] [main/INFO] [Silent Gear/]: Deserializing trait silentgear:refractive in pack silent-gear-1.20.1-3.6.6.jar
+[31Aug2025 22:42:21.375] [main/INFO] [Silent Gear/]: Deserializing trait silentgear:renew in pack silent-gear-1.20.1-3.6.6.jar
+[31Aug2025 22:42:21.376] [main/INFO] [Silent Gear/]: Deserializing trait silentgear:road_maker in pack silent-gear-1.20.1-3.6.6.jar
+[31Aug2025 22:42:21.376] [main/INFO] [Silent Gear/]: Deserializing trait silentgear:rustic in pack silent-gear-1.20.1-3.6.6.jar
+[31Aug2025 22:42:21.376] [main/INFO] [Silent Gear/]: Deserializing trait silentgear:sharp in pack silent-gear-1.20.1-3.6.6.jar
+[31Aug2025 22:42:21.376] [main/INFO] [Silent Gear/]: Deserializing trait silentgear:silky in pack silent-gear-1.20.1-3.6.6.jar
+[31Aug2025 22:42:21.376] [main/INFO] [Silent Gear/]: Deserializing trait silentgear:snow_walker in pack silent-gear-1.20.1-3.6.6.jar
+[31Aug2025 22:42:21.377] [main/INFO] [Silent Gear/]: Deserializing trait silentgear:soft in pack silent-gear-1.20.1-3.6.6.jar
+[31Aug2025 22:42:21.377] [main/INFO] [Silent Gear/]: Deserializing trait silentgear:spoon in pack silent-gear-1.20.1-3.6.6.jar
+[31Aug2025 22:42:21.377] [main/INFO] [Silent Gear/]: Deserializing trait silentgear:stellar in pack silent-gear-1.20.1-3.6.6.jar
+[31Aug2025 22:42:21.377] [main/INFO] [Silent Gear/]: Deserializing trait silentgear:sturdy in pack silent-gear-1.20.1-3.6.6.jar
+[31Aug2025 22:42:21.377] [main/INFO] [Silent Gear/]: Deserializing trait silentgear:swift_swim in pack silent-gear-1.20.1-3.6.6.jar
+[31Aug2025 22:42:21.377] [main/INFO] [Silent Gear/]: Deserializing trait silentgear:synergistic in pack silent-gear-1.20.1-3.6.6.jar
+[31Aug2025 22:42:21.378] [main/INFO] [Silent Gear/]: Deserializing trait silentgear:terminus in pack silent-gear-1.20.1-3.6.6.jar
+[31Aug2025 22:42:21.378] [main/INFO] [Silent Gear/]: Deserializing trait silentgear:turtle in pack silent-gear-1.20.1-3.6.6.jar
+[31Aug2025 22:42:21.378] [main/INFO] [Silent Gear/]: Deserializing trait silentgear:venom in pack silent-gear-1.20.1-3.6.6.jar
+[31Aug2025 22:42:21.379] [main/INFO] [Silent Gear/]: Deserializing trait silentgear:void_ward in pack silent-gear-1.20.1-3.6.6.jar
+[31Aug2025 22:42:21.379] [main/INFO] [Silent Gear/]: Deserializing trait silentgear:vulcan in pack silent-gear-1.20.1-3.6.6.jar
+[31Aug2025 22:42:21.379] [main/INFO] [Silent Gear/]: Deserializing trait silentgear:widen in pack silent-gear-1.20.1-3.6.6.jar
+[31Aug2025 22:42:21.380] [main/INFO] [Silent Gear/TraitManager]: Registered 70 traits
+[31Aug2025 22:42:21.381] [main/INFO] [Silent Gear/PartManager]: Reloading part files
+[31Aug2025 22:42:21.381] [main/INFO] [Silent Gear/]: Deserializing part silentgear:adornment in pack silent-gear-1.20.1-3.6.6.jar
+[31Aug2025 22:42:21.387] [main/INFO] [Silent Gear/PartManager]: Registered part serializer 'silentgear:compound_part'
+[31Aug2025 22:42:21.387] [main/INFO] [Silent Gear/PartManager]: Registered part serializer 'silentgear:misc_upgrade'
+[31Aug2025 22:42:21.390] [main/INFO] [Silent Gear/]: Deserializing part silentgear:arrow_heads in pack silent-gear-1.20.1-3.6.6.jar
+[31Aug2025 22:42:21.395] [main/INFO] [Silent Gear/]: Deserializing part silentgear:axe_head in pack silent-gear-1.20.1-3.6.6.jar
+[31Aug2025 22:42:21.395] [main/INFO] [Silent Gear/]: Deserializing part silentgear:binding in pack silent-gear-1.20.1-3.6.6.jar
+[31Aug2025 22:42:21.395] [main/INFO] [Silent Gear/]: Deserializing part silentgear:boot_plates in pack silent-gear-1.20.1-3.6.6.jar
+[31Aug2025 22:42:21.395] [main/INFO] [Silent Gear/]: Deserializing part silentgear:bow_limbs in pack silent-gear-1.20.1-3.6.6.jar
+[31Aug2025 22:42:21.395] [main/INFO] [Silent Gear/]: Deserializing part silentgear:bowstring in pack silent-gear-1.20.1-3.6.6.jar
+[31Aug2025 22:42:21.396] [main/INFO] [Silent Gear/]: Deserializing part silentgear:bracelet_band in pack silent-gear-1.20.1-3.6.6.jar
+[31Aug2025 22:42:21.396] [main/INFO] [Silent Gear/]: Deserializing part silentgear:chestplate_plates in pack silent-gear-1.20.1-3.6.6.jar
+[31Aug2025 22:42:21.396] [main/INFO] [Silent Gear/]: Deserializing part silentgear:coating in pack silent-gear-1.20.1-3.6.6.jar
+[31Aug2025 22:42:21.396] [main/INFO] [Silent Gear/]: Deserializing part silentgear:crossbow_limbs in pack silent-gear-1.20.1-3.6.6.jar
+[31Aug2025 22:42:21.397] [main/INFO] [Silent Gear/]: Deserializing part silentgear:dagger_blade in pack silent-gear-1.20.1-3.6.6.jar
+[31Aug2025 22:42:21.397] [main/INFO] [Silent Gear/]: Deserializing part silentgear:elytra_wings in pack silent-gear-1.20.1-3.6.6.jar
+[31Aug2025 22:42:21.397] [main/INFO] [Silent Gear/]: Deserializing part silentgear:excavator_head in pack silent-gear-1.20.1-3.6.6.jar
+[31Aug2025 22:42:21.397] [main/INFO] [Silent Gear/]: Deserializing part silentgear:fishing_reel_and_hook in pack silent-gear-1.20.1-3.6.6.jar
+[31Aug2025 22:42:21.398] [main/INFO] [Silent Gear/]: Deserializing part silentgear:fletching in pack silent-gear-1.20.1-3.6.6.jar
+[31Aug2025 22:42:21.398] [main/INFO] [Silent Gear/]: Deserializing part silentgear:grip in pack silent-gear-1.20.1-3.6.6.jar
+[31Aug2025 22:42:21.398] [main/INFO] [Silent Gear/]: Deserializing part silentgear:hammer_head in pack silent-gear-1.20.1-3.6.6.jar
+[31Aug2025 22:42:21.398] [main/INFO] [Silent Gear/]: Deserializing part silentgear:helmet_plates in pack silent-gear-1.20.1-3.6.6.jar
+[31Aug2025 22:42:21.398] [main/INFO] [Silent Gear/]: Deserializing part silentgear:hoe_head in pack silent-gear-1.20.1-3.6.6.jar
+[31Aug2025 22:42:21.399] [main/INFO] [Silent Gear/]: Deserializing part silentgear:katana_blade in pack silent-gear-1.20.1-3.6.6.jar
+[31Aug2025 22:42:21.399] [main/INFO] [Silent Gear/]: Deserializing part silentgear:knife_blade in pack silent-gear-1.20.1-3.6.6.jar
+[31Aug2025 22:42:21.399] [main/INFO] [Silent Gear/]: Deserializing part silentgear:legging_plates in pack silent-gear-1.20.1-3.6.6.jar
+[31Aug2025 22:42:21.399] [main/INFO] [Silent Gear/]: Deserializing part silentgear:lining in pack silent-gear-1.20.1-3.6.6.jar
+[31Aug2025 22:42:21.399] [main/INFO] [Silent Gear/]: Deserializing part silentgear:machete_blade in pack silent-gear-1.20.1-3.6.6.jar
+[31Aug2025 22:42:21.400] [main/INFO] [Silent Gear/]: Deserializing part silentgear:mattock_head in pack silent-gear-1.20.1-3.6.6.jar
+[31Aug2025 22:42:21.400] [main/INFO] [Silent Gear/]: Deserializing part silentgear:misc/red_card in pack silent-gear-1.20.1-3.6.6.jar
+[31Aug2025 22:42:21.402] [main/INFO] [Silent Gear/]: Deserializing part silentgear:misc/road_maker in pack silent-gear-1.20.1-3.6.6.jar
+[31Aug2025 22:42:21.402] [main/INFO] [Silent Gear/]: Deserializing part silentgear:misc/spoon in pack silent-gear-1.20.1-3.6.6.jar
+[31Aug2025 22:42:21.403] [main/INFO] [Silent Gear/]: Deserializing part silentgear:misc/wide_plate in pack silent-gear-1.20.1-3.6.6.jar
+[31Aug2025 22:42:21.403] [main/INFO] [Silent Gear/]: Deserializing part silentgear:paxel_head in pack silent-gear-1.20.1-3.6.6.jar
+[31Aug2025 22:42:21.403] [main/INFO] [Silent Gear/]: Deserializing part silentgear:pickaxe_head in pack silent-gear-1.20.1-3.6.6.jar
+[31Aug2025 22:42:21.404] [main/INFO] [Silent Gear/]: Deserializing part silentgear:prospector_hammer_head in pack silent-gear-1.20.1-3.6.6.jar
+[31Aug2025 22:42:21.404] [main/INFO] [Silent Gear/]: Deserializing part silentgear:ring_shank in pack silent-gear-1.20.1-3.6.6.jar
+[31Aug2025 22:42:21.404] [main/INFO] [Silent Gear/]: Deserializing part silentgear:rod in pack silent-gear-1.20.1-3.6.6.jar
+[31Aug2025 22:42:21.404] [main/INFO] [Silent Gear/]: Deserializing part silentgear:saw_blade in pack silent-gear-1.20.1-3.6.6.jar
+[31Aug2025 22:42:21.405] [main/INFO] [Silent Gear/]: Deserializing part silentgear:shears_blades in pack silent-gear-1.20.1-3.6.6.jar
+[31Aug2025 22:42:21.405] [main/INFO] [Silent Gear/]: Deserializing part silentgear:shield_plate in pack silent-gear-1.20.1-3.6.6.jar
+[31Aug2025 22:42:21.405] [main/INFO] [Silent Gear/]: Deserializing part silentgear:shovel_head in pack silent-gear-1.20.1-3.6.6.jar
+[31Aug2025 22:42:21.406] [main/INFO] [Silent Gear/]: Deserializing part silentgear:sickle_blade in pack silent-gear-1.20.1-3.6.6.jar
+[31Aug2025 22:42:21.406] [main/INFO] [Silent Gear/]: Deserializing part silentgear:slingshot_limbs in pack silent-gear-1.20.1-3.6.6.jar
+[31Aug2025 22:42:21.406] [main/INFO] [Silent Gear/]: Deserializing part silentgear:spear_tip in pack silent-gear-1.20.1-3.6.6.jar
+[31Aug2025 22:42:21.407] [main/INFO] [Silent Gear/]: Deserializing part silentgear:sword_blade in pack silent-gear-1.20.1-3.6.6.jar
+[31Aug2025 22:42:21.407] [main/INFO] [Silent Gear/]: Deserializing part silentgear:tip in pack silent-gear-1.20.1-3.6.6.jar
+[31Aug2025 22:42:21.408] [main/INFO] [Silent Gear/]: Deserializing part silentgear:trident_prongs in pack silent-gear-1.20.1-3.6.6.jar
+[31Aug2025 22:42:21.408] [main/INFO] [Silent Gear/PartManager]: Registered 45 parts
+[31Aug2025 22:42:21.411] [main/INFO] [Silent Gear/MaterialManager]: Reloading material files
+[31Aug2025 22:42:21.411] [main/INFO] [Silent Gear/]: Deserializing material silentgear:aluminum in pack silent-gear-1.20.1-3.6.6.jar
+[31Aug2025 22:42:21.415] [main/INFO] [Silent Gear/MaterialManager]: Registered material serializer 'silentgear:standard'
+[31Aug2025 22:42:21.415] [main/INFO] [Silent Gear/MaterialManager]: Registered material serializer 'silentgear:compound'
+[31Aug2025 22:42:21.416] [main/INFO] [Silent Gear/MaterialManager]: Registered material serializer 'silentgear:custom_compound'
+[31Aug2025 22:42:21.417] [main/INFO] [Silent Gear/MaterialManager]: Registered material serializer 'silentgear:crafted'
+[31Aug2025 22:42:21.421] [main/INFO] [Silent Gear/]: Deserializing material silentgear:aluminum_steel in pack silent-gear-1.20.1-3.6.6.jar
+[31Aug2025 22:42:21.422] [main/INFO] [Silent Gear/]: Deserializing material silentgear:amethyst in pack silent-gear-1.20.1-3.6.6.jar
+[31Aug2025 22:42:21.422] [main/INFO] [Silent Gear/]: Deserializing material silentgear:azure_electrum in pack silent-gear-1.20.1-3.6.6.jar
+[31Aug2025 22:42:21.423] [main/INFO] [Silent Gear/]: Deserializing material silentgear:azure_silver in pack silent-gear-1.20.1-3.6.6.jar
+[31Aug2025 22:42:21.423] [main/INFO] [Silent Gear/]: Deserializing material silentgear:bamboo in pack silent-gear-1.20.1-3.6.6.jar
+[31Aug2025 22:42:21.424] [main/INFO] [Silent Gear/]: Deserializing material silentgear:barrier in pack silent-gear-1.20.1-3.6.6.jar
+[31Aug2025 22:42:21.424] [main/INFO] [Silent Gear/]: Deserializing material silentgear:basalt in pack silent-gear-1.20.1-3.6.6.jar
+[31Aug2025 22:42:21.425] [main/INFO] [Silent Gear/]: Deserializing material silentgear:bismuth in pack silent-gear-1.20.1-3.6.6.jar
+[31Aug2025 22:42:21.425] [main/INFO] [Silent Gear/]: Deserializing material silentgear:bismuth_brass in pack silent-gear-1.20.1-3.6.6.jar
+[31Aug2025 22:42:21.426] [main/INFO] [Silent Gear/]: Deserializing material silentgear:bismuth_steel in pack silent-gear-1.20.1-3.6.6.jar
+[31Aug2025 22:42:21.426] [main/INFO] [Silent Gear/]: Deserializing material silentgear:blackstone in pack silent-gear-1.20.1-3.6.6.jar
+[31Aug2025 22:42:21.426] [main/INFO] [Silent Gear/]: Deserializing material silentgear:blaze_gold in pack silent-gear-1.20.1-3.6.6.jar
+[31Aug2025 22:42:21.427] [main/INFO] [Silent Gear/]: Deserializing material silentgear:blaze_rod in pack silent-gear-1.20.1-3.6.6.jar
+[31Aug2025 22:42:21.427] [main/INFO] [Silent Gear/]: Deserializing material silentgear:bone in pack silent-gear-1.20.1-3.6.6.jar
+[31Aug2025 22:42:21.428] [main/INFO] [Silent Gear/]: Deserializing material silentgear:brass in pack silent-gear-1.20.1-3.6.6.jar
+[31Aug2025 22:42:21.428] [main/INFO] [Silent Gear/]: Deserializing material silentgear:bronze in pack silent-gear-1.20.1-3.6.6.jar
+[31Aug2025 22:42:21.429] [main/INFO] [Silent Gear/]: Deserializing material silentgear:compressed_iron in pack silent-gear-1.20.1-3.6.6.jar
+[31Aug2025 22:42:21.429] [main/INFO] [Silent Gear/]: Deserializing material silentgear:copper in pack silent-gear-1.20.1-3.6.6.jar
+[31Aug2025 22:42:21.429] [main/INFO] [Silent Gear/]: Deserializing material silentgear:crimson_iron in pack silent-gear-1.20.1-3.6.6.jar
+[31Aug2025 22:42:21.430] [main/INFO] [Silent Gear/]: Deserializing material silentgear:crimson_steel in pack silent-gear-1.20.1-3.6.6.jar
+[31Aug2025 22:42:21.431] [main/INFO] [Silent Gear/]: Deserializing material silentgear:diamond in pack silent-gear-1.20.1-3.6.6.jar
+[31Aug2025 22:42:21.431] [main/INFO] [Silent Gear/]: Deserializing material silentgear:dimerald in pack silent-gear-1.20.1-3.6.6.jar
+[31Aug2025 22:42:21.433] [main/INFO] [Silent Gear/]: Deserializing material silentgear:electrum in pack silent-gear-1.20.1-3.6.6.jar
+[31Aug2025 22:42:21.433] [main/INFO] [Silent Gear/]: Deserializing material silentgear:emerald in pack silent-gear-1.20.1-3.6.6.jar
+[31Aug2025 22:42:21.434] [main/INFO] [Silent Gear/]: Deserializing material silentgear:end_rod in pack silent-gear-1.20.1-3.6.6.jar
+[31Aug2025 22:42:21.434] [main/INFO] [Silent Gear/]: Deserializing material silentgear:end_stone in pack silent-gear-1.20.1-3.6.6.jar
+[31Aug2025 22:42:21.435] [main/INFO] [Silent Gear/]: Deserializing material silentgear:enderium in pack silent-gear-1.20.1-3.6.6.jar
+[31Aug2025 22:42:21.435] [main/INFO] [Silent Gear/]: Deserializing material silentgear:example in pack silent-gear-1.20.1-3.6.6.jar
+[31Aug2025 22:42:21.438] [main/INFO] [Silent Gear/]: Deserializing material silentgear:feather in pack silent-gear-1.20.1-3.6.6.jar
+[31Aug2025 22:42:21.439] [main/INFO] [Silent Gear/]: Deserializing material silentgear:fine_silk in pack silent-gear-1.20.1-3.6.6.jar
+[31Aug2025 22:42:21.440] [main/INFO] [Silent Gear/]: Deserializing material silentgear:fine_silk_cloth in pack silent-gear-1.20.1-3.6.6.jar
+[31Aug2025 22:42:21.440] [main/INFO] [Silent Gear/]: Deserializing material silentgear:flax in pack silent-gear-1.20.1-3.6.6.jar
+[31Aug2025 22:42:21.441] [main/INFO] [Silent Gear/]: Deserializing material silentgear:flint in pack silent-gear-1.20.1-3.6.6.jar
+[31Aug2025 22:42:21.441] [main/INFO] [Silent Gear/]: Deserializing material silentgear:fluffy_string in pack silent-gear-1.20.1-3.6.6.jar
+[31Aug2025 22:42:21.442] [main/INFO] [Silent Gear/]: Deserializing material silentgear:glowstone in pack silent-gear-1.20.1-3.6.6.jar
+[31Aug2025 22:42:21.442] [main/INFO] [Silent Gear/]: Deserializing material silentgear:gold in pack silent-gear-1.20.1-3.6.6.jar
+[31Aug2025 22:42:21.444] [main/INFO] [Silent Gear/]: Deserializing material silentgear:high_carbon_steel in pack silent-gear-1.20.1-3.6.6.jar
+[31Aug2025 22:42:21.444] [main/INFO] [Silent Gear/]: Deserializing material silentgear:hybrid_gem in pack silent-gear-1.20.1-3.6.6.jar
+[31Aug2025 22:42:21.448] [main/INFO] [Silent Gear/]: Deserializing material silentgear:invar in pack silent-gear-1.20.1-3.6.6.jar
+[31Aug2025 22:42:21.449] [main/INFO] [Silent Gear/]: Deserializing material silentgear:iron in pack silent-gear-1.20.1-3.6.6.jar
+[31Aug2025 22:42:21.450] [main/INFO] [Silent Gear/]: Deserializing material silentgear:lapis_lazuli in pack silent-gear-1.20.1-3.6.6.jar
+[31Aug2025 22:42:21.450] [main/INFO] [Silent Gear/]: Deserializing material silentgear:lead in pack silent-gear-1.20.1-3.6.6.jar
+[31Aug2025 22:42:21.451] [main/INFO] [Silent Gear/]: Deserializing material silentgear:leather in pack silent-gear-1.20.1-3.6.6.jar
+[31Aug2025 22:42:21.452] [main/INFO] [Silent Gear/]: Deserializing material silentgear:leaves in pack silent-gear-1.20.1-3.6.6.jar
+[31Aug2025 22:42:21.452] [main/INFO] [Silent Gear/]: Deserializing material silentgear:lumium in pack silent-gear-1.20.1-3.6.6.jar
+[31Aug2025 22:42:21.453] [main/INFO] [Silent Gear/]: Deserializing material silentgear:metal_alloy in pack silent-gear-1.20.1-3.6.6.jar
+[31Aug2025 22:42:21.453] [main/INFO] [Silent Gear/]: Deserializing material silentgear:mixed_fabric in pack silent-gear-1.20.1-3.6.6.jar
+[31Aug2025 22:42:21.454] [main/INFO] [Silent Gear/]: Deserializing material silentgear:netherite in pack silent-gear-1.20.1-3.6.6.jar
+[31Aug2025 22:42:21.454] [main/INFO] [Silent Gear/]: Deserializing material silentgear:netherrack in pack silent-gear-1.20.1-3.6.6.jar
+[31Aug2025 22:42:21.455] [main/INFO] [Silent Gear/]: Deserializing material silentgear:netherwood in pack silent-gear-1.20.1-3.6.6.jar
+[31Aug2025 22:42:21.456] [main/INFO] [Silent Gear/]: Deserializing material silentgear:nickel in pack silent-gear-1.20.1-3.6.6.jar
+[31Aug2025 22:42:21.457] [main/INFO] [Silent Gear/]: Deserializing material silentgear:obsidian in pack silent-gear-1.20.1-3.6.6.jar
+[31Aug2025 22:42:21.458] [main/INFO] [Silent Gear/]: Deserializing material silentgear:osmium in pack silent-gear-1.20.1-3.6.6.jar
+[31Aug2025 22:42:21.459] [main/INFO] [Silent Gear/]: Deserializing material silentgear:paper in pack silent-gear-1.20.1-3.6.6.jar
+[31Aug2025 22:42:21.459] [main/INFO] [Silent Gear/]: Deserializing material silentgear:phantom_membrane in pack silent-gear-1.20.1-3.6.6.jar
+[31Aug2025 22:42:21.459] [main/INFO] [Silent Gear/]: Deserializing material silentgear:platinum in pack silent-gear-1.20.1-3.6.6.jar
+[31Aug2025 22:42:21.460] [main/INFO] [Silent Gear/]: Deserializing material silentgear:prismarine in pack silent-gear-1.20.1-3.6.6.jar
+[31Aug2025 22:42:21.460] [main/INFO] [Silent Gear/]: Deserializing material silentgear:quartz in pack silent-gear-1.20.1-3.6.6.jar
+[31Aug2025 22:42:21.461] [main/INFO] [Silent Gear/]: Deserializing material silentgear:redstone in pack silent-gear-1.20.1-3.6.6.jar
+[31Aug2025 22:42:21.461] [main/INFO] [Silent Gear/]: Deserializing material silentgear:redstone_alloy in pack silent-gear-1.20.1-3.6.6.jar
+[31Aug2025 22:42:21.462] [main/INFO] [Silent Gear/]: Deserializing material silentgear:refined_glowstone in pack silent-gear-1.20.1-3.6.6.jar
+[31Aug2025 22:42:21.462] [main/INFO] [Silent Gear/]: Deserializing material silentgear:refined_iron in pack silent-gear-1.20.1-3.6.6.jar
+[31Aug2025 22:42:21.463] [main/INFO] [Silent Gear/]: Deserializing material silentgear:refined_obsidian in pack silent-gear-1.20.1-3.6.6.jar
+[31Aug2025 22:42:21.463] [main/INFO] [Silent Gear/]: Deserializing material silentgear:sandstone in pack silent-gear-1.20.1-3.6.6.jar
+[31Aug2025 22:42:21.464] [main/INFO] [Silent Gear/]: Deserializing material silentgear:sandstone/red in pack silent-gear-1.20.1-3.6.6.jar
+[31Aug2025 22:42:21.464] [main/INFO] [Silent Gear/]: Deserializing material silentgear:sheet_metal in pack silent-gear-1.20.1-3.6.6.jar
+[31Aug2025 22:42:21.464] [main/INFO] [Silent Gear/]: Deserializing material silentgear:signalum in pack silent-gear-1.20.1-3.6.6.jar
+[31Aug2025 22:42:21.465] [main/INFO] [Silent Gear/]: Deserializing material silentgear:silver in pack silent-gear-1.20.1-3.6.6.jar
+[31Aug2025 22:42:21.465] [main/INFO] [Silent Gear/]: Deserializing material silentgear:sinew in pack silent-gear-1.20.1-3.6.6.jar
+[31Aug2025 22:42:21.466] [main/INFO] [Silent Gear/]: Deserializing material silentgear:slime in pack silent-gear-1.20.1-3.6.6.jar
+[31Aug2025 22:42:21.466] [main/INFO] [Silent Gear/]: Deserializing material silentgear:steel in pack silent-gear-1.20.1-3.6.6.jar
+[31Aug2025 22:42:21.466] [main/INFO] [Silent Gear/]: Deserializing material silentgear:stone in pack silent-gear-1.20.1-3.6.6.jar
+[31Aug2025 22:42:21.467] [main/INFO] [Silent Gear/]: Deserializing material silentgear:stone/andesite in pack silent-gear-1.20.1-3.6.6.jar
+[31Aug2025 22:42:21.467] [main/INFO] [Silent Gear/]: Deserializing material silentgear:stone/diorite in pack silent-gear-1.20.1-3.6.6.jar
+[31Aug2025 22:42:21.467] [main/INFO] [Silent Gear/]: Deserializing material silentgear:stone/granite in pack silent-gear-1.20.1-3.6.6.jar
+[31Aug2025 22:42:21.468] [main/INFO] [Silent Gear/]: Deserializing material silentgear:string in pack silent-gear-1.20.1-3.6.6.jar
+[31Aug2025 22:42:21.468] [main/INFO] [Silent Gear/]: Deserializing material silentgear:terracotta in pack silent-gear-1.20.1-3.6.6.jar
+[31Aug2025 22:42:21.468] [main/INFO] [Silent Gear/]: Deserializing material silentgear:terracotta/black in pack silent-gear-1.20.1-3.6.6.jar
+[31Aug2025 22:42:21.469] [main/INFO] [Silent Gear/]: Deserializing material silentgear:terracotta/blue in pack silent-gear-1.20.1-3.6.6.jar
+[31Aug2025 22:42:21.469] [main/INFO] [Silent Gear/]: Deserializing material silentgear:terracotta/brown in pack silent-gear-1.20.1-3.6.6.jar
+[31Aug2025 22:42:21.469] [main/INFO] [Silent Gear/]: Deserializing material silentgear:terracotta/cyan in pack silent-gear-1.20.1-3.6.6.jar
+[31Aug2025 22:42:21.470] [main/INFO] [Silent Gear/]: Deserializing material silentgear:terracotta/gray in pack silent-gear-1.20.1-3.6.6.jar
+[31Aug2025 22:42:21.470] [main/INFO] [Silent Gear/]: Deserializing material silentgear:terracotta/green in pack silent-gear-1.20.1-3.6.6.jar
+[31Aug2025 22:42:21.470] [main/INFO] [Silent Gear/]: Deserializing material silentgear:terracotta/light_blue in pack silent-gear-1.20.1-3.6.6.jar
+[31Aug2025 22:42:21.470] [main/INFO] [Silent Gear/]: Deserializing material silentgear:terracotta/light_gray in pack silent-gear-1.20.1-3.6.6.jar
+[31Aug2025 22:42:21.471] [main/INFO] [Silent Gear/]: Deserializing material silentgear:terracotta/lime in pack silent-gear-1.20.1-3.6.6.jar
+[31Aug2025 22:42:21.471] [main/INFO] [Silent Gear/]: Deserializing material silentgear:terracotta/magenta in pack silent-gear-1.20.1-3.6.6.jar
+[31Aug2025 22:42:21.471] [main/INFO] [Silent Gear/]: Deserializing material silentgear:terracotta/orange in pack silent-gear-1.20.1-3.6.6.jar
+[31Aug2025 22:42:21.471] [main/INFO] [Silent Gear/]: Deserializing material silentgear:terracotta/pink in pack silent-gear-1.20.1-3.6.6.jar
+[31Aug2025 22:42:21.472] [main/INFO] [Silent Gear/]: Deserializing material silentgear:terracotta/purple in pack silent-gear-1.20.1-3.6.6.jar
+[31Aug2025 22:42:21.472] [main/INFO] [Silent Gear/]: Deserializing material silentgear:terracotta/red in pack silent-gear-1.20.1-3.6.6.jar
+[31Aug2025 22:42:21.473] [main/INFO] [Silent Gear/]: Deserializing material silentgear:terracotta/white in pack silent-gear-1.20.1-3.6.6.jar
+[31Aug2025 22:42:21.473] [main/INFO] [Silent Gear/]: Deserializing material silentgear:terracotta/yellow in pack silent-gear-1.20.1-3.6.6.jar
+[31Aug2025 22:42:21.474] [main/INFO] [Silent Gear/]: Deserializing material silentgear:tin in pack silent-gear-1.20.1-3.6.6.jar
+[31Aug2025 22:42:21.474] [main/INFO] [Silent Gear/]: Deserializing material silentgear:titanium in pack silent-gear-1.20.1-3.6.6.jar
+[31Aug2025 22:42:21.474] [main/INFO] [Silent Gear/]: Deserializing material silentgear:turtle in pack silent-gear-1.20.1-3.6.6.jar
+[31Aug2025 22:42:21.475] [main/INFO] [Silent Gear/]: Deserializing material silentgear:tyrian_steel in pack silent-gear-1.20.1-3.6.6.jar
+[31Aug2025 22:42:21.475] [main/INFO] [Silent Gear/]: Deserializing material silentgear:uranium in pack silent-gear-1.20.1-3.6.6.jar
+[31Aug2025 22:42:21.476] [main/INFO] [Silent Gear/]: Deserializing material silentgear:vine in pack silent-gear-1.20.1-3.6.6.jar
+[31Aug2025 22:42:21.476] [main/INFO] [Silent Gear/]: Deserializing material silentgear:wood in pack silent-gear-1.20.1-3.6.6.jar
+[31Aug2025 22:42:21.477] [main/INFO] [Silent Gear/]: Deserializing material silentgear:wood/acacia in pack silent-gear-1.20.1-3.6.6.jar
+[31Aug2025 22:42:21.477] [main/INFO] [Silent Gear/]: Deserializing material silentgear:wood/birch in pack silent-gear-1.20.1-3.6.6.jar
+[31Aug2025 22:42:21.477] [main/INFO] [Silent Gear/]: Deserializing material silentgear:wood/crimson in pack silent-gear-1.20.1-3.6.6.jar
+[31Aug2025 22:42:21.477] [main/INFO] [Silent Gear/]: Deserializing material silentgear:wood/dark_oak in pack silent-gear-1.20.1-3.6.6.jar
+[31Aug2025 22:42:21.478] [main/INFO] [Silent Gear/]: Deserializing material silentgear:wood/jungle in pack silent-gear-1.20.1-3.6.6.jar
+[31Aug2025 22:42:21.478] [main/INFO] [Silent Gear/]: Deserializing material silentgear:wood/oak in pack silent-gear-1.20.1-3.6.6.jar
+[31Aug2025 22:42:21.478] [main/INFO] [Silent Gear/]: Deserializing material silentgear:wood/rough in pack silent-gear-1.20.1-3.6.6.jar
+[31Aug2025 22:42:21.479] [main/INFO] [Silent Gear/]: Deserializing material silentgear:wood/spruce in pack silent-gear-1.20.1-3.6.6.jar
+[31Aug2025 22:42:21.479] [main/INFO] [Silent Gear/]: Deserializing material silentgear:wood/warped in pack silent-gear-1.20.1-3.6.6.jar
+[31Aug2025 22:42:21.479] [main/INFO] [Silent Gear/]: Deserializing material silentgear:wool in pack silent-gear-1.20.1-3.6.6.jar
+[31Aug2025 22:42:21.480] [main/INFO] [Silent Gear/]: Deserializing material silentgear:wool/black in pack silent-gear-1.20.1-3.6.6.jar
+[31Aug2025 22:42:21.480] [main/INFO] [Silent Gear/]: Deserializing material silentgear:wool/blue in pack silent-gear-1.20.1-3.6.6.jar
+[31Aug2025 22:42:21.480] [main/INFO] [Silent Gear/]: Deserializing material silentgear:wool/brown in pack silent-gear-1.20.1-3.6.6.jar
+[31Aug2025 22:42:21.480] [main/INFO] [Silent Gear/]: Deserializing material silentgear:wool/cyan in pack silent-gear-1.20.1-3.6.6.jar
+[31Aug2025 22:42:21.481] [main/INFO] [Silent Gear/]: Deserializing material silentgear:wool/gray in pack silent-gear-1.20.1-3.6.6.jar
+[31Aug2025 22:42:21.481] [main/INFO] [Silent Gear/]: Deserializing material silentgear:wool/green in pack silent-gear-1.20.1-3.6.6.jar
+[31Aug2025 22:42:21.481] [main/INFO] [Silent Gear/]: Deserializing material silentgear:wool/light_blue in pack silent-gear-1.20.1-3.6.6.jar
+[31Aug2025 22:42:21.482] [main/INFO] [Silent Gear/]: Deserializing material silentgear:wool/light_gray in pack silent-gear-1.20.1-3.6.6.jar
+[31Aug2025 22:42:21.482] [main/INFO] [Silent Gear/]: Deserializing material silentgear:wool/lime in pack silent-gear-1.20.1-3.6.6.jar
+[31Aug2025 22:42:21.482] [main/INFO] [Silent Gear/]: Deserializing material silentgear:wool/magenta in pack silent-gear-1.20.1-3.6.6.jar
+[31Aug2025 22:42:21.482] [main/INFO] [Silent Gear/]: Deserializing material silentgear:wool/orange in pack silent-gear-1.20.1-3.6.6.jar
+[31Aug2025 22:42:21.483] [main/INFO] [Silent Gear/]: Deserializing material silentgear:wool/pink in pack silent-gear-1.20.1-3.6.6.jar
+[31Aug2025 22:42:21.483] [main/INFO] [Silent Gear/]: Deserializing material silentgear:wool/purple in pack silent-gear-1.20.1-3.6.6.jar
+[31Aug2025 22:42:21.483] [main/INFO] [Silent Gear/]: Deserializing material silentgear:wool/red in pack silent-gear-1.20.1-3.6.6.jar
+[31Aug2025 22:42:21.483] [main/INFO] [Silent Gear/]: Deserializing material silentgear:wool/white in pack silent-gear-1.20.1-3.6.6.jar
+[31Aug2025 22:42:21.484] [main/INFO] [Silent Gear/]: Deserializing material silentgear:wool/yellow in pack silent-gear-1.20.1-3.6.6.jar
+[31Aug2025 22:42:21.484] [main/INFO] [Silent Gear/]: Deserializing material silentgear:zinc in pack silent-gear-1.20.1-3.6.6.jar
+[31Aug2025 22:42:21.486] [main/INFO] [de.teamlapen.vampirism.entity.player.skills.SkillTree/]: Loaded 53 skill nodes
+[31Aug2025 22:42:21.497] [main/INFO] [de.teamlapen.vampirism.entity.converted.VampirismEntityRegistry/]: Registered 14 convertibles
+[31Aug2025 22:42:23.584] [main/INFO] [evilcraft/]: 19 Broom modifiers can be applied!
+[31Aug2025 22:42:23.588] [main/INFO] [Cucumber Library/]: Loaded cucumber-tags.json in 0 ms
+[31Aug2025 22:42:23.744] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
+[31Aug2025 22:42:23.744] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[31Aug2025 22:42:23.744] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[31Aug2025 22:42:23.745] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[31Aug2025 22:42:23.805] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[31Aug2025 22:42:23.843] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
+[31Aug2025 22:42:23.910] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[31Aug2025 22:42:23.910] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
+[31Aug2025 22:42:23.911] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[31Aug2025 22:42:23.911] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
+[31Aug2025 22:42:23.925] [Server thread/INFO] [journeymap/]: Loading JourneyMap Forge Configs
+[31Aug2025 22:42:23.926] [Thread-4/INFO] [journeymap/]: Loading JourneyMap Forge Configs
+[31Aug2025 22:42:23.926] [Thread-4/INFO] [journeymap/]: Loading JourneyMap Forge Configs
+[31Aug2025 22:42:24.034] [Server thread/INFO] [ConfigBase, distanthorizons/]: Initialising config for DistantHorizons
+[31Aug2025 22:42:24.114] [Server thread/INFO] [ConfigBase, distanthorizons/]: Config for DistantHorizons initialised
+[31Aug2025 22:42:24.128] [Server thread/INFO] [DistantHorizons-AbstractModInitializer/]: Running Delayed setup...
+[31Aug2025 22:42:24.128] [Server thread/INFO] [DistantHorizons-AbstractModInitializer/]: Delayed setup complete, firing DhApiAfterDhInitEvent event...
+[31Aug2025 22:42:24.141] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.jar.updater.SelfUpdater/]: Checking for Distant Horizons update
+[31Aug2025 22:42:24.381] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.jar.updater.SelfUpdater/]: Distant Horizons already up to date.
+[31Aug2025 22:42:24.381] [Server thread/INFO] [DistantHorizons-AbstractModInitializer/]: Distant Horizons server Initialized at .
+[31Aug2025 22:42:24.406] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.world.AbstractDhWorld/]: Started [DhServerWorld] of type [SERVER_ONLY].
+[31Aug2025 22:42:24.421] [Server thread/INFO] [terrablender/]: Initialized TerraBlender biomes for level stem minecraft:the_nether
+[31Aug2025 22:42:24.990] [Server thread/INFO] [terrablender/]: Initialized TerraBlender biomes for level stem minecraft:overworld
+[31Aug2025 22:42:24.991] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[31Aug2025 22:42:25.330] [Server thread/INFO] [de.teamlapen.vampirism.GeneralEventHandler/]: Replacing DistanceManager.chunksToUpdateFutures for level ResourceKey[minecraft:dimension / minecraft:overworld] with concurrent set.
+[31Aug2025 22:42:25.521] [DH-Full Data Migration Thread[0]/INFO] [DistantHorizons-com.seibel.distanthorizons.core.file.fullDatafile.FullDataSourceProviderV2/]: Attempting to migrate data sources for: [minecraft:overworld]-[./world/data]...
+[31Aug2025 22:42:25.532] [DH-Full Data Migration Thread[0]/INFO] [DistantHorizons-com.seibel.distanthorizons.core.file.fullDatafile.FullDataSourceProviderV2/]: Found [0] data sources that need migration.
+[31Aug2025 22:42:25.553] [DH-Full Data Migration Thread[0]/INFO] [DistantHorizons-com.seibel.distanthorizons.core.file.fullDatafile.FullDataSourceProviderV2/]: No migration necessary.
+[31Aug2025 22:42:25.558] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.level.AbstractDhServerLevel/]: Started DhServerLevel for [Wrapped{ServerLevel[world]@minecraft:overworld}] at [[LocalSaveStructure@(./world/data)]].
+[31Aug2025 22:42:26.675] [Netty Epoll Server IO #1/INFO] [net.minecraftforge.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): literal{Server is still starting! Please wait before reconnecting.}
+[31Aug2025 22:42:27.117] [DH-ApplyConfigPresetTimer/INFO] [com.seibel.distanthorizons.core.config.eventHandlers.presets.AbstractPresetConfigEventHandler/]: changing preset to: BALANCED
+[31Aug2025 22:42:27.119] [DH-ApplyConfigPresetTimer/INFO] [com.seibel.distanthorizons.core.config.eventHandlers.presets.AbstractPresetConfigEventHandler/]: changing preset to: MEDIUM
+[31Aug2025 22:42:27.131] [DH-ApplyConfigPresetTimer/INFO] [com.seibel.distanthorizons.core.config.eventHandlers.presets.AbstractPresetConfigEventHandler/]: preset active: BALANCED
+[31Aug2025 22:42:27.167] [DH-ApplyConfigPresetTimer/INFO] [com.seibel.distanthorizons.core.config.eventHandlers.presets.AbstractPresetConfigEventHandler/]: preset active: MEDIUM
+[31Aug2025 22:42:29.733] [Server thread/INFO] [de.teamlapen.vampirism.GeneralEventHandler/]: Replacing DistanceManager.chunksToUpdateFutures for level ResourceKey[minecraft:dimension / minecraft:the_nether] with concurrent set.
+[31Aug2025 22:42:29.758] [DH-Full Data Migration Thread[0]/INFO] [DistantHorizons-com.seibel.distanthorizons.core.file.fullDatafile.FullDataSourceProviderV2/]: Attempting to migrate data sources for: [minecraft:the_nether]-[./world/DIM-1/data]...
+[31Aug2025 22:42:29.760] [DH-Full Data Migration Thread[0]/INFO] [DistantHorizons-com.seibel.distanthorizons.core.file.fullDatafile.FullDataSourceProviderV2/]: Found [0] data sources that need migration.
+[31Aug2025 22:42:29.760] [DH-Full Data Migration Thread[0]/INFO] [DistantHorizons-com.seibel.distanthorizons.core.file.fullDatafile.FullDataSourceProviderV2/]: No migration necessary.
+[31Aug2025 22:42:29.778] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.level.AbstractDhServerLevel/]: Started DhServerLevel for [Wrapped{ServerLevel[world]@minecraft:the_nether}] at [[LocalSaveStructure@(./world/DIM-1/data;./world/data)]].
+[31Aug2025 22:42:29.789] [Server thread/INFO] [de.teamlapen.vampirism.GeneralEventHandler/]: Replacing DistanceManager.chunksToUpdateFutures for level ResourceKey[minecraft:dimension / aether:the_aether] with concurrent set.
+[31Aug2025 22:42:29.809] [DH-Full Data Migration Thread[0]/INFO] [DistantHorizons-com.seibel.distanthorizons.core.file.fullDatafile.FullDataSourceProviderV2/]: Attempting to migrate data sources for: [aether:the_aether]-[./world/dimensions/aether/the_aether/data]...
+[31Aug2025 22:42:29.811] [DH-Full Data Migration Thread[0]/INFO] [DistantHorizons-com.seibel.distanthorizons.core.file.fullDatafile.FullDataSourceProviderV2/]: Found [0] data sources that need migration.
+[31Aug2025 22:42:29.812] [DH-Full Data Migration Thread[0]/INFO] [DistantHorizons-com.seibel.distanthorizons.core.file.fullDatafile.FullDataSourceProviderV2/]: No migration necessary.
+[31Aug2025 22:42:29.827] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.level.AbstractDhServerLevel/]: Started DhServerLevel for [Wrapped{ServerLevel[world]@aether:the_aether}] at [[LocalSaveStructure@(./world/dimensions/aether/the_aether/data;./world/DIM-1/data;./world/data)]].
+[31Aug2025 22:42:29.840] [Server thread/INFO] [de.teamlapen.vampirism.GeneralEventHandler/]: Replacing DistanceManager.chunksToUpdateFutures for level ResourceKey[minecraft:dimension / minecraft:the_end] with concurrent set.
+[31Aug2025 22:42:29.859] [DH-Full Data Migration Thread[0]/INFO] [DistantHorizons-com.seibel.distanthorizons.core.file.fullDatafile.FullDataSourceProviderV2/]: Attempting to migrate data sources for: [minecraft:the_end]-[./world/DIM1/data]...
+[31Aug2025 22:42:29.861] [DH-Full Data Migration Thread[0]/INFO] [DistantHorizons-com.seibel.distanthorizons.core.file.fullDatafile.FullDataSourceProviderV2/]: Found [0] data sources that need migration.
+[31Aug2025 22:42:29.862] [DH-Full Data Migration Thread[0]/INFO] [DistantHorizons-com.seibel.distanthorizons.core.file.fullDatafile.FullDataSourceProviderV2/]: No migration necessary.
+[31Aug2025 22:42:29.876] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.level.AbstractDhServerLevel/]: Started DhServerLevel for [Wrapped{ServerLevel[world]@minecraft:the_end}] at [[LocalSaveStructure@(./world/DIM1/data;./world/dimensions/aether/the_aether/data;./world/DIM-1/data;./world/data)]].
+[31Aug2025 22:42:29.877] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[31Aug2025 22:42:32.335] [Worker-Main-4/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[31Aug2025 22:42:32.356] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[31Aug2025 22:42:32.375] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[31Aug2025 22:42:32.394] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[31Aug2025 22:42:32.408] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[31Aug2025 22:42:32.419] [Worker-Main-4/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[31Aug2025 22:42:32.885] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[31Aug2025 22:42:33.381] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[31Aug2025 22:42:33.878] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[31Aug2025 22:42:34.378] [Worker-Main-4/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 11%
+[31Aug2025 22:42:34.486] [Netty Epoll Server IO #2/INFO] [net.minecraftforge.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): literal{Server is still starting! Please wait before reconnecting.}
+[31Aug2025 22:42:34.907] [Worker-Main-4/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 93%
+[31Aug2025 22:42:35.106] [Netty Epoll Server IO #3/INFO] [net.minecraftforge.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): literal{Server is still starting! Please wait before reconnecting.}
+[31Aug2025 22:42:35.129] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 5251 ms
+[31Aug2025 22:42:35.129] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (11.208s)! For help, type "help"
+[31Aug2025 22:42:35.291] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[31Aug2025 22:42:35.364] [Server thread/INFO] [cyclopscore/]: Loading infobook /data/cyclopscore/info/test.xml
+[31Aug2025 22:42:35.378] [Netty Epoll Server IO #4/INFO] [net.minecraftforge.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): literal{Server is still starting! Please wait before reconnecting.}
+[31Aug2025 22:42:35.387] [Server thread/INFO] [evilcraft/]: Loading infobook /data/evilcraft/info/book.xml
+[31Aug2025 22:42:35.439] [Server thread/WARN] [evilcraft/]: Invalid appendix info_book.evilcraft.second_age.tools.broom from mod evilcraft in an infobook: The broom modifier evilcraft:witherer has no valid items
+[31Aug2025 22:42:35.440] [Server thread/WARN] [evilcraft/]: Invalid appendix info_book.evilcraft.second_age.tools.broom from mod evilcraft in an infobook: The broom modifier evilcraft:hungerer has no valid items
+[31Aug2025 22:42:35.440] [Server thread/WARN] [evilcraft/]: Invalid appendix info_book.evilcraft.second_age.tools.broom from mod evilcraft in an infobook: The broom modifier evilcraft:kamikaze has no valid items
+[31Aug2025 22:42:35.440] [Server thread/WARN] [evilcraft/]: Invalid appendix info_book.evilcraft.second_age.tools.broom from mod evilcraft in an infobook: The broom modifier evilcraft:withershield has no valid items
+[31Aug2025 22:42:35.567] [Netty Epoll Server IO #5/INFO] [net.minecraftforge.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): literal{Server is still starting! Please wait before reconnecting.}
+[31Aug2025 22:42:35.578] [Server thread/INFO] [net.bettercombat.logic.WeaponRegistry/]: Encoded Weapon Attribute registry size (with package overhead): 66555 bytes (in 7 string chunks with the size of 10000)
+[31Aug2025 22:42:35.750] [Netty Epoll Server IO #6/INFO] [net.minecraftforge.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): literal{Server is still starting! Please wait before reconnecting.}
+[31Aug2025 22:42:36.216] [Server thread/INFO] [corail_dt/]: Loaded 6397 deconstruction schemas, 631ms
+[31Aug2025 22:42:36.237] [Server thread/INFO] [Silent Gear/TraitManager]: Traits loaded: 70
+[31Aug2025 22:42:36.237] [Server thread/INFO] [Silent Gear/PartManager]: Parts loaded: 45
+[31Aug2025 22:42:36.238] [Server thread/INFO] [Silent Gear/PartManager]: - Compound: 41
+[31Aug2025 22:42:36.238] [Server thread/INFO] [Silent Gear/PartManager]: - Simple: 4
+[31Aug2025 22:42:36.238] [Server thread/INFO] [Silent Gear/MaterialManager]: Materials loaded: 128
+[31Aug2025 22:42:36.239] [Server thread/INFO] [Silent Gear/MaterialManager]: - Standard: 122
+[31Aug2025 22:42:36.248] [Server thread/INFO] [patchouli/]: Sending reload packet to clients
+[31Aug2025 22:42:36.380] [Server thread/INFO] [LodWorldGen/]: DH TerraFirmaCraft detection: false
+[31Aug2025 22:42:36.383] [Server thread/INFO] [LodWorldGen/]: ================WORLD_GEN_STEP_INITING=============
+[31Aug2025 22:42:36.384] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.generation.BatchGenerator/]: Batch Chunk Generator initialized
+[31Aug2025 22:42:36.388] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.generation.WorldGenerationQueue/]: Creating world gen queue
+[31Aug2025 22:42:36.388] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.generation.WorldGenerationQueue/]: Created world gen queue
+[31Aug2025 22:42:36.388] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.file.fullDatafile.GeneratedFullDataSourceProvider/]: Set world gen queue for level [minecraft:the_end].
+[31Aug2025 22:42:36.389] [Server thread/INFO] [LodWorldGen/]: ================WORLD_GEN_STEP_INITING=============
+[31Aug2025 22:42:36.389] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.generation.BatchGenerator/]: Batch Chunk Generator initialized
+[31Aug2025 22:42:36.389] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.generation.WorldGenerationQueue/]: Creating world gen queue
+[31Aug2025 22:42:36.389] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.generation.WorldGenerationQueue/]: Created world gen queue
+[31Aug2025 22:42:36.389] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.file.fullDatafile.GeneratedFullDataSourceProvider/]: Set world gen queue for level [aether:the_aether].
+[31Aug2025 22:42:36.390] [Server thread/INFO] [LodWorldGen/]: ================WORLD_GEN_STEP_INITING=============
+[31Aug2025 22:42:36.390] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.generation.BatchGenerator/]: Batch Chunk Generator initialized
+[31Aug2025 22:42:36.390] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.generation.WorldGenerationQueue/]: Creating world gen queue
+[31Aug2025 22:42:36.391] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.generation.WorldGenerationQueue/]: Created world gen queue
+[31Aug2025 22:42:36.391] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.file.fullDatafile.GeneratedFullDataSourceProvider/]: Set world gen queue for level [minecraft:the_nether].
+[31Aug2025 22:42:36.391] [Server thread/INFO] [LodWorldGen/]: ================WORLD_GEN_STEP_INITING=============
+[31Aug2025 22:42:36.391] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.generation.BatchGenerator/]: Batch Chunk Generator initialized
+[31Aug2025 22:42:36.392] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.generation.WorldGenerationQueue/]: Creating world gen queue
+[31Aug2025 22:42:36.392] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.generation.WorldGenerationQueue/]: Created world gen queue
+[31Aug2025 22:42:36.392] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.file.fullDatafile.GeneratedFullDataSourceProvider/]: Set world gen queue for level [minecraft:overworld].
+[31Aug2025 22:42:43.083] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: CJRicky[/127.184.229.103:39151] logged in with entity id 277 at (-3.5, 65.0, 7.5)
+[31Aug2025 22:42:43.132] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: CJRicky joined the game
+[31Aug2025 22:42:43.404] [Server thread/INFO] [Jade/]: Syncing config to CJRicky (b593830c-04d1-3b98-b65d-2762b864dae6)
+[31Aug2025 22:42:43.426] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.api.internal.ServerApi/]: Player [CJRicky] joined.
+[31Aug2025 22:43:02.690] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2492ms or 49 ticks behind
+[31Aug2025 22:43:06.414] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Dolly[/127.237.223.198:55591] logged in with entity id 410 at (10.5, 71.0, 10.5)
+[31Aug2025 22:43:06.429] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dolly joined the game
+[31Aug2025 22:43:06.764] [Server thread/INFO] [Jade/]: Syncing config to Dolly (184fe8c1-f79c-3de4-bc35-eef074edc549)
+[31Aug2025 22:43:06.793] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.api.internal.ServerApi/]: Player [Dolly] joined.
+[31Aug2025 22:43:08.812] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dolly has made the advancement [Deconstruction]
+[31Aug2025 22:43:22.149] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 4502ms or 90 ticks behind
+[31Aug2025 22:45:36.436] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Roky0406[/127.222.43.174:46563] logged in with entity id 946 at (-9.183750498132364, 74.0, 0.9628613880123448)
+[31Aug2025 22:45:36.459] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Roky0406 joined the game
+[31Aug2025 22:45:36.798] [Server thread/INFO] [Jade/]: Syncing config to Roky0406 (95d42779-bc90-3a72-aca9-005d26e9ccd7)
+[31Aug2025 22:45:36.803] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.api.internal.ServerApi/]: Player [Roky0406] joined.
+[31Aug2025 22:47:19.584] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: CJRicky has made the advancement [Stone Age]
+[31Aug2025 22:47:57.225] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Roky0406 has made the advancement [Stone Age]
+[31Aug2025 22:48:03.141] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Roky0406 has made the advancement [Ka-chink! 1]
+[31Aug2025 22:49:40.114] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2416ms or 48 ticks behind
+[31Aug2025 22:49:44.734] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: CJRicky has made the advancement [Monster Hunter]
+[31Aug2025 22:50:21.527] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Roky0406 has made the advancement [Ka-chink! 2]
+[31Aug2025 22:50:28.775] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Roky0406 has made the advancement [Monster Hunter]
+[31Aug2025 22:50:55.830] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: CJRicky has made the advancement [Ka-chink! 2]
+[31Aug2025 22:51:21.081] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: CJRicky has made the advancement [Ka-chink! 1]
+[31Aug2025 22:52:34.277] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Duberney[/127.139.39.75:33439] logged in with entity id 2051 at (3.5, 70.0, 9.5)
+[31Aug2025 22:52:34.286] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Duberney joined the game
+[31Aug2025 22:52:34.482] [Server thread/INFO] [Jade/]: Syncing config to Duberney (295cca8b-1e5e-3b40-a731-1936ea9deee5)
+[31Aug2025 22:52:34.487] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.api.internal.ServerApi/]: Player [Duberney] joined.
+[31Aug2025 22:52:35.269] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Duberney has made the advancement [Deconstruction]
+[31Aug2025 22:52:44.092] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3994ms or 79 ticks behind
+[31Aug2025 22:56:01.579] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Duberney has made the advancement [Stone Age]
+[31Aug2025 22:56:13.123] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Duberney has made the advancement [Getting an Upgrade]
+[31Aug2025 22:58:10.972] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: CJRicky was slain by Enderman
+[31Aug2025 22:58:16.060] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Roky0406 was slain by Enderman
+[31Aug2025 23:00:15.294] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dolly fell from a high place
+[31Aug2025 23:02:08.273] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Dolly lost connection: Disconnected
+[31Aug2025 23:02:08.273] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dolly left the game
+[31Aug2025 23:02:08.276] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.api.internal.ServerApi/]: Player [Dolly] disconnected.
+[31Aug2025 23:02:08.320] [Server thread/WARN] [net.minecraft.network.Connection/]: handleDisconnection() called twice
+[31Aug2025 23:02:23.637] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2040ms or 40 ticks behind
+[31Aug2025 23:03:18.395] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Roky0406 has made the advancement [Blaze Gold]
+[31Aug2025 23:05:37.982] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Roky0406 has made the advancement [Acquire Hardware]
+[31Aug2025 23:06:00.389] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Dolly[/127.237.223.198:58395] logged in with entity id 5942 at (10.686301340882835, 72.0, 58.36747793172588)
+[31Aug2025 23:06:00.397] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dolly joined the game
+[31Aug2025 23:06:00.582] [Server thread/INFO] [Jade/]: Syncing config to Dolly (184fe8c1-f79c-3de4-bc35-eef074edc549)
+[31Aug2025 23:06:00.587] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.api.internal.ServerApi/]: Player [Dolly] joined.
+[31Aug2025 23:07:30.569] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Dolly lost connection: Timed out
+[31Aug2025 23:07:30.570] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dolly left the game
+[31Aug2025 23:07:30.570] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.api.internal.ServerApi/]: Player [Dolly] disconnected.
+[31Aug2025 23:10:59.063] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: CJRicky has made the advancement [Not Today, Thank You]
